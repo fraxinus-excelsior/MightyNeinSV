@@ -20,6 +20,7 @@ added Leo
 
 /assets/Data/NPCGiftTastes.yaml
 added new universals, added Leo
+corrected formats
 
 /assets/Data/ObjectInformation.yaml
 added new items
@@ -37,6 +38,7 @@ added new names
 
 /assets/Data/StringsFromCSFiles.yaml
 added new strings
+corrected formats/typos
 
 /assets/Data/StringsFromMaps.yaml
 added new strings
@@ -50,7 +52,7 @@ added new weapons
 
 /assets/Dialogue/
 added resort dialogue to: Abigail, Alex, Caroline, Clint, Demitrius, Elliott, Emily, Gus, Haley, Harvey, Jas, Jodi, Kent, Leah, Lewis, Marnie, Maru, Pam, Penny, Pierre, Robin, Sam, Sebastian, Shane, Vincent
-added misc new dialogue to: Eveyln, George, Gus, Jas, Jodi, Kent, Krobus, Linus, Marnie, Mister Qi, Pam, Sandy, Vincent, Willy, Wizard
+added misc new dialogue to: Emily, Eveyln, George, Gus, Jas, Jodi, Kent, Krobus, Linus, Marnie, Mister Qi, Pam, Sandy, Vincent, Willy, Wizard
 
 /assets/Dialogue/LeoMainland.yaml
 created
