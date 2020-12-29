@@ -1,0 +1,85 @@
+
+xnbData: 
+    target: "w"
+    compressed: true
+    hiDef: true
+    readerData: 
+        - 
+            type: "Microsoft.Xna.Framework.Content.DictionaryReader`2[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"
+            version: 0
+
+        - 
+            type: "Microsoft.Xna.Framework.Content.StringReader"
+            version: 0
+
+
+    numSharedResources: 0
+
+content:  #!Dictionary<String,String>
+    Rainy_Day_0: "I hope Nott and Marnie are doing alright without me.#$e#I'm not too worried... Nott is very capable. I just miss her I suppose." #!String
+    Rainy_Day_1: "If I walk around in the rain... does that count as a shower?$6" #!String
+    Rainy_Day_2: "Here... take this.[346 174 303 305 215]#$e#I bought some of those a while ago and they're almost expired..." #!String
+    Rainy_Day_3: "Buhh... There are dicks drawn in one of my books." #!String
+    Rainy_Day_4: "@, I can't seem to get this spell right..." #!String
+    Rainy_Night_0: "Hmm... seems like a good night to read a few books.#$e#Ja, I said a few. I'm a very fast reader.$h" #!String
+    patio_Shane: "Nott came by, she seems to be doing well.$0" #!String
+    Rainy_Night_1: "The tip-tappa-tip of the rain takes me to a different time... a different place." #!String
+    Rainy_Night_2: "I miss nights like this back home. My father and I would play dice games into the early morning." #!String
+    Rainy_Night_3: "I like gloomy weather, but sometimes I feel... stuck in it. I don't know if that makes any sense." #!String
+    Rainy_Night_4: "Tip-tappa-tip-tappa-tip... I'm starting to feel thirsty.$6" #!String
+    Indoor_Day_0: "Buh... sometimes life feels like a slow, gray blur... know what I mean? I wish I could control time." #!String
+    Indoor_Day_1: "Here. Take this... I don't need it. [351]#$e#I have no muscles." #!String
+    Indoor_Day_2: "Do me a favor... If you see any new books at the library, let me know." #!String
+    Indoor_Day_3: "Nott gave me some buttons today... I'm not really sure what to do with them." #!String
+    Indoor_Day_4: "I may keep to myself a lot, and I may seem unhappy sometimes... but I do appreciate all the work you do. I'm a lucky guy.$6" #!String
+    Indoor_Night_0: "Just one more book before bed." #!String
+    Indoor_Night_1: "If... If only... I...$4#$b#No... No. I can't think like that. This is good." #!String
+    Indoor_Night_2: "That Beauregard sure is a hard headed one... Not unlike myself I suppose." #!String
+    Indoor_Night_3: "*sigh* I hope I do not let you down.#$e#I've made some mistakes in my life. I don't want to do it again." #!String
+    Indoor_Night_4: "Are you climbing in to bed? I'll be there shortly." #!String
+    Outdoor_0: "I didn't sleep well last night.#$e#Just thinking about my parents is all.$s" #!String
+    Outdoor_1: "Sometimes I stop and realize that I'm nothing more than a bag of juicy, squishy flesh.#$e#There's something oddly comforting about that.$h" #!String
+    Outdoor_2: "When I stop and think about it... I'm in a good place. My life is pretty nice.$6" #!String
+    Outdoor_3: "I miss playing in the garden with my mother. She always grew hot peppers the size of my fist.$s" #!String
+    Outdoor_4: "Hey, @. You were sleeping like a baby so I slipped out of bed and went for a morning walk around the farm. Everything looks fine." #!String
+    OneKid_0: "I sometimes wonder if I even should be allowed to have kids... but I want a second chance to do things right." #!String
+    OneKid_1: "Let's make sure to give %kid1 lots of books... knowledge is a key that opens many doors." #!String
+    OneKid_3: "Papa Caleb reporting for duty...$6#$e#Buh... I've become corny in my old age." #!String
+    TwoKids_0: "I already fed the kids. Don't worry about them." #!String
+    TwoKids_1: "I'll be honest... two kids is enough for me." #!String
+    TwoKids_2: "Ugh... %kid2 is being a little brat today. Must've gotten that from me..." #!String
+    TwoKids_3: "*Sigh*... If only we could send the kids off to the Soltryce Academy for the summer...#$e#I'm just kidding... That is an aweful idea.$0" #!String
+    Good_0: "I never thought I would find myself enjoying life again. I'm glad to have met you.$6" #!String
+    Good_1: "You're a lot better-looking than me, you know that?$h" #!String
+    Good_2: "It's strange to live a life I never imagined I would have. This isn't what I set out looking for... But it means everything to me." #!String
+    Good_3: "I'm in a great mood today... Vox Machina won big last night... Reminded me of our first kiss.$h" #!String
+    Good_4: "Hey, if I ever seem cranky, just ignore it. I get in weird moods sometimes, but it's not about you... ja?" #!String
+    Good_5: "Ah... life on the farm sure beats working at Joja. That place was depressing.$h#$e#I have so much more time to read now.$h" #!String
+    Good_6: "Ah... I learnt a new spell recently. I finally feel like I'm making progress.$h" #!String
+    Good_8: "I have 2 new books to read and a whole afternoon to enjoy them." #!String
+    Good_9: "Huh... You're wondering why I have this goofy grin on my face? You really have a short memory span, don't you? *blush*$h" #!String
+    Neutral_0: "Oh, do you need something from me? Sorry, I'm kind of busy at the moment." #!String
+    Neutral_2: "Why don't you tell me about your day when we're in bed tonight? I'm kind of busy right now..." #!String
+    Neutral_3: "Living at Marnie's wasn't ideal, but at least I had Nott with me." #!String
+    Neutral_4: "What, you want me to clean the dishes? I'll do it... eventually..." #!String
+    Neutral_5: "Are we doing okay on money? I don't want to have to go back to work at Joja." #!String
+    Neutral_6: "If you need to go see your friends in town, go ahead. I'm happier here with just a few books." #!String
+    Neutral_8: "Ugh... clean, clean, clean. Sweep, sweep, sweep. Bathe. Cook. Make the bed... Oh, well. Life's alright." #!String
+    Bad_5: "Look, I just want to be alone. Why don't you go outside and do your own thing for a while?" #!String
+    Bad_6: "What do you want? I'm busy. Go away.$a" #!String
+    Bad_7: "Farm-life is actually really boring. What am I doing here?$s" #!String
+    Bad_8: "Ja... maybe this was a mistake." #!String
+    funLeave_Shane: "I'm going to go out today, alright?" #!String
+    funReturn_Shane: "Sorry if I'm sweaty... That was quite a walk... I'm out of shape.$6" #!String
+    spring_1: "Ooo... my throbbing head. How many did we have last night?" #!String
+    spring_12: "The egg festival is probably my favorite... I just enjoy watching Nott have fun.$h" #!String
+    spring_23: "Oh, right. It's the flower dance tomorrow. I'm actually a pretty good dancer." #!String
+    summer_1: "I miss summers like this with my parents." #!String
+    summer_10: "The luau is tomorrow. Try not to fill up on bread.$h" #!String
+    summer_27: "What are your plans for the fall? I'm going to try and add more spells to my spell book." #!String
+    fall_1: "Hmm... I might have to buy a few cases of pumpkin ale to celebrate the season...$6" #!String
+    fall_15: "I'll be helping Marnie with the animals at tomorrow's fair, like usual. You should just kick back and have some fun.$6" #!String
+    fall_17: "I'm starting to really feel my age... and I'm not comfortable with that at all." #!String
+    winter_1: "Any big plans this winter? I have some books if you'd like to read them." #!String
+    winter_28: "Well, another year gone by... I look a little older, but that's about all.$6" #!String
+

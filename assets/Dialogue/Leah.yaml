@@ -1,0 +1,91 @@
+
+xnbData: 
+    target: "w"
+    compressed: true
+    hiDef: true
+    readerData: 
+        - 
+            type: "Microsoft.Xna.Framework.Content.DictionaryReader`2[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"
+            version: 0
+
+        - 
+            type: "Microsoft.Xna.Framework.Content.StringReader"
+            version: 0
+
+
+    numSharedResources: 0
+
+content:  #!Dictionary<String,String>
+    Introduction: "Hello, it's nice to meet you. $h#$e#You picked a good time to move here... The flowers are in bloom." #!String
+    Resort_Entering: "Don't tell anyone, but Willy let me steer the boat for a few minutes.$h" #!String
+    Resort_Leaving: "Well, that was deeply relaxing." #!String
+    Resort: "I love the weather in Stardew Valley, but seeing a different climate now and then helps put things into perspective." #!String
+    Resort_Shore: "The shape of the waves here is awe inspiring.#$e#I wonder if I could ever capture that sort of formlessness in a sculpture." #!String
+    Resort_Chair: "I like the heat as long as I'm keeping perfectly still.$h" #!String
+    Resort_Wander: "Mmm, I bet the trees around here would make for an interesting medium to work with.#$e#Though Willy probably wouldn't be happy with me if I dragged a bunch of logs onto his ship!$h" #!String
+    Resort_Wander_2: "I wonder what kind of things you could forage out here.#$e#I think I saw some tasty looking walnuts growing on a bush nearby." #!String
+    Resort_Bar: "Have you tried the Piña Colada? I'm on my second one... hehe." #!String
+    danceRejection: "I'll be honest. I don't want to dance with you.$u" #!String
+    divorced: "I've realized I'm happier by myself. So just leave me be.$u" #!String
+    breakUp: "Ohh... Got it. Hah... I really don't have any luck when it comes to this stuff...$s" #!String
+    dumped_Girls: "I don't want to see you for a while...$s" #!String
+    secondChance_Girls: "You caused a lot of grief with what you did... but I'm ready to put the past behind us.$s" #!String
+    Beach: "I came for the sound of the ocean. Beautiful, isn't it?" #!String
+    Mon: "May I ask you something?#$q 21/22/211132 Mon_old#So why did you become a farmer?#$r 21 -5 Mon_21#I want to make tons of money.#$r 22 5 Mon_22#It's more \"real\" than living in the city.#$r 211132 5 Mon_211132#To follow in grandpa's footsteps.#$r 22 5 Mon_22#I wanted to escape my old life." #!String
+    Mon_old: "$p 21#So are you making as much money as you hoped?|How do you like spending so much time in nature?" #!String
+    Mon_21: "Hmm. That seems kind of shallow, doesn't it?$s" #!String
+    Mon_22: "That's pretty much the reason I came here, too$s" #!String
+    Mon_211132: "That's very sweet to honor your grandfather like that." #!String
+    Tue4: "Hi. Oh, you want to talk?#$e#I'm sorry I'm not the best to talk to.#$e#Molly's been teaching me though.$h" #!String
+    Tue: "Do you know how to handle a blade?#$e#I think it's a very important skill. It could save your life." #!String
+    Wed: "I haven't heard from the Stormlord for a while now.$s#$e#I hope he's not mad at me.$s" #!String
+    Wed6: "I'm very strong...#$e#If you hurt yourself and need to be carried, let me know!$h" #!String
+    Wed8: "Hello @. I was just thinking about all the wildflowers that grow in the valley.#$e#I've been told they all have their own meanings.$h#$e#I wonder which flower means 'loss'.$s" #!String
+    Thu: "There's actually a lot of wild game in this area, if you know where to look.#$e#I've been having wild rats almost every day.$h" #!String
+    Thu6: "Hunting is a specialty of mine. Someday I'll make you a nice crisp rat.$h" #!String
+    Fri: "I had an ale for breakfast this morning. Good way to start the day.$h" #!String
+    Fri2: "You ever feel like you made a mistake coming to the valley?" #!String
+    Fri4: "Hello, @. It's a nice day, isn't it?#$e#Stop by my cabin if you need me to help you kill something.$h" #!String
+    Sat: "Take care of your weapons and they will take care of you." #!String
+    Sat8: "Farming sounds interesting. I bet it's a good workout.$l" #!String
+    Sun: "If you hear any banging from inside my hut, it's probably just me working on one of my sculptures or sharpening my blade." #!String
+    Sun8: "If you ever find any interesting looking flowers, I'll gladly take them.$e#I've started a collection.$h" #!String
+    event_sculpt1: "...What?$7#$b#Oh! Yeah, that's absolutely right.$h" #!String
+    event_sculpt2: "There's nothing wrong with that... I think there's lots of beauty to be found in raw, untouched nature.#$b#But I'm interested in finding out the potential underneath... that something raw and rough can be more." #!String
+    event_sculpt3: "Gross.%fork$a^Oh! You're...? Me too.$6#$b#Get out!$a^That's good to know.$l" #!String
+    event_parents1: "You're right... I just wouldn't have been happy back there.$u#$b#I needed to start over... To find meaning again.$u" #!String
+    event_parents2: "That's a little harsh... but, yeah. We had different... priorities.$u" #!String
+    event_parents3: "Oh yeah? Well... what do you know?%fork$a" #!String
+    event_parents4: "*sigh*...$s#$b#I guess you're right... it was kind of selfish. But can you really blame me for wanting to start over? Ugh... I don't know...$s" #!String
+    event_parents5: "*sigh*...$s#$b#Maybe you're right... We are selfish creatures. I don't know. $s#$b#I probably shouldn't dwell on it. We all have to make hard choices from time to time.$s" #!String
+    summer_1: "The smell of summer makes me think of mead!$h" #!String
+    summer_Mon: "I found some giant spiders this morning!#$e#Sorry, I don't have any left.$s#$e#Keep looking, I'm sure you'll find something." #!String
+    summer_Tue: "The sound of thunder is great, isn't it?" #!String
+    summer_Tue4: "The simple things in life are best. A thunderous storm, majestic clouds, and a tankard of ale." #!String
+    summer_Thu6: "I have a good eye for strange meats. Some day I'll make you a roasted spider leg.$h" #!String
+    summer_Fri: "That Jester's adorable.#$e#She wants to paint a mural in my cabin for me." #!String
+    summer_Fri2: "Sometimes I worry that I distance myself too much from other people.#$e#But I'm not really sure how to deal with that." #!String
+    summer_Fri6: "Hello, @. Do you ever get lonely on that big farm?#$e#Stop by my cabin if you ever need someone to talk to.$h" #!String
+    summer_Sat: "I enjoy living outside of town.#$e#I'm not very good at social interactions." #!String
+    summer_Sun: "I told Jester I missed reading and she gave me some of her romance novels. #$e#I'm not really sure if any of them are... to my liking though." #!String
+    fall_1: "The fall colors remind me a little of home.#$e#I'm not sure how I feel about that." #!String
+    fall_Mon: "#$c .5#I found some wild rabbit over the weekend.#$e#I had a huge bowl of rabbit stew for breakfast today... I'm still full.#$e#Keep your nose to the ground and you'll find some rabbit yourself... I'm sure of it." #!String
+    fall_Tue: "I wonder if I could get clint to make me some bracers.#$e#They could come in handy if I wanted to make my way into the mines.$h" #!String
+    fall_Tue4: "After having lived in the valley, I wonder why anyone would want to live anywhere else.#$e#Although, sometimes... I'll admit, I do miss home.$s" #!String
+    fall_Wed: "Nott gave me some dried flowers the other day.#$e#They were a little mangled, but still beautiful." #!String
+    fall_Thu6: "I sharpened my sword and now it can slice tomatoes like in those knife commercials.$h" #!String
+    fall_Fri: "Sometimes I look at the people around me and wonder why they've accepted me so readily.#$e#They hardly know me and yet they treat me like family.$h" #!String
+    fall_Fri6: "Stop by my cabin if you ever need someone to talk to.$h" #!String
+    fall_Sat: "I dreamt of home last night. I wonder what that means." #!String
+    fall_Sun: "There's a lot of good people here.#$e#I'm glad I came to the valley." #!String
+    winter_Mon: "I love the way everything looks when it's covered with fresh snow." #!String
+    winter_Tue: "It gets pretty cold in my little cabin.$s#$e#I just snuggle up under a huge blanket, and I'm okay.$h" #!String
+    winter_Wed: "I saw a snow rabbit early this morning. They're rare, aren't they? I bet they taste good." #!String
+    winter_Thu: "I'm having a hard time finding fresh meat to eat.#$e#I've been eating a lot of bread.$s" #!String
+    winter_Thu6: "*Sigh*... It's hard to get fresh meat in the winter.#$e#I hear pocket bacon stays good for a long time though." #!String
+    winter_Fri: "Time seems to move slower here.#$e#When I lived with the tribe, the year went by so fast." #!String
+    winter_Fri6: "Do you ever get cold in that farmhouse of yours?#$e#Stop by my cabin if you want to huddle under one of my quilts and drink mead.$h" #!String
+    winter_Sat: "Hello @. Kill anything interesting lately?" #!String
+    winter_Sat2: "Hello, @. Do you need me to hurt someone for you?" #!String
+    winter_Sun: "Do you ever take a whole day off?#$e#I never know what to do with myself in my free time." #!String
+
