@@ -27,3 +27,4 @@ Dialogue/Leah.yaml: line 20-27 resort dialogue
 Dialogue/Sebastian.yaml: line 20-27 resort dialogue
 Dialogue/Shane.yaml: line 20-25 resort dialogue
 Events/HaleyHouse.yaml: line 29 "150938/n emilyStones"
+Festivals/spring13.yaml: line 71 to end, M9 dialogue only

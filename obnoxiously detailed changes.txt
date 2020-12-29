@@ -92,8 +92,54 @@ added new events
 /assets/Events/Railroad.yaml
 tiny fixes
 
-/assets/Events/Saloon.yalm
+/assets/Events/Saloon.yaml
 added new event
+
+/assets/Events/ScienceHouse.yaml
+added new event
+
+/assets/Events/SeedShop.yaml
+added new event
+
+/assets/Events/Town.yaml
+added new event
+
+/assets/Events/Trailer.yaml
+added new event
+
+/assets/Festivals/fall16.yaml
+added Leo dialogue
+
+/assets/Festival/fall27.yaml
+minor fixes
+added Leo dialogue
+
+/assets/Festival/spring13.yaml
+minor fixes
+added new dialogue
+
+/assets/Festival/spring24.yaml
+minor fixes
+added Leo dialogue
+
+/assets/Festival/summer11.yaml
+added shop
+added Leo dialogue
+
+/assets/Festival/summer28.yaml
+added shop
+added Leo dialogue
+
+/assets/Festival/winter8.yaml
+modified shop
+added Leo dialogue
+
+/assets/Festival/winter25.yaml
+modified shop
+added Leo dialogue
+
+
+
 
 
 
