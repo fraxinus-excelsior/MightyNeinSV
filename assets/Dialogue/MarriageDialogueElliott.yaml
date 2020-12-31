@@ -67,7 +67,7 @@ content:  #!Dictionary<String,String>
     fall_1: "The splendor of fall... a verdant banquet for all the senses to enjoy." #!String
     fall_15: "I have a craving for roots today." #!String
     fall_26: "I'm not a fan of alcohol... but that Pumkin Ale... leaves a nice tingle on my tongue... wait... I might be allergic to it." #!String
-    winter_1: "I'm not really sure what I'm doing but I want to enter that fishing competition tomorrow... So long as we release them after. I don't eat fish..." #!String
-    winter_7: "I'm a little out of practice, but I plan on entering the fishing contest tomorrow! You've got some stiff competition, dear." #!String
+    winter_1: "Winter is a great time to read books and play the piano. Remember to pause and enjoy a quiet moment or two." #!String
+    winter_7: "I'm not really sure what I'm doing but I want to enter that fishing competition tomorrow... So long as we release them after. I don't eat fish..." #!String
     winter_28: "Happy new year's eve, my dear. Please accept this to celebrate. [200]" #!String
 
