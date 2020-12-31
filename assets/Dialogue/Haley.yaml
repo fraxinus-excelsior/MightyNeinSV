@@ -39,7 +39,7 @@ content:  #!Dictionary<String,String>
     Fri: "%Haley is ignoring you." #!String
     Fri2: "Don't you get tired of running around on that farm all day, or whatever it is you do?#$e#I couldn't stand getting all dirty like that.#$e#You probably get a nice tan, though." #!String
     Sat: "I'm feeling an urge to go shopping. Ugh! I wish there was a mall here." #!String
-    Sun: "My roommate is so weird. Sometimes I wonder why I live with her.$u#$b#" #!String
+    Sun: "My roommate is so weird. Sometimes I wonder why I live with her.$u" #!String
     Wed8: "There are only two things I like about this town.#$b#One of them is the beach.#$e#The other one is a secret! *giggle*$h" #!String
     Tue2: "I wonder if any nice shells washed up on the beach this morning?#$e#This isn't the best time of year for shells, though." #!String
     Wed4: "I'm glad that the flowers are starting to bloom.#$e#Those pink ones smell so good.$h" #!String
