@@ -165,3 +165,4 @@ content:  #!Dictionary<String,String>
     SummitEvent_closingmessage3: "What an accomplishment!" #!String
     SummitEvent_closingmessage4: "We've been watching every step of the way" #!String
     SummitEvent_closingmessage5: "And you've made us very proud!" #!String
+

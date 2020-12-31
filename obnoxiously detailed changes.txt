@@ -138,12 +138,6 @@ added Leo dialogue
 modified shop
 added Leo dialogue
 
-
-
-
-
-
-
 /assets/Sprites/Cursors.png
 added new content
 

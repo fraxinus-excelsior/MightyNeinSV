@@ -1,11 +1,11 @@
 {
-  "Name": "The Mighty Nein",
-  "Author": "jkrej",
-  "Version": "1.8.3",
-  "Description": "Add the members of the Mighty Nein to Stardew Valley, replacing NPCs. Unofficially patched.",
-  "UniqueID": "jkrej.TheMightyNein-unofficialPatch",
+  "Name": "The Mighty Nein - Patched",
+  "Author": "goatman14",
+  "Version": "2.0.0",
+  "Description": "Add the members of the Mighty Nein to Stardew Valley, replacing NPCs. Patched for more recent game versions.",
+  "UniqueID": "goatman14.TheMightyNein-Patched",
    "MinimumApiVersion": "2.5",
-   "UpdateKeys": [],
+   "UpdateKeys": ["Nexus:7419"],
    "ContentPackFor": {
       "UniqueID": "Pathoschild.ContentPatcher"
    }

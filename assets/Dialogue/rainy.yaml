@@ -46,3 +46,4 @@ content:  #!Dictionary<String,String>
     Sandy: "I heard it's raining back home. Is that why you came here?$h#$e#I kind of miss the rain, actually...$s" #!String
     Krobus: "Ah, the sewers are flowing quickly today. It'll get nice and humid in here... Just how I like it." #!String
     Leo: "The valley is peaceful when it rains.#$e#To me... nature is someone I know, with different moods." #!String
+

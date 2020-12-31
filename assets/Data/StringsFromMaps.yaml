@@ -386,3 +386,4 @@ content:  #!Dictionary<String,String>
     Pirates7_Lose: "DART MAN: Yar... Better luck next time..." #!String
     PirateBartender_PirateClothes: "BARTENDER: Oi! I never seen the likes o' you, before. But if ye got the pirate look, then 'ave one on me! Har Har!" #!String
     PirateBartender_PirateClothes_NoMore: "BARTENDER: Back fer more, eh? Har Har! You've had enough, matey..." #!String
+
