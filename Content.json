@@ -99,6 +99,12 @@
           "Target": "Characters/pierre",
           "FromFile": "assets/Sprites/pierre.png"
        },
+       // pierre beach sprite
+       {
+         "Action": "Load",
+         "Target": "Characters/Pierre_Beach",
+         "FromFile": "assets/Sprites/Pierre_Beach.png"
+      },
        // clothes therapy sprites
        {
           "Action": "Load",
@@ -171,6 +177,12 @@
           "Target": "Portraits/Pierre",
           "FromFile": "assets/Portraits/PierrePortrait.png"
        },
+       // pierre beach portrait
+       {
+         "Action": "Load",
+         "Target": "Portraits/Pierre_Beach",
+         "FromFile": "assets/Portraits/Pierre_Beach.png"
+      },
        // Elliott portrait
        {
           "Action": "Load",
