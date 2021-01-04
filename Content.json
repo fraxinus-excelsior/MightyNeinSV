@@ -96,7 +96,7 @@
        // caroline beach sprite
        {
          "Action": "Load",
-         "Target": "Characters/caroline",
+         "Target": "Characters/Caroline_Beach",
          "FromFile": "assets/Sprites/Caroline_Beach.png"
       },
        // pierre sprite
