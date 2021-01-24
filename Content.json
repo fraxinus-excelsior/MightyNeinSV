@@ -43,7 +43,7 @@
        {
          "Action": "Load",
          "Target": "Characters/Leah_Beach",
-         "FromFile": "assets/Sprites/Leah_Beach.png"
+         "FromFile": "assets/Sprites/Leah_BeachSprite.png"
       },
        // sky spear f
        {
