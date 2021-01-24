@@ -39,6 +39,12 @@
           "Target": "Characters/leah",
           "FromFile": "assets/Sprites/LeahSprite.png"
        },
+       // yasha beach sprite
+       {
+         "Action": "Load",
+         "Target": "Characters/Leah_Beach",
+         "FromFile": "assets/Sprites/Leah_Beach.png"
+      },
        // sky spear f
        {
           "Action": "Load",
