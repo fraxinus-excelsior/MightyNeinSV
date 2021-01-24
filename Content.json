@@ -171,6 +171,12 @@
           "Target": "Portraits/Leah",
           "FromFile": "assets/Portraits/LeahPortrait.png"
        },
+       // leah beach portrait
+       {
+         "Action": "Load",
+         "Target": "Portraits/Leah_Beach",
+         "FromFile": "assets/Portraits/Leah_Beach.png"
+      },
        // abigail portrait
        {
           "Action": "Load",
