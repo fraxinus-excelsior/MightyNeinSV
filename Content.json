@@ -63,6 +63,12 @@
           "Target": "Characters/shane",
           "FromFile": "assets/Sprites/ShaneSprite.png"
        },
+       // caleb beach sprite
+       {
+         "Action": "Load",
+         "Target": "Characters/Shane_Beach",
+         "FromFile": "assets/Sprites/Shane_BeachSprite.png"
+      },
        // caleb sprite joja
        {
           "Action": "Load",
