@@ -62,5 +62,4 @@ content:  #!Dictionary<String,String>
     Vincent: "Moooo!" #!String
     Marlon: "Clint's blades get sharper every year.#$e#So do his prices..." #!String
     Willy: "Are you setting up a grange display, @? It's your chance to show off all the good produce from %farm!" #!String
-    Leo: "Haha! I've never seen anything like this before...$h" #!String
 
