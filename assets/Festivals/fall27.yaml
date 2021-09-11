@@ -39,7 +39,7 @@ content:  #!Dictionary<String,String>
     Linus: "Good show, old friend." #!String
     Alex: "There's something weird over there. But how do I get to it?#$e#There's gotta be a secret passage somewhere around here. Where's Misty Step when you need it?" #!String
     George: "Hmm... smoked turkey haunch? I guess this festival isn't all bad.$h" #!String
-    Evelyn: "I wish Gus would include a vegetarian option. Some zucchini skewers, maybe?" #!String
+    Evelyn: "I wish Gus would include a vegetarian option. Some zucchinni skewers, maybe?" #!String
     Lewis: "Good evening, @. Have you ventured into the haunted maze yet? It's quite spooky.#$e#That strange man who lives in the tower set it all up himself. He wouldn't let anyone near while he was working on it." #!String
     Clint: "One of my iridium-infused maces would make quick work of these things." #!String
     Emily: "Do you like the jack-o-lanterns? I carved them myself. One has a dick carved in the back." #!String
@@ -61,5 +61,4 @@ content:  #!Dictionary<String,String>
     Jas: "There are giant spiders in the maze. I bet I could ride them. All I need is a small saddle!$h" #!String
     Vincent: "Mother won't let me go in the maze. *sob*$s" #!String
     Marlon: "Don't get too close to the cage." #!String
-    Leo: "%Leo's unblinking eyes are glued to the screen. You're unable to get his attention." #!String
 

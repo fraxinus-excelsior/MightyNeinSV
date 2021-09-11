@@ -53,7 +53,7 @@ content:  #!Dictionary<String,String>
     Good_3: "Wow, you look full of energy today.$l^You look beautiful today.$l" #!String
     Good_4: "Mmm... You smell nice today." #!String
     Good_5: "I was just admiring my wedding amulet... I'll cherish this treasure for the rest of my life.$l" #!String
-    Good_6: "Be careful out there! Sometimes I worry about you falling into a mine shaft. You can be quite clumsy." #!String
+    Good_6: "Be careful out there! Sometimes I worry about you falling into a mine shaft. You can be quite clumbsy." #!String
     Good_7: "@? I just want to say that I appreciate all the hard work you do for us.$h" #!String
     Good_8: "Don't worry about me... I know you've got a lot of responsibilities outside of the house. I'm fine by myself!$l" #!String
     Good_9: "Oh, I'm not bored... I'm just enjoying what we have here.#$e#It's a simple life, but I like it.$h" #!String
