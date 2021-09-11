@@ -39,7 +39,7 @@ content:  #!Dictionary<String,String>
     Linus: "These animals never judge people by their looks. The same can't be said for humans." #!String
     Alex: "I played the 'Strength' game too many times and now my arms feel like rubber. I only got up to half orc. Fitting I guess." #!String
     George: "Hmm... smoked turkey haunch? I guess this festival isn't all bad.$h" #!String
-    Evelyn: "I wish Gus would include a vegetarian option. Some zucchinni skewers, maybe?" #!String
+    Evelyn: "I wish Gus would include a vegetarian option. Some zucchini skewers, maybe?" #!String
     Lewis: "Well @, It's the big day... Our most important festival of the year, the 'Stardew Valley Fair'.#$b#If you'd like to participate by setting up a grange display, I've left an empty stand for you. Just let me know after you've set everything up so we can get to the judging." #!String
     Clint: "I complain about my job sometimes, but I do take pride in my work.#$b#These are some of my finest pieces. I hope you like them." #!String
     Emily: "You know, I would've made a pretty good clown. I guess that's why my name is Jester!" #!String
@@ -62,4 +62,5 @@ content:  #!Dictionary<String,String>
     Vincent: "Moooo!" #!String
     Marlon: "Clint's blades get sharper every year.#$e#So do his prices..." #!String
     Willy: "Are you setting up a grange display, @? It's your chance to show off all the good produce from %farm!" #!String
+    Leo: "Haha! I've never seen anything like this before...$h" #!String
 

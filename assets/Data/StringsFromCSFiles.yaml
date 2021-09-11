@@ -595,7 +595,7 @@ content:  #!Dictionary<String,String>
     NPC.cs.4435: "I just don't feel like getting up today.$s" #!String
     NPC.cs.4436: "*sigh*... I just want to stay in bed.$s" #!String
     NPC.cs.4437: "Nnnghh... what is it? Make your own breakfast.$a" #!String
-    NPC.cs.4438: "...$a#$e$I had a bad dream, that's all.$s" #!String
+    NPC.cs.4438: "...$a#$e#I had a bad dream, that's all.$s" #!String
     NPC.cs.4439: "I wonder how much the new baby will change things?$s" #!String
     NPC.cs.4440: "{0}, I hope our adoption request gets approved. I want a baby.$l" #!String
     NPC.cs.4441: "{0}, I filed our adoption papers. Now all we can do is cross our fingers and wait.$l" #!String
@@ -1449,7 +1449,7 @@ content:  #!Dictionary<String,String>
     Slots.cs.12117: "Bet10" #!String
     Slots.cs.12118: "Bet100" #!String
     TargetGame.cs.12154: "Acc.: {0}%" #!String
-    TargetGame.cs.12157: "Accuracy: {0}%      {1} / {2} Succesful Shots" #!String
+    TargetGame.cs.12157: "Accuracy: {0}%      {1} / {2} Successful Shots" #!String
     TargetGame.cs.12161: "x{0} Accuracy Multiplier!" #!String
     TargetGame.cs.12163: "No Accuracy Bonus" #!String
     GoblinPeasant.cs.12264: "Sneak Attack!" #!String

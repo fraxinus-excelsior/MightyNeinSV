@@ -1,155 +1,86 @@
-started with 1.8.2
+started with 2.0.2
 
-/Content.json
-added load for Dialogue/LeoMainland.xnb
+assets/Data/Furniture.yaml
+fixed Butterfly Hutch
 
-/hairstyles.png
-added extra rows
+assets/Data/NPCGiftTastes.yaml
+updated Leo's preferences
+updated other non-M9 preferences
+fixed typos
 
-/assets/Data/Characters.yaml
-added new dialogue; names modified as needed
+assets/Data/mail.yaml
+added winter_24 to LeoCooking
 
-/assets/Data/ExtraDialogue.yaml
-added new dialogue
+assets/Data/ObjectInformation.yaml
+fixed typos
 
-/assets/Data/Furniture.yaml
-added new items
+assets/Data/Quests.yaml
+fixed The Pirate's Wife
 
-/assets/Data/NPCDispositions.yaml
-added Leo
+assets/Data/StringsFromCSFiles.yaml
+fixed typos
 
-/assets/Data/NPCGiftTastes.yaml
-added new universals, added Leo
-corrected formats
+assets/Data/StringsFromMaps.yaml
+updated non-M9 location strings
 
-/assets/Data/ObjectInformation.yaml
-added new items
-kept spice berry tea just in case, even though it's been removed in base
+assets/Dialogue/Clint.yaml
+added reject_868
 
-/assets/Data/Quests.yaml
-added new quest
+assets/Dialogue/Demetrius.yaml
+added reject_869 and reject_865
 
-/assets/Data/SecretNotes.yaml
-added %revealtaste tags to all gift-related notes
-added new notes
+assets/Dialogue/Gus.yaml
+fixed typos
 
-/assets/Data/Strings/NPCNames.yaml
-added new names
+assets/Dialogue/MarriageDialogueLeah.yaml
+fixed typos
 
-/assets/Data/StringsFromCSFiles.yaml
-added new strings
-corrected formats/typos
+assets/Dialogue/Sebastian.yaml
+fixed typos
 
-/assets/Data/StringsFromMaps.yaml
-added new strings
+assets/Events/SamHouse.yaml
+fixed typos
 
-/assets/Data/mail.yaml
-added [#]Title tags
-added new mail
+assets/Events/ScienceHouse.yaml
+added 1053978/n robinDeluxeBed
 
-/assets/Data/weapons.yaml
-added new weapons
+assets/Events/SeedShop.yaml
+added pierreQualityCrops event
 
-/assets/Dialogue/
-added resort dialogue to: Abigail, Alex, Caroline, Clint, Demitrius, Elliott, Emily, Gus, Haley, Harvey, Jas, Jodi, Kent, Leah, Lewis, Marnie, Maru, Pam, Penny, Pierre, Robin, Sam, Sebastian, Shane, Vincent
-added misc new dialogue to: Emily, Eveyln, George, Gus, Jas, Jodi, Kent, Krobus, Linus, Marnie, Mister Qi, Pam, Sandy, Vincent, Willy, Wizard
+assets/Events/Town.yaml
+added 15389722/j 57
 
-/assets/Dialogue/LeoMainland.yaml
-created
-modified names as needed
+assets/Events/Trailer.yaml
+added pamPotatoJuice event
 
-/assets/Dialogue/MarriageDialogue.yaml
-added NoBeds dialogue
-
-/assets/Dialogue/MarriageDialogueSam.yaml
-typo correction
-
-/assets/Dialogue/rainy.yaml
+assets/Festivals/fall16.yaml
+fixed typos
 added Leo dialogue
 
-/assets/Events/Beach.yaml
-added new event
-
-/assets/Events/Farm.yaml
-added new event
-
-/assets/Events/FarmHouse.yaml
-tiny fixes
-
-/assets/Events/Forest.yaml
-typo correction
-
-/assets/Events/HaleyHouse.yaml
-minor fix
-added new event
-
-/assets/Events/JoshHouse.yaml
-added new event
-
-/assets/Events/Mountain.yaml
-added new events
-
-/assets/Events/Railroad.yaml
-tiny fixes
-
-/assets/Events/Saloon.yaml
-added new event
-
-/assets/Events/ScienceHouse.yaml
-added new event
-
-/assets/Events/SeedShop.yaml
-added new event
-
-/assets/Events/Town.yaml
-added new event
-
-/assets/Events/Trailer.yaml
-added new event
-
-/assets/Festivals/fall16.yaml
+assets/Festivals/fall27.yaml
+fixed typos
 added Leo dialogue
 
-/assets/Festival/fall27.yaml
-minor fixes
+assets/Festivals/spring13.yaml
+updated event details
+added Leo dialogue
+added year 2 dialogue
+
+assets/Festivals/spring24.yaml
 added Leo dialogue
 
-/assets/Festival/spring13.yaml
-minor fixes
-added new dialogue
-
-/assets/Festival/spring24.yaml
-minor fixes
+assets/Festivals/summer11.yaml
+updated event details
 added Leo dialogue
 
-/assets/Festival/summer11.yaml
-added shop
+assets/Festivals/summer28.yaml
+updated event details
 added Leo dialogue
 
-/assets/Festival/summer28.yaml
-added shop
+assets/Festivals/winter8.yaml
+updated event details
 added Leo dialogue
 
-/assets/Festival/winter8.yaml
-modified shop
+assets/Festivals/winter25.yaml
+updated event details
 added Leo dialogue
-
-/assets/Festival/winter25.yaml
-modified shop
-added Leo dialogue
-
-/assets/Sprites/Cursors.png
-added new content
-
-/assets/Sprites/townInterior.png
-added new content
-
-/assets/Sprites/weapons.png
-added new content
-
-ISSUES
-/assets/Portraits
-needs various beach portraits
-
-/assets/Sprites
-needs additional sprites for ALL except: ClothesTherapyCharacters.pngs

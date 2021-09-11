@@ -23,6 +23,8 @@ content:  #!Dictionary<String,String>
     Resort_Chair: "Are you having fun, @? You need to remember to take breaks now and then too!" #!String
     Resort_Bar: "I usually don't partake... but I'm usually not on a tropical island, either. Hahaha.$h" #!String
     Resort: "Can you believe this place? It's teeming with exotic life!" #!String
+    reject_869: "It's a good specimen, but a very common species. You can keep it." #!String
+    reject_865: "Fruit and salt? What an odd combination...$s" #!String
     pamHouseUpgradeAnonymous: "Robin won't even tell *me* who paid for Pam's new house!#$e#I pretend I'm mad at her but secretly I'm glad she's so loyal to her word...$h" #!String
     Mon: "Maru helps me out in the lab sometimes... She's a good kid." #!String
     Mon_inlaw_Maru: "It's hard to do good science without Maru's help...#$b#But her happiness is much more important than my experiment!" #!String

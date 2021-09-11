@@ -448,7 +448,7 @@ content:  #!Dictionary<Int32,String>
     560: "Ocean Stone/220/-300/Minerals -12/Ocean Stone/An old legend claims these stones are the mosaics of ancient mermaids." #!String
     561: "Ghost Crystal/200/-300/Minerals -12/Ghost Crystal/There is an aura of coldness around this crystal." #!String
     562: "Tigerseye/275/-300/Minerals -12/Tigerseye/A stripe of shimmering gold gives this gem a warm luster." #!String
-    563: "Jasper/150/-300/Minerals -12/Jasper/When polished, this stone becomes attactively luminous. Prized by ancient peoples for thousands of years." #!String
+    563: "Jasper/150/-300/Minerals -12/Jasper/When polished, this stone becomes attractively luminous. Prized by ancient peoples for thousands of years." #!String
     564: "Opal/150/-300/Minerals -12/Opal/Its internal structure causes it to reflect a rainbow of light." #!String
     565: "Fire Opal/350/-300/Minerals -12/Fire Opal/A rare variety of opal, named for its red spots." #!String
     566: "Celestine/125/-300/Minerals -12/Celestine/Some early life forms had bones made from this." #!String
@@ -685,7 +685,7 @@ content:  #!Dictionary<Int32,String>
     886: "Warp Totem: Island/20/-300/Crafting/Warp Totem: Island/Warp directly to Ginger Island. Consumed on use." #!String
     887: "Immunity Band/500/-300/Ring/Immunity Band/The top of the ring is made from enchanted purple wool." #!String
     888: "Glowstone Ring/200/-300/Ring/Glowstone Ring/Emits a constant light, and also increases your radius for collecting items." #!String
-    889: "Qi Fruit/1/1/Basic -79/Qi Fruit/Mr. Qi has challenged you to ship 1000 of these strange melons." #!String
+    889: "Qi Fruit/1/1/Basic -79/Qi Fruit/Mr. Qi has challenged you to ship 500 of these strange melons." #!String
     890: "Qi Bean/1/-300/Seeds -74/Qi Bean/Plant these in any season. Water every day to produce a Qi Fruit. Takes 4 days to mature." #!String
     891: "Mushroom Tree Seed/100/-300/Crafting -74/Mushroom Tree Seed/Place this on your farm to plant a mushroom tree." #!String
     892: "Warp Totem: Qi's Arena/20/-300/Crafting/Warp Totem: Qi's Arena/Warp to Qi's Arena. Be prepared for a challenge!." #!String
@@ -719,8 +719,8 @@ content:  #!Dictionary<Int32,String>
     923: "SupplyCrate/1/-300/Crafting/SupplyCrate/..." #!String
     924: "SupplyCrate/1/-300/Crafting/SupplyCrate/..." #!String
     925: "Slime Crate/3000/-300/Crafting/Slime Crate/Use this to transport a domesticated slime to another location." #!String
-    926: "Cookout Kit/3000/-300/Crafting/Cookout Kit/Use this to create a cooking campfire, allowing you to cook on-the-go!" #!String
-    927: "Camping Stove/3000/-300/Crafting/Camping Stove/This allows you to cook anywhere, and is not consumed on use." #!String
+    926: "Cookout Kit/80/-300/Crafting/Cookout Kit/Use this to create a cooking campfire, allowing you to cook on-the-go!" #!String
+    927: "Camping Stove/1/-300/Crafting/Camping Stove/This allows you to cook anywhere, and is not consumed on use." #!String
     928: "Golden Egg/500/10/Basic -5/Golden Egg/A very rare and special egg with a solid gold shell." #!String
     929: "Hedge/10/-300/Crafting -8/Hedge/A shaped bush that acts like a fence." #!String
     930: "???/0/-300/Basic/???/???" #!String

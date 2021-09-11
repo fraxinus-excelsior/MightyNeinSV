@@ -80,7 +80,7 @@ content:  #!Dictionary<String,String>
     FishShop.1: "It leads up to a little sleeping cubby. It's off limits" #!String
     FishShop.2: "It's a tackle box. It's full of lures, bobbers, hooks, and fishing line." #!String
     FishShop.3: "Miniature model of a frigate." #!String
-    FishShop.4: "There's little pink shrimp moving around in there." #!String
+    FishShop.4: "There's little pink shrimps moving around in there." #!String
     FishShop.5: "Well, it's a bin full of writhing, wriggling worms. It smells something awful." #!String
     FishShop.6: "Chum bucket." #!String
     FishShop.7: "Looks like frog eggs." #!String
@@ -244,7 +244,7 @@ content:  #!Dictionary<String,String>
     JoshHouse.8: "You peek into Fjord's drawer. There's clothes, hair gel, and what appears to be a broken tusk." #!String
     JoshHouse.9: "It's Fjord's gridball helmet. Looks like he keeps it polished." #!String
     JoshHouse.10: "It's a well-worn gridball." #!String
-    JoshHouse.11: "It's a well-stocked refridgerator." #!String
+    JoshHouse.11: "It's a well-stocked refrigerator." #!String
     JoshHouse.12: "'Cookies For Every Season'" #!String
     JoshHouse.13: "'The Dark Blue Life: A Coal-miner's Memoir'" #!String
     JoshHouse.14: "It's empty." #!String

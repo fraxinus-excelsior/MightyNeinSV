@@ -81,5 +81,5 @@ content:  #!Dictionary<Int32,String>
     127: "Basic/Haley's Cake-Walk/Your wife is organizing a charity cake-walk in the town square. She asked you to bring a chocolate cake./Enter Town on a sunny morning with a chocolate cake./-1/-1/0/-1/true" #!String
     128: "SecretLostItem/.../.../.../Abigail 191 100 129/-1/0/-1/false/That necklace! Where did you find it?$7#$b#Well, thanks for bringing it to me, @. My mom will never know...$h" #!String
     129: "SecretLostItem/.../.../.../Caroline 191 50 128/-1/0/-1/false/What's this? My old necklace?$s#$b#That's strange, I didn't even notice it was missing... Well, thanks for bringing it back, @.$h" #!String
-    130: "Basic/The Pirate's Wife/An old lady living on Ginger Island is asking you to find a keepsake of her husband's. She gave you an old photograph of a soldier that washed up on shore, hoping it would help in some way./Find a keepsake that belonged to Birdie's husband./-1/-1/0/-1/true" #!String
+    130: "Basic/The Pirate's Wife/An old lady living on Ginger Island is asking you to find a keepsake of her husband's. She gave you an old photograph of a soldier that washed up on shore, hoping it would help in some way./Find a keepsake that belonged to Birdie's husband./-1/-1/0/-1/false" #!String
 

@@ -275,7 +275,7 @@ content:  #!Dictionary<Int32,String>
     1960: "Indoor Hanging Basket/painting/1 2/1 2/1/400" #!String
     1961: "Winter Tree Decal/painting/1 2/1 2/1/400" #!String
     1964: "Bone Rug/rug/-1/-1/2/1000" #!String
-    1971: "Butterfly Hutch/decor/2 3/2 1/1/50000" #!String
+    1971: "Butterfly Hutch/decor/2 3/2 1/1/50000/2" #!String
     1973: "Wall Flower/painting/1 3/1 3/1/500" #!String
     1974: "S. Wall Flower/painting/1 3/1 3/1/500" #!String
     1975: "Clouds Banner/painting/1 3/1 3/1/500" #!String

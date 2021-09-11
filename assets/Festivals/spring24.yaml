@@ -54,4 +54,5 @@ content:  #!Dictionary<String,String>
     Jas: "Braiding flowers in your hair is good luck!" #!String
     Vincent: "Can I have flowers in my hair?" #!String
     Willy: "I should've brought my fishing pole." #!String
+    Leo: "The flowers here are nice, but they aren't as colorful as back home!$h#$e#I wonder if I'll ever have to get up there and dance...$u" #!String
 

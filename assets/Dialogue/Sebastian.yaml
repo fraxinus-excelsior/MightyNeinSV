@@ -99,7 +99,7 @@ content:  #!Dictionary<String,String>
     fall_Fri_old: "$p 62#You probably wouldn't like it.$s|I think you'd like it." #!String
     fall_Fri_good: "Ah great! That's exactly what I was going for!$h" #!String
     fall_Fri_bad: "Huh. Well, luckily I only listen to my own advice anyway." #!String
-    fall_Fri6: "There�s nothing wrong with living your life. You only get one of �em. Mostly.$h#$e#And� your days are gonna be the days that you�re gonna have. And I�d like to keep living my life the way I�d like to.$h" #!String
+    fall_Fri6: "There's nothing wrong with living your life. You only get one of 'em. Mostly.$h#$e#And' your days are gonna be the days that you're gonna have. And I'd like to keep living my life the way I'd like to.$h" #!String
     fall_Sat: "Leave every town better than you found it." #!String
     fall_Sun: "The sun is coming out less and less these days...$s" #!String
     winter_Mon: "I'm enjoying this snowy weather. Feels like I'm discovering something new every day!$h" #!String

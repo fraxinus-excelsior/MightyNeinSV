@@ -14,6 +14,7 @@ Events/Forest.yaml: line 34 "3091462/e 3911124/O Leah/w sunny/t 1130 1400/A leah
 Events/Mountain.yaml: line 29 "9333219/O Sebastian/f Sebastian 3500/w rainy/t 600 1900"; modified names but not content from basegame
 Events/Saloon.yaml: line 28 "wewereworried" to end; modified names but not content from basegame
 Events/Town.yaml: line 40 "3917584/f Shane 3500/O Shane/d Fri/t 800 1700" to end; modified names but not content from basegame
+assets/Events/Town.yaml: line 46 15389722/j 57; consider whether Molly spending time at the computer should be replaced
 
 
 Data/ExtraDialogue.yaml: added extra summit dialogue but did not modify from basegame
@@ -28,3 +29,5 @@ Dialogue/Sebastian.yaml: line 20-27 resort dialogue
 Dialogue/Shane.yaml: line 20-25 resort dialogue
 Events/HaleyHouse.yaml: line 29 "150938/n emilyStones"
 Festivals/spring13.yaml: line 71 to end, M9 dialogue only
+
+Data/NPCGiftTastes.yaml: set M9 gift tastes for newly added items
