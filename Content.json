@@ -33,6 +33,12 @@
           "Target": "Characters/Alex",
           "FromFile": "assets/Sprites/AlexSprite.png"
        },
+       // fjord beach sprite
+       {
+         "Action": "Load",
+         "Target": "Characters/Alex_Beach",
+         "FromFile": "assets/Sprites/Alex_BeachSprite.png"
+      },
        // yasha sprite
        {
           "Action": "Load",
