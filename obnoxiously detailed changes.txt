@@ -147,6 +147,8 @@ added new content
 /assets/Sprites/weapons.png
 added new content
 
+re-added a variety of festivals and events that were accidentally removed in the 2.0.0 release
+
 ISSUES
 /assets/Portraits
 needs various beach portraits
