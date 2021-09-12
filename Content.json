@@ -194,7 +194,7 @@
          "Action": "Load",
          "Target": "Portraits/Leah_Beach",
          "FromFile": "assets/Portraits/Leah_Beach.png"
-      },
+       },
        // abigail portrait
        {
           "Action": "Load",
@@ -242,6 +242,12 @@
           "Action": "Load",
           "Target": "Portraits/Shane",
           "FromFile": "assets/Portraits/ShanePortrait.png"
+       },
+       // shane beach portrait
+       {
+         "Action": "Load",
+         "Target": "Portraits/Shane_Beach",
+         "FromFile": "assets/Portraits/Shane_Beach.png"
        },
 
 
