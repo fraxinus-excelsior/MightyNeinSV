@@ -27,6 +27,12 @@
           "Target": "Characters/Emily",
           "FromFile": "assets/Sprites/EmilySprite.png"
        },
+       // jester beach sprite
+       {
+         "Action": "Load",
+         "Target": "Characters/Emily_Beach",
+         "FromFile": "assets/Sprites/Emily_BeachSprite.png"
+      },
        // fjord sprite
        {
           "Action": "Load",
