@@ -105,6 +105,12 @@
           "Target": "Characters/sebastian",
           "FromFile": "assets/Sprites/SebastianSprite.png"
        },
+       // molly beach sprite
+       {
+         "Action": "Load",
+         "Target": "Characters/Sebastian_Beach",
+         "FromFile": "assets/Sprites/Sebastian_BeachSprite.png"
+      },
        // beau sprite
        {
           "Action": "Load",
