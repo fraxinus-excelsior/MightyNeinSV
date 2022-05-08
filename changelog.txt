@@ -1,0 +1,18 @@
+2.1.0 Sep 11 2021
+-patched to match 1.5.4
+
+2.0.3 Sep 11 2021
+-beach sprites for Yasha and Caleb
+-beach portrait for Yasha
+-new event and festival dialogues
+
+2.0.2 Jan 23 2021
+-new (non-beach) sprites for Caduceus, Mollymauk, and Beau
+
+2.0.1 Jan 04 2021
+-fixed an issue in Caduceus's marriage dialogue
+-beach portraits/sprites for Pierre and Caroline
+-new (non-beach) sprites for Caleb, Nott, and Yasha
+
+2.0.0 Dec 30 2020
+-patch for compatibility with 1.5.1
