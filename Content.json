@@ -1,746 +1,636 @@
 {
-  "Format": "1.6",
+  "Format": "1.25.0",
   "Changes": [
-
-
-{
-          "Action": "EditImage",
-          "Target": "Characters/Farmer/hairstyles",
-          "FromFile": "hairstyles.png"
-       },
-
-{
-          "Action": "EditImage",
-          "Target": "Characters/Farmer/skinColors",
-          "FromFile": "skinColors.png"
-       },
-
-       
-
-
-
-
-
-       // jester sprite
-       {
-          "Action": "Load",
-          "Target": "Characters/Emily",
-          "FromFile": "assets/Sprites/EmilySprite.png"
-       },
-       // jester beach sprite
-       {
-         "Action": "Load",
-         "Target": "Characters/Emily_Beach",
-         "FromFile": "assets/Sprites/Emily_BeachSprite.png"
+      {
+         "Action": "Include",
+         "FromFile": "assets/Characters/characters.json"
       },
-       // fjord sprite
-       {
-          "Action": "Load",
-          "Target": "Characters/Alex",
-          "FromFile": "assets/Sprites/AlexSprite.png"
-       },
-       // fjord beach sprite
-       {
-         "Action": "Load",
-         "Target": "Characters/Alex_Beach",
-         "FromFile": "assets/Sprites/Alex_BeachSprite.png"
+
+      // replace graffiti
+      {
+         "Action": "EditImage",
+         "Target": "LooseSprites/Cursors",
+         "FromFile": "assets/Sprites/Graffiti.png",
+         "ToArea": { "X": 224, "Y": 608 } // TODO: CHECK COORDINATES
       },
-       // yasha sprite
-       {
-          "Action": "Load",
-          "Target": "Characters/leah",
-          "FromFile": "assets/Sprites/LeahSprite.png"
-       },
-       // yasha beach sprite
-       {
-         "Action": "Load",
-         "Target": "Characters/Leah_Beach",
-         "FromFile": "assets/Sprites/Leah_BeachSprite.png"
+      // replace passed out caleb/shane
+      {
+         "Action": "EditImage",
+         "Target": "LooseSprites/Cursors",
+         "FromFile": "assets/Sprites/LooseSpritesCaleb.png",
+         "ToArea": { "X": 532, "Y": 1849 } // TODO: CHECK COORDINATES
       },
-       // sky spear f
-       {
-          "Action": "Load",
-          "Target": "Characters/leahexfemale",
-          "FromFile": "assets/Sprites/Leahexfemale.png"
-       },
-       // sky spear m
-       {
-          "Action": "Load",
-          "Target": "Characters/leahexmale",
-          "FromFile": "assets/Sprites/Leahexfemale.png"
-       },
-       // caleb sprite
-       {
-          "Action": "Load",
-          "Target": "Characters/shane",
-          "FromFile": "assets/Sprites/ShaneSprite.png"
-       },
-       // caleb beach sprite
-       {
-         "Action": "Load",
-         "Target": "Characters/Shane_Beach",
-         "FromFile": "assets/Sprites/Shane_BeachSprite.png"
+      // replace motorcycle molly/sebastian
+      {
+         "Action": "EditImage",
+         "Target": "LooseSprites/Cursors",
+         "FromFile": "assets/Sprites/LooseSpritesMollymauk.png",
+         "ToArea": { "X": 405, "Y": 1852 } // TODO: CHECK COORDINATES
       },
-       // caleb sprite joja
-       {
-          "Action": "Load",
-          "Target": "Characters/Shane_JojaMart",
-          "FromFile": "assets/Sprites/Shane_JojaMartSprite.png"
-       },
-       // nott sprite
-       {
-          "Action": "Load",
-          "Target": "Characters/jas",
-          "FromFile": "assets/Sprites/JasSprite.png"
-       },
-       // caduceus sprite
-       {
-          "Action": "Load",
-          "Target": "Characters/elliott",
-          "FromFile": "assets/Sprites/ElliottSprite.png"
-       },
-       // molly sprite
-       {
-          "Action": "Load",
-          "Target": "Characters/sebastian",
-          "FromFile": "assets/Sprites/SebastianSprite.png"
-       },
-       // molly beach sprite
-       {
-         "Action": "Load",
-         "Target": "Characters/Sebastian_Beach",
-         "FromFile": "assets/Sprites/Sebastian_BeachSprite.png"
+      // towninterior - books
+      {
+         "Action": "EditImage",
+         "Target": "Maps/townInterior",
+         "FromFile": "assets/Sprites/townInteriorBooks.png",
+         "ToArea": { "X": 224, "Y": 400 } // TODO: CHECK COORDINATES
       },
-       // beau sprite
-       {
-          "Action": "Load",
-          "Target": "Characters/abigail",
-          "FromFile": "assets/Sprites/abigailSprite.png"
-       },
-       // caroline sprite
-       {
-          "Action": "Load",
-          "Target": "Characters/caroline",
-          "FromFile": "assets/Sprites/caroline.png"
-       },
-       // caroline beach sprite
-       {
-         "Action": "Load",
-         "Target": "Characters/Caroline_Beach",
-         "FromFile": "assets/Sprites/Caroline_Beach.png"
+      // logo
+      {
+         "Action": "EditImage",
+         "Target": "minigames/TitleButtons",
+         "FromFile": "assets/Sprites/TitleButtons.png"
       },
-       // pierre sprite
-       {
-          "Action": "Load",
-          "Target": "Characters/pierre",
-          "FromFile": "assets/Sprites/pierre.png"
-       },
-       // pierre beach sprite
-       {
-         "Action": "Load",
-         "Target": "Characters/Pierre_Beach",
-         "FromFile": "assets/Sprites/Pierre_Beach.png"
-      },
-       // clothes therapy sprites
-       {
-          "Action": "Load",
-          "Target": "Characters/clothestherapycharacters",
-          "FromFile": "assets/Sprites/clothestherapycharacters.png"
-       },
-       // temporarysprites
-       {
-          "Action": "Load",
-          "Target": "LooseSprites/Cursors",
-          "FromFile": "assets/Sprites/Cursors.png"
-       },
-       // towninterior
-       {
-          "Action": "Load",
-          "Target": "Maps/townInterior",
-          "FromFile": "assets/Sprites/townInterior.png"
-       },
-       // logo
-       {
-          "Action": "Load",
-          "Target": "minigames/TitleButtons",
-          "FromFile": "assets/Sprites/TitleButtons.png"
-       },
-       // weapons
-       {
-          "Action": "Load",
-          "Target": "TileSheets/Weapons",
-          "FromFile": "assets/Sprites/Weapons.png"
-       },
 
 
+      // weapons - row 1
+      {
+         "Action": "EditImage",
+         "Target": "TileSheets/Weapons",
+         "FromFile": "assets/Sprites/weaponsRow1.png",
+         "ToArea": { "X": 80 } // TODO: CHECK COORDINATES
+      },
+      // weapons - row 2
+      {
+         "Action": "EditImage",
+         "Target": "TileSheets/Weapons",
+         "FromFile": "assets/Sprites/weaponsRow2.png",
+         "ToArea": { "X": 48, "Y": 16 } // TODO: CHECK COORDINATES
+      },
+      // weapons - cat's ire
+      {
+         "Action": "EditImage",
+         "Target": "TileSheets/Weapons",
+         "FromFile": "assets/Sprites/weaponsRow4.png",
+         "ToArea": { "X": 48, "Y": 48 } // TODO: CHECK COORDINATES
+      },
+      // weapons - blight staff
+      {
+         "Action": "EditImage",
+         "Target": "TileSheets/Weapons",
+         "FromFile": "assets/Sprites/weaponsRow6.png",
+         "ToArea": { "X": 96, "Y": 80 } // TODO: CHECK COORDINATES
+      },
 
 
-
-
-       // emily portrait
-       {
-          "Action": "Load",
-          "Target": "Portraits/Emily",
-          "FromFile": "assets/Portraits/EmilyPortrait.png"
-       },
-       // alex portrait
-       {
-          "Action": "Load",
-          "Target": "Portraits/Alex",
-          "FromFile": "assets/Portraits/AlexPortrait.png"
-       },
-       // leah portrait
-       {
-          "Action": "Load",
-          "Target": "Portraits/Leah",
-          "FromFile": "assets/Portraits/LeahPortrait.png"
-       },
-       // leah beach portrait
-       {
+      // emily portrait
+      {
+         "Action": "Load",
+         "Target": "Portraits/Emily",
+         "FromFile": "assets/Portraits/EmilyPortrait.png"
+      },
+      // alex portrait
+      {
+         "Action": "Load",
+         "Target": "Portraits/Alex",
+         "FromFile": "assets/Portraits/AlexPortrait.png"
+      },
+      // leah portrait
+      {
+         "Action": "Load",
+         "Target": "Portraits/Leah",
+         "FromFile": "assets/Portraits/LeahPortrait.png"
+      },
+      // leah beach portrait
+      {
          "Action": "Load",
          "Target": "Portraits/Leah_Beach",
          "FromFile": "assets/Portraits/Leah_Beach.png"
-       },
-       // abigail portrait
-       {
-          "Action": "Load",
-          "Target": "Portraits/Abigail",
-          "FromFile": "assets/Portraits/AbigailPortrait.png"
-       },
-       // caroline portrait
-       {
-          "Action": "Load",
-          "Target": "Portraits/Caroline",
-          "FromFile": "assets/Portraits/CarolinePortrait.png"
-       },
-       // pierre portrait
-       {
-          "Action": "Load",
-          "Target": "Portraits/Pierre",
-          "FromFile": "assets/Portraits/PierrePortrait.png"
-       },
-       // pierre beach portrait
-       {
+      },
+      // abigail portrait
+      {
+         "Action": "Load",
+         "Target": "Portraits/Abigail",
+         "FromFile": "assets/Portraits/AbigailPortrait.png"
+      },
+      // caroline portrait
+      {
+         "Action": "Load",
+         "Target": "Portraits/Caroline",
+         "FromFile": "assets/Portraits/CarolinePortrait.png"
+      },
+      // pierre portrait
+      {
+         "Action": "Load",
+         "Target": "Portraits/Pierre",
+         "FromFile": "assets/Portraits/PierrePortrait.png"
+      },
+      // pierre beach portrait
+      {
          "Action": "Load",
          "Target": "Portraits/Pierre_Beach",
          "FromFile": "assets/Portraits/Pierre_Beach.png"
       },
-       // Elliott portrait
-       {
-          "Action": "Load",
-          "Target": "Portraits/Elliott",
-          "FromFile": "assets/Portraits/ElliottPortrait.png"
-       },
-       // Jas portrait
-       {
-          "Action": "Load",
-          "Target": "Portraits/Jas",
-          "FromFile": "assets/Portraits/JasPortrait.png"
-       },
-       // sebastian portrait
-       {
-          "Action": "Load",
-          "Target": "Portraits/Sebastian",
-          "FromFile": "assets/Portraits/SebastianPortrait.png"
-       },
-       // shane portrait
-       {
-          "Action": "Load",
-          "Target": "Portraits/Shane",
-          "FromFile": "assets/Portraits/ShanePortrait.png"
-       },
-       // shane beach portrait
-       {
+      // Elliott portrait
+      {
+         "Action": "Load",
+         "Target": "Portraits/Elliott",
+         "FromFile": "assets/Portraits/ElliottPortrait.png"
+      },
+      // Jas portrait
+      {
+         "Action": "Load",
+         "Target": "Portraits/Jas",
+         "FromFile": "assets/Portraits/JasPortrait.png"
+      },
+      // sebastian portrait
+      {
+         "Action": "Load",
+         "Target": "Portraits/Sebastian",
+         "FromFile": "assets/Portraits/SebastianPortrait.png"
+      },
+      // shane portrait
+      {
+         "Action": "Load",
+         "Target": "Portraits/Shane",
+         "FromFile": "assets/Portraits/ShanePortrait.png"
+      },
+      // shane beach portrait
+      {
          "Action": "Load",
          "Target": "Portraits/Shane_Beach",
          "FromFile": "assets/Portraits/Shane_Beach.png"
-       },
-
-
-
-
-
-
-
-       // Event AnimalShop
-       {
-          "Action": "Load",
-          "Target": "Data/Events/AnimalShop",
-          "FromFile": "assets/Events/AnimalShop.xnb"
-       },
-       // Event ArchaeologyHouse
-       {
-          "Action": "Load",
-          "Target": "Data/Events/ArchaeologyHouse",
-          "FromFile": "assets/Events/ArchaeologyHouse.xnb"
-       },
-       // Event Beach
-       {
-          "Action": "Load",
-          "Target": "Data/Events/Beach",
-          "FromFile": "assets/Events/Beach.xnb"
-       },
-       // Event BusStop
-       {
-          "Action": "Load",
-          "Target": "Data/Events/BusStop",
-          "FromFile": "assets/Events/BusStop.xnb"
-       },
-       // Event ElliottHouse
-       {
-          "Action": "Load",
-          "Target": "Data/Events/ElliottHouse",
-          "FromFile": "assets/Events/ElliottHouse.xnb"
-       },
-       // Event Farm
-       {
-          "Action": "Load",
-          "Target": "Data/Events/Farm",
-          "FromFile": "assets/Events/Farm.xnb"
-       },
-       // Event FarmHouse
-       {
-          "Action": "Load",
-          "Target": "Data/Events/FarmHouse",
-          "FromFile": "assets/Events/FarmHouse.xnb"
-       },
-       // Event Forest
-       {
-          "Action": "Load",
-          "Target": "Data/Events/Forest",
-          "FromFile": "assets/Events/Forest.xnb"
-       },
-       // Event HaleyHouse
-       {
-          "Action": "Load",
-          "Target": "Data/Events/HaleyHouse",
-          "FromFile": "assets/Events/HaleyHouse.xnb"
-       },
-       // Event JoshHouse
-       {
-          "Action": "Load",
-          "Target": "Data/Events/JoshHouse",
-          "FromFile": "assets/Events/JoshHouse.xnb"
-       },
-       // Event LeahHouse
-       {
-          "Action": "Load",
-          "Target": "Data/Events/LeahHouse",
-          "FromFile": "assets/Events/LeahHouse.xnb"
-       },
-       // Event ManorHouse
-       {
-          "Action": "Load",
-          "Target": "Data/Events/ManorHouse",
-          "FromFile": "assets/Events/ManorHouse.xnb"
-       },
-       // Event Mine
-       {
-          "Action": "Load",
-          "Target": "Data/Events/Mine",
-          "FromFile": "assets/Events/Mine.xnb"
-       },
-       // Event Mountain
-       {
-          "Action": "Load",
-          "Target": "Data/Events/Mountain",
-          "FromFile": "assets/Events/Mountain.xnb"
-       },
-       // Event Saloon
-       {
-          "Action": "Load",
-          "Target": "Data/Events/Saloon",
-          "FromFile": "assets/Events/Saloon.xnb"
-       },
-       // Event SamHouse
-       {
-          "Action": "Load",
-          "Target": "Data/Events/SamHouse",
-          "FromFile": "assets/Events/SamHouse.xnb"
-       },
-       // Event SandyHouse
-       {
-          "Action": "Load",
-          "Target": "Data/Events/SandyHouse",
-          "FromFile": "assets/Events/SandyHouse.xnb"
-       },
-       // Event SebastianRoom
-       {
-          "Action": "Load",
-          "Target": "Data/Events/SebastianRoom",
-          "FromFile": "assets/Events/SebastianRoom.xnb"
-       },
-       // Event SeedShop
-       {
-          "Action": "Load",
-          "Target": "Data/Events/SeedShop",
-          "FromFile": "assets/Events/SeedShop.xnb"
-       },
-       // Event Town
-       {
-          "Action": "Load",
-          "Target": "Data/Events/Town",
-          "FromFile": "assets/Events/Town.xnb"
-       },
-       // Event Woods
-       {
-          "Action": "Load",
-          "Target": "Data/Events/Woods",
-          "FromFile": "assets/Events/Woods.xnb"
-       },
-
-
-
-
-
-
-
-       // Festival
-       {
-          "Action": "Load",
-          "Target": "Data/Festivals/fall16",
-          "FromFile": "assets/Festivals/fall16.xnb"
-       },
-       // Festival
-       {
-          "Action": "Load",
-          "Target": "Data/Festivals/fall27",
-          "FromFile": "assets/Festivals/fall27.xnb"
-       },
-       // Festival
-       {
-          "Action": "Load",
-          "Target": "Data/Festivals/spring13",
-          "FromFile": "assets/Festivals/spring13.xnb"
-       },
-       // Festival
-       {
-          "Action": "Load",
-          "Target": "Data/Festivals/spring24",
-          "FromFile": "assets/Festivals/spring24.xnb"
-       },
-       // Festival
-       {
-          "Action": "Load",
-          "Target": "Data/Festivals/summer11",
-          "FromFile": "assets/Festivals/summer11.xnb"
-       },
-       // Festival
-       {
-          "Action": "Load",
-          "Target": "Data/Festivals/summer28",
-          "FromFile": "assets/Festivals/summer28.xnb"
-       },
-       // Festival
-       {
-          "Action": "Load",
-          "Target": "Data/Festivals/winter8",
-          "FromFile": "assets/Festivals/winter8.xnb"
-       },
-       // Festival
-       {
-          "Action": "Load",
-          "Target": "Data/Festivals/winter25",
-          "FromFile": "assets/Festivals/winter25.xnb"
-       },
-
-
-
-
-
-
-
-       // Dialogue Marriage Leah
-       {
-          "Action": "Load",
-          "Target": "Characters/Dialogue/MarriageDialogueLeah",
-          "FromFile": "assets/Dialogue/MarriageDialogueLeah.xnb"
-       },
-       // Dialogue Leah
-       {
-          "Action": "Load",
-          "Target": "Characters/Dialogue/Leah",
-          "FromFile": "assets/Dialogue/Leah.xnb"
-       },
-       // Dialogue Marriage Abigail
-       {
-          "Action": "Load",
-          "Target": "Characters/Dialogue/MarriageDialogueAbigail",
-          "FromFile": "assets/Dialogue/MarriageDialogueAbigail.xnb"
-       },
-       // Dialogue Abigail
-       {
-          "Action": "Load",
-          "Target": "Characters/Dialogue/Abigail",
-          "FromFile": "assets/Dialogue/Abigail.xnb"
-       },
-       // Dialogue Marriage Alex
-       {
-          "Action": "Load",
-          "Target": "Characters/Dialogue/MarriageDialogueAlex",
-          "FromFile": "assets/Dialogue/MarriageDialogueAlex.xnb"
-       },
-       // Dialogue Leah
-       {
-          "Action": "Load",
-          "Target": "Characters/Dialogue/Alex",
-          "FromFile": "assets/Dialogue/Alex.xnb"
-       },
-       // Dialogue Marriage Elliott
-       {
-          "Action": "Load",
-          "Target": "Characters/Dialogue/MarriageDialogueElliott",
-          "FromFile": "assets/Dialogue/MarriageDialogueElliott.xnb"
-       },
-       // Dialogue Elliott
-       {
-          "Action": "Load",
-          "Target": "Characters/Dialogue/Elliott",
-          "FromFile": "assets/Dialogue/Elliott.xnb"
-       },
-       // Dialogue Marriage Emily
-       {
-          "Action": "Load",
-          "Target": "Characters/Dialogue/MarriageDialogueEmily",
-          "FromFile": "assets/Dialogue/MarriageDialogueEmily.xnb"
-       },
-       // Dialogue Emily
-       {
-          "Action": "Load",
-          "Target": "Characters/Dialogue/Emily",
-          "FromFile": "assets/Dialogue/Emily.xnb"
-       },
-       // Dialogue Marriage Sebastian
-       {
-          "Action": "Load",
-          "Target": "Characters/Dialogue/MarriageDialogueSebastian",
-          "FromFile": "assets/Dialogue/MarriageDialogueSebastian.xnb"
-       },
-       // Dialogue Leah
-       {
-          "Action": "Load",
-          "Target": "Characters/Dialogue/Sebastian",
-          "FromFile": "assets/Dialogue/Sebastian.xnb"
-       },
-       // Dialogue Marriage Shane
-       {
-          "Action": "Load",
-          "Target": "Characters/Dialogue/MarriageDialogueShane",
-          "FromFile": "assets/Dialogue/MarriageDialogueShane.xnb"
-       },
-       // Dialogue Shane
-       {
-          "Action": "Load",
-          "Target": "Characters/Dialogue/Shane",
-          "FromFile": "assets/Dialogue/Shane.xnb"
-       },
-
-       // Dialogue Caroline
-       {
-          "Action": "Load",
-          "Target": "Characters/Dialogue/Caroline",
-          "FromFile": "assets/Dialogue/Caroline.xnb"
-       },
-       // Dialogue Evelyn
-       {
-          "Action": "Load",
-          "Target": "Characters/Dialogue/Evelyn",
-          "FromFile": "assets/Dialogue/Evelyn.xnb"
-       },
-       // Dialogue George
-       {
-          "Action": "Load",
-          "Target": "Characters/Dialogue/George",
-          "FromFile": "assets/Dialogue/George.xnb"
-       },
-       // Dialogue Gus
-       {
-          "Action": "Load",
-          "Target": "Characters/Dialogue/Gus",
-          "FromFile": "assets/Dialogue/Gus.xnb"
-       },
-       // Dialogue Haley
-       {
-          "Action": "Load",
-          "Target": "Characters/Dialogue/Haley",
-          "FromFile": "assets/Dialogue/Haley.xnb"
-       },
-       // Dialogue Jas
-       {
-          "Action": "Load",
-          "Target": "Characters/Dialogue/Jas",
-          "FromFile": "assets/Dialogue/Jas.xnb"
-       },
-       // Dialogue Leo Mainland
-       {
-         "Action": "Load",
-         "Target": "Characters/Dialogue/LeoMainland",
-         "FromFile": "assets/Dialogue/LeoMainland.xnb"
       },
-       // Dialogue Marnie
-       {
-          "Action": "Load",
-          "Target": "Characters/Dialogue/Marnie",
-          "FromFile": "assets/Dialogue/Marnie.xnb"
-       },
-       // Dialogue Maru
-       {
-          "Action": "Load",
-          "Target": "Characters/Dialogue/Maru",
-          "FromFile": "assets/Dialogue/Maru.xnb"
-       },
-       // Dialogue Penny
-       {
-          "Action": "Load",
-          "Target": "Characters/Dialogue/Penny",
-          "FromFile": "assets/Dialogue/Penny.xnb"
-       },
-       // Dialogue Pierre
-       {
-          "Action": "Load",
-          "Target": "Characters/Dialogue/Pierre",
-          "FromFile": "assets/Dialogue/Pierre.xnb"
-       },
-       // Dialogue rainy
-       {
-          "Action": "Load",
-          "Target": "Characters/Dialogue/rainy",
-          "FromFile": "assets/Dialogue/rainy.xnb"
-       },
-       // Dialogue Robin
-       {
-          "Action": "Load",
-          "Target": "Characters/Dialogue/Robin",
-          "FromFile": "assets/Dialogue/Robin.xnb"
-       },
-       // Dialogue Sam
-       {
-          "Action": "Load",
-          "Target": "Characters/Dialogue/Sam",
-          "FromFile": "assets/Dialogue/Sam.xnb"
-       },
-       // Dialogue Sandy
-       {
-          "Action": "Load",
-          "Target": "Characters/Dialogue/Sandy",
-          "FromFile": "assets/Dialogue/Sandy.xnb"
-       },
-       // Dialogue Marriage Haley
-       {
-          "Action": "Load",
-          "Target": "Characters/Dialogue/MarriageDialogueHaley",
-          "FromFile": "assets/Dialogue/MarriageDialogueHaley.xnb"
-       },
-       // Dialogue Marriage Maru
-       {
-          "Action": "Load",
-          "Target": "Characters/Dialogue/MarriageDialogueMaru",
-          "FromFile": "assets/Dialogue/MarriageDialogueMaru.xnb"
-       },
-       // Dialogue Marriage Sam
-       {
-          "Action": "Load",
-          "Target": "Characters/Dialogue/MarriageDialogueSam",
-          "FromFile": "assets/Dialogue/MarriageDialogueSam.xnb"
-       },
 
 
-       // Dialogue
-       {
-          "Action": "Load",
-          "Target": "Data/EngagementDialogue",
-          "FromFile": "assets/Dialogue/EngagementDialogue.xnb"
-       },
+      // Event AnimalShop
+      {
+         "Action": "Load",
+         "Target": "Data/Events/AnimalShop",
+         "FromFile": "assets/Events/AnimalShop.xnb"
+      },
+      // Event ArchaeologyHouse
+      {
+         "Action": "Load",
+         "Target": "Data/Events/ArchaeologyHouse",
+         "FromFile": "assets/Events/ArchaeologyHouse.xnb"
+      },
+      // Event Beach
+      {
+         "Action": "Load",
+         "Target": "Data/Events/Beach",
+         "FromFile": "assets/Events/Beach.xnb"
+      },
+      // Event BusStop
+      {
+         "Action": "Load",
+         "Target": "Data/Events/BusStop",
+         "FromFile": "assets/Events/BusStop.xnb"
+      },
+      // Event ElliottHouse
+      {
+         "Action": "Load",
+         "Target": "Data/Events/ElliottHouse",
+         "FromFile": "assets/Events/ElliottHouse.xnb"
+      },
+      // Event Farm
+      {
+         "Action": "Load",
+         "Target": "Data/Events/Farm",
+         "FromFile": "assets/Events/Farm.xnb"
+      },
+      // Event FarmHouse
+      {
+         "Action": "Load",
+         "Target": "Data/Events/FarmHouse",
+         "FromFile": "assets/Events/FarmHouse.xnb"
+      },
+      // Event Forest
+      {
+         "Action": "Load",
+         "Target": "Data/Events/Forest",
+         "FromFile": "assets/Events/Forest.xnb"
+      },
+      // Event HaleyHouse
+      {
+         "Action": "Load",
+         "Target": "Data/Events/HaleyHouse",
+         "FromFile": "assets/Events/HaleyHouse.xnb"
+      },
+      // Event JoshHouse
+      {
+         "Action": "Load",
+         "Target": "Data/Events/JoshHouse",
+         "FromFile": "assets/Events/JoshHouse.xnb"
+      },
+      // Event LeahHouse
+      {
+         "Action": "Load",
+         "Target": "Data/Events/LeahHouse",
+         "FromFile": "assets/Events/LeahHouse.xnb"
+      },
+      // Event ManorHouse
+      {
+         "Action": "Load",
+         "Target": "Data/Events/ManorHouse",
+         "FromFile": "assets/Events/ManorHouse.xnb"
+      },
+      // Event Mine
+      {
+         "Action": "Load",
+         "Target": "Data/Events/Mine",
+         "FromFile": "assets/Events/Mine.xnb"
+      },
+      // Event Mountain
+      {
+         "Action": "Load",
+         "Target": "Data/Events/Mountain",
+         "FromFile": "assets/Events/Mountain.xnb"
+      },
+      // Event Saloon
+      {
+         "Action": "Load",
+         "Target": "Data/Events/Saloon",
+         "FromFile": "assets/Events/Saloon.xnb"
+      },
+      // Event SamHouse
+      {
+         "Action": "Load",
+         "Target": "Data/Events/SamHouse",
+         "FromFile": "assets/Events/SamHouse.xnb"
+      },
+      // Event SandyHouse
+      {
+         "Action": "Load",
+         "Target": "Data/Events/SandyHouse",
+         "FromFile": "assets/Events/SandyHouse.xnb"
+      },
+      // Event SebastianRoom
+      {
+         "Action": "Load",
+         "Target": "Data/Events/SebastianRoom",
+         "FromFile": "assets/Events/SebastianRoom.xnb"
+      },
+      // Event SeedShop
+      {
+         "Action": "Load",
+         "Target": "Data/Events/SeedShop",
+         "FromFile": "assets/Events/SeedShop.xnb"
+      },
+      // Event Town
+      {
+         "Action": "Load",
+         "Target": "Data/Events/Town",
+         "FromFile": "assets/Events/Town.xnb"
+      },
+      // Event Woods
+      {
+         "Action": "Load",
+         "Target": "Data/Events/Woods",
+         "FromFile": "assets/Events/Woods.xnb"
+      },
 
 
 
 
 
-       // Data Weapons
-       {
-          "Action": "Load",
-          "Target": "Data/Weapons",
-          "FromFile": "assets/Data/Weapons.xnb"
-       },
-       // Data
-       {
-          "Action": "Load",
-          "Target": "Data/Furniture",
-          "FromFile": "assets/Data/Furniture.xnb"
-       },
-       // Data
-       {
-          "Action": "Load",
-          "Target": "Data/NPCDispositions",
-          "FromFile": "assets/Data/NPCDispositions.xnb"
-       },
-       // Data
-       {
-          "Action": "Load",
-          "Target": "Data/NPCGiftTastes",
-          "FromFile": "assets/Data/NPCGiftTastes.xnb"
-       },
 
-       // Data
-       {
-          "Action": "Load",
-          "Target": "Data/Strings/NPCNames",
-          "FromFile": "assets/Data/Strings/NPCNames.xnb"
-       },
-       // Data
-       {
-          "Action": "Load",
-          "Target": "Data/mail",
-          "FromFile": "assets/Data/mail.xnb"
-       },
-       // Data
-       {
-          "Action": "Load",
-          "Target": "Data/Quests",
-          "FromFile": "assets/Data/Quests.xnb"
-       },
-       // Data
-       {
-          "Action": "Load",
-          "Target": "Data/ExtraDialogue",
-          "FromFile": "assets/Data/ExtraDialogue.xnb"
-       },
-       // Data
-       {
-          "Action": "Load",
-          "Target": "Data/SecretNotes",
-          "FromFile": "assets/Data/SecretNotes.xnb"
-       },
-       // Data
-       {
-          "Action": "Load",
-          "Target": "Strings/StringsFromCSFiles",
-          "FromFile": "assets/Data/StringsFromCSFiles.xnb"
-       },
-       // Data
-       {
-          "Action": "Load",
-          "Target": "Strings/StringsFromMaps",
-          "FromFile": "assets/Data/StringsFromMaps.xnb"
-       },
-       // Data
-       {
-          "Action": "Load",
-          "Target": "Strings/animationDescriptions",
-          "FromFile": "assets/Data/animationDescriptions.xnb"
-       },
-       // Data
-       {
-          "Action": "Load",
-          "Target": "Strings/Characters",
-          "FromFile": "assets/Data/Characters.xnb"
-       },
-       // Data
-       {
-          "Action": "Load",
-          "Target": "Data/ObjectInformation",
-          "FromFile": "assets/Data/ObjectInformation.xnb"
-       },
 
-    ]
+      // Festival
+      {
+         "Action": "Load",
+         "Target": "Data/Festivals/fall16",
+         "FromFile": "assets/Festivals/fall16.xnb"
+      },
+      // Festival
+      {
+         "Action": "Load",
+         "Target": "Data/Festivals/fall27",
+         "FromFile": "assets/Festivals/fall27.xnb"
+      },
+      // Festival
+      {
+         "Action": "Load",
+         "Target": "Data/Festivals/spring13",
+         "FromFile": "assets/Festivals/spring13.xnb"
+      },
+      // Festival
+      {
+         "Action": "Load",
+         "Target": "Data/Festivals/spring24",
+         "FromFile": "assets/Festivals/spring24.xnb"
+      },
+      // Festival
+      {
+         "Action": "Load",
+         "Target": "Data/Festivals/summer11",
+         "FromFile": "assets/Festivals/summer11.xnb"
+      },
+      // Festival
+      {
+         "Action": "Load",
+         "Target": "Data/Festivals/summer28",
+         "FromFile": "assets/Festivals/summer28.xnb"
+      },
+      // Festival
+      {
+         "Action": "Load",
+         "Target": "Data/Festivals/winter8",
+         "FromFile": "assets/Festivals/winter8.xnb"
+      },
+      // Festival
+      {
+         "Action": "Load",
+         "Target": "Data/Festivals/winter25",
+         "FromFile": "assets/Festivals/winter25.xnb"
+      },
+
+
+
+
+
+
+
+      // Dialogue Marriage Leah
+      {
+         "Action": "Load",
+         "Target": "Characters/Dialogue/MarriageDialogueLeah",
+         "FromFile": "assets/Dialogue/MarriageDialogueLeah.xnb"
+      },
+      // Dialogue Leah
+      {
+         "Action": "Load",
+         "Target": "Characters/Dialogue/Leah",
+         "FromFile": "assets/Dialogue/Leah.xnb"
+      },
+      // Dialogue Marriage Abigail
+      {
+         "Action": "Load",
+         "Target": "Characters/Dialogue/MarriageDialogueAbigail",
+         "FromFile": "assets/Dialogue/MarriageDialogueAbigail.xnb"
+      },
+      // Dialogue Abigail
+      {
+         "Action": "Load",
+         "Target": "Characters/Dialogue/Abigail",
+         "FromFile": "assets/Dialogue/Abigail.xnb"
+      },
+      // Dialogue Marriage Alex
+      {
+         "Action": "Load",
+         "Target": "Characters/Dialogue/MarriageDialogueAlex",
+         "FromFile": "assets/Dialogue/MarriageDialogueAlex.xnb"
+      },
+      // Dialogue Leah
+      {
+         "Action": "Load",
+         "Target": "Characters/Dialogue/Alex",
+         "FromFile": "assets/Dialogue/Alex.xnb"
+      },
+      // Dialogue Marriage Elliott
+      {
+         "Action": "Load",
+         "Target": "Characters/Dialogue/MarriageDialogueElliott",
+         "FromFile": "assets/Dialogue/MarriageDialogueElliott.xnb"
+      },
+      // Dialogue Elliott
+      {
+         "Action": "Load",
+         "Target": "Characters/Dialogue/Elliott",
+         "FromFile": "assets/Dialogue/Elliott.xnb"
+      },
+      // Dialogue Marriage Emily
+      {
+         "Action": "Load",
+         "Target": "Characters/Dialogue/MarriageDialogueEmily",
+         "FromFile": "assets/Dialogue/MarriageDialogueEmily.xnb"
+      },
+      // Dialogue Emily
+      {
+         "Action": "Load",
+         "Target": "Characters/Dialogue/Emily",
+         "FromFile": "assets/Dialogue/Emily.xnb"
+      },
+      // Dialogue Marriage Sebastian
+      {
+         "Action": "Load",
+         "Target": "Characters/Dialogue/MarriageDialogueSebastian",
+         "FromFile": "assets/Dialogue/MarriageDialogueSebastian.xnb"
+      },
+      // Dialogue Leah
+      {
+         "Action": "Load",
+         "Target": "Characters/Dialogue/Sebastian",
+         "FromFile": "assets/Dialogue/Sebastian.xnb"
+      },
+      // Dialogue Marriage Shane
+      {
+         "Action": "Load",
+         "Target": "Characters/Dialogue/MarriageDialogueShane",
+         "FromFile": "assets/Dialogue/MarriageDialogueShane.xnb"
+      },
+      // Dialogue Shane
+      {
+         "Action": "Load",
+         "Target": "Characters/Dialogue/Shane",
+         "FromFile": "assets/Dialogue/Shane.xnb"
+      },
+
+      // Dialogue Caroline
+      {
+         "Action": "Load",
+         "Target": "Characters/Dialogue/Caroline",
+         "FromFile": "assets/Dialogue/Caroline.xnb"
+      },
+      // Dialogue Evelyn
+      {
+         "Action": "Load",
+         "Target": "Characters/Dialogue/Evelyn",
+         "FromFile": "assets/Dialogue/Evelyn.xnb"
+      },
+      // Dialogue George
+      {
+         "Action": "Load",
+         "Target": "Characters/Dialogue/George",
+         "FromFile": "assets/Dialogue/George.xnb"
+      },
+      // Dialogue Gus
+      {
+         "Action": "Load",
+         "Target": "Characters/Dialogue/Gus",
+         "FromFile": "assets/Dialogue/Gus.xnb"
+      },
+      // Dialogue Haley
+      {
+         "Action": "Load",
+         "Target": "Characters/Dialogue/Haley",
+         "FromFile": "assets/Dialogue/Haley.xnb"
+      },
+      // Dialogue Jas
+      {
+         "Action": "Load",
+         "Target": "Characters/Dialogue/Jas",
+         "FromFile": "assets/Dialogue/Jas.xnb"
+      },
+      // Dialogue Leo Mainland
+      {
+      "Action": "Load",
+      "Target": "Characters/Dialogue/LeoMainland",
+      "FromFile": "assets/Dialogue/LeoMainland.xnb"
+   },
+      // Dialogue Marnie
+      {
+         "Action": "Load",
+         "Target": "Characters/Dialogue/Marnie",
+         "FromFile": "assets/Dialogue/Marnie.xnb"
+      },
+      // Dialogue Maru
+      {
+         "Action": "Load",
+         "Target": "Characters/Dialogue/Maru",
+         "FromFile": "assets/Dialogue/Maru.xnb"
+      },
+      // Dialogue Penny
+      {
+         "Action": "Load",
+         "Target": "Characters/Dialogue/Penny",
+         "FromFile": "assets/Dialogue/Penny.xnb"
+      },
+      // Dialogue Pierre
+      {
+         "Action": "Load",
+         "Target": "Characters/Dialogue/Pierre",
+         "FromFile": "assets/Dialogue/Pierre.xnb"
+      },
+      // Dialogue rainy
+      {
+         "Action": "Load",
+         "Target": "Characters/Dialogue/rainy",
+         "FromFile": "assets/Dialogue/rainy.xnb"
+      },
+      // Dialogue Robin
+      {
+         "Action": "Load",
+         "Target": "Characters/Dialogue/Robin",
+         "FromFile": "assets/Dialogue/Robin.xnb"
+      },
+      // Dialogue Sam
+      {
+         "Action": "Load",
+         "Target": "Characters/Dialogue/Sam",
+         "FromFile": "assets/Dialogue/Sam.xnb"
+      },
+      // Dialogue Sandy
+      {
+         "Action": "Load",
+         "Target": "Characters/Dialogue/Sandy",
+         "FromFile": "assets/Dialogue/Sandy.xnb"
+      },
+      // Dialogue Marriage Haley
+      {
+         "Action": "Load",
+         "Target": "Characters/Dialogue/MarriageDialogueHaley",
+         "FromFile": "assets/Dialogue/MarriageDialogueHaley.xnb"
+      },
+      // Dialogue Marriage Maru
+      {
+         "Action": "Load",
+         "Target": "Characters/Dialogue/MarriageDialogueMaru",
+         "FromFile": "assets/Dialogue/MarriageDialogueMaru.xnb"
+      },
+      // Dialogue Marriage Sam
+      {
+         "Action": "Load",
+         "Target": "Characters/Dialogue/MarriageDialogueSam",
+         "FromFile": "assets/Dialogue/MarriageDialogueSam.xnb"
+      },
+
+
+      // Dialogue
+      {
+         "Action": "Load",
+         "Target": "Data/EngagementDialogue",
+         "FromFile": "assets/Dialogue/EngagementDialogue.xnb"
+      },
+
+
+
+
+
+      // Data Weapons
+      {
+         "Action": "Load",
+         "Target": "Data/Weapons",
+         "FromFile": "assets/Data/Weapons.xnb"
+      },
+      // Data
+      {
+         "Action": "Load",
+         "Target": "Data/Furniture",
+         "FromFile": "assets/Data/Furniture.xnb"
+      },
+      // Data
+      {
+         "Action": "Load",
+         "Target": "Data/NPCDispositions",
+         "FromFile": "assets/Data/NPCDispositions.xnb"
+      },
+      // Data
+      {
+         "Action": "Load",
+         "Target": "Data/NPCGiftTastes",
+         "FromFile": "assets/Data/NPCGiftTastes.xnb"
+      },
+
+      // Data
+      {
+         "Action": "Load",
+         "Target": "Data/Strings/NPCNames",
+         "FromFile": "assets/Data/Strings/NPCNames.xnb"
+      },
+      // Data
+      {
+         "Action": "Load",
+         "Target": "Data/mail",
+         "FromFile": "assets/Data/mail.xnb"
+      },
+      // Data
+      {
+         "Action": "Load",
+         "Target": "Data/Quests",
+         "FromFile": "assets/Data/Quests.xnb"
+      },
+      // Data
+      {
+         "Action": "Load",
+         "Target": "Data/ExtraDialogue",
+         "FromFile": "assets/Data/ExtraDialogue.xnb"
+      },
+      // Data
+      {
+         "Action": "Load",
+         "Target": "Data/SecretNotes",
+         "FromFile": "assets/Data/SecretNotes.xnb"
+      },
+      // Data
+      {
+         "Action": "Load",
+         "Target": "Strings/StringsFromCSFiles",
+         "FromFile": "assets/Data/StringsFromCSFiles.xnb"
+      },
+      // Data
+      {
+         "Action": "Load",
+         "Target": "Strings/StringsFromMaps",
+         "FromFile": "assets/Data/StringsFromMaps.xnb"
+      },
+      // Data
+      {
+         "Action": "Load",
+         "Target": "Strings/animationDescriptions",
+         "FromFile": "assets/Data/animationDescriptions.xnb"
+      },
+      // Data
+      {
+         "Action": "Load",
+         "Target": "Strings/Characters",
+         "FromFile": "assets/Data/Characters.xnb"
+      },
+      // Data
+      {
+         "Action": "Load",
+         "Target": "Data/ObjectInformation",
+         "FromFile": "assets/Data/ObjectInformation.xnb"
+      }
+
+   ]
 }
