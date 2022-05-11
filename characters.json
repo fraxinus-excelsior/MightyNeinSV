@@ -78,6 +78,12 @@
          "Target": "Characters/Elliott",
          "FromFile": "assets/Characters/ElliottSprite.png"
       },
+      // caduceus beach sprite
+      {
+         "Action": "Load",
+         "Target": "Characters/Elliott_Beach",
+         "FromFile": "assets/Characters/Elliott_Beach.png"
+      },
       // molly sprite
       {
          "Action": "Load",
