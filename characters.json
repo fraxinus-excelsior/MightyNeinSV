@@ -1,149 +1,131 @@
 {
-  "Format": "1.25.0",
   "Changes": [
-      // append new hairstyles
-      {
-         "Action": "EditImage",
-         "Target": "Characters/Farmer/hairstyles",
-         "FromFile": "Farmer/hairstyles.png",
-         "ToArea": { "X": 0, "Y": 67 }
-      },
-      // replace the relevant skin colors
-      {
-         "Action": "EditImage",
-         "Target": "Characters/Farmer/skinColors",
-         "FromFile": "Farmer/skinColors.png",
-         "FromArea": { "X": 0, "Y": 16, "Width": 3, "Height": 4 },
-         "ToArea": { "X": 0, "Y": 16, "Width": 3, "Height": 4 }
-      },
-
-
       // jester sprite
       {
          "Action": "Load",
          "Target": "Characters/Emily",
-         "FromFile": "EmilySprite.png"
+         "FromFile": "assets/Characters/EmilySprite.png"
       },
       // jester beach sprite
       {
          "Action": "Load",
          "Target": "Characters/Emily_Beach",
-         "FromFile": "Emily_BeachSprite.png"
+         "FromFile": "assets/Characters/Emily_BeachSprite.png"
       },
       // fjord sprite
       {
          "Action": "Load",
          "Target": "Characters/Alex",
-         "FromFile": "AlexSprite.png"
+         "FromFile": "assets/Characters/AlexSprite.png"
       },
       // fjord beach sprite
       {
          "Action": "Load",
          "Target": "Characters/Alex_Beach",
-         "FromFile": "Alex_BeachSprite.png"
+         "FromFile": "assets/Characters/Alex_BeachSprite.png"
       },
       // yasha sprite
       {
          "Action": "Load",
          "Target": "Characters/Leah",
-         "FromFile": "LeahSprite.png"
+         "FromFile": "assets/Characters/LeahSprite.png"
       },
       // yasha beach sprite
       {
          "Action": "Load",
          "Target": "Characters/Leah_Beach",
-         "FromFile": "Leah_BeachSprite.png"
+         "FromFile": "assets/Characters/Leah_BeachSprite.png"
       },
       // sky spear f
       {
          "Action": "Load",
          "Target": "Characters/LeahExFemale",
-         "FromFile": "LeahExFemale.png"
+         "FromFile": "assets/Characters/LeahExFemale.png"
       },
       // sky spear m
       {
          "Action": "Load",
          "Target": "Characters/LeahExMale",
-         "FromFile": "LeahExFemale.png"
+         "FromFile": "assets/Characters/LeahExFemale.png"
       },
       // caleb sprite
       {
          "Action": "Load",
          "Target": "Characters/Shane",
-         "FromFile": "ShaneSprite.png"
+         "FromFile": "assets/Characters/ShaneSprite.png"
       },
       // caleb beach sprite
       {
          "Action": "Load",
          "Target": "Characters/Shane_Beach",
-         "FromFile": "Shane_BeachSprite.png"
+         "FromFile": "assets/Characters/Shane_BeachSprite.png"
       },
       // caleb sprite joja
       {
          "Action": "Load",
          "Target": "Characters/Shane_JojaMart",
-         "FromFile": "Shane_JojaMartSprite.png"
+         "FromFile": "assets/Characters/Shane_JojaMartSprite.png"
       },
       // nott sprite
       {
          "Action": "Load",
          "Target": "Characters/Jas",
-         "FromFile": "JasSprite.png"
+         "FromFile": "assets/Characters/JasSprite.png"
       },
       // caduceus sprite
       {
          "Action": "Load",
          "Target": "Characters/Elliott",
-         "FromFile": "ElliottSprite.png"
+         "FromFile": "assets/Characters/ElliottSprite.png"
       },
       // molly sprite
       {
          "Action": "Load",
          "Target": "Characters/Sebastian",
-         "FromFile": "SebastianSprite.png"
+         "FromFile": "assets/Characters/SebastianSprite.png"
       },
       // molly beach sprite
       {
          "Action": "Load",
          "Target": "Characters/Sebastian_Beach",
-         "FromFile": "Sebastian_BeachSprite.png"
+         "FromFile": "assets/Characters/Sebastian_BeachSprite.png"
       },
       // beau sprite
       {
          "Action": "Load",
          "Target": "Characters/Abigail",
-         "FromFile": "AbigailSprite.png"
+         "FromFile": "assets/Characters/AbigailSprite.png"
       },
       // caroline sprite
       {
          "Action": "Load",
          "Target": "Characters/Caroline",
-         "FromFile": "Caroline.png"
+         "FromFile": "assets/Characters/Caroline.png"
       },
       // caroline beach sprite
       {
          "Action": "Load",
          "Target": "Characters/Caroline_Beach",
-         "FromFile": "Caroline_Beach.png"
+         "FromFile": "assets/Characters/Caroline_Beach.png"
       },
       // pierre sprite
       {
          "Action": "Load",
          "Target": "Characters/Pierre",
-         "FromFile": "Pierre.png"
+         "FromFile": "assets/Characters/Pierre.png"
       },
       // pierre beach sprite
       {
          "Action": "Load",
          "Target": "Characters/Pierre_Beach",
-         "FromFile": "Pierre_Beach.png"
+         "FromFile": "assets/Characters/Pierre_Beach.png"
       },
       // clothes therapy sprites
       // replace first row of sprites with edited Caleb sprites
       {
          "Action": "EditImage",
          "Target": "Characters/ClothesTherapyCharacters",
-         "FromFile": "ClothesTherapyCharacters.png"
+         "FromFile": "assets/Characters/ClothesTherapyCharacters.png"
       }
    ]
 }

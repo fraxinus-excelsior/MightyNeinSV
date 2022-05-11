@@ -1,0 +1,127 @@
+{
+   "Changes": [
+      {
+         "Action": "EditData",
+         "Target": "Data/Festivals/fall16",
+         "Entries": {
+            "Leah_spouse": "I learned all of Robin's techniques last year, but she's always one step ahead of me.",
+            "Sebastian_spouse": "Hey, @. I'm just catching up with Sam. You go on ahead and have some fun.",
+            "Sam_spouse": "Molly's the same as always. Are you having fun at the festival?",
+            "Elliott_spouse": "The aroma drew me here, but the zesty sauce... that truly sealed my fate... *gurgle*$s",
+            "Sebastian": "You should check out the fortunes. Not as good as my own, but not complete bullshit either.",
+            "Alex": "I played the 'Strength' game too many times and now my arms feel like rubber. I only got up to half orc. Fitting I guess.",
+            "Emily": "You know, I would've made a pretty good clown. I guess that's why my name is Jester!",
+            "Leah": "I really admire Robin's carpentry skills. I use a lot of the same techniques in my own work.'Course we use different tools.",
+            "Elliott": "I'm trying to get Gus to tell me his mushroom sauce recipe, but he won't budge.",
+            "Gus": "Eat as much as you like! It's all free today... compliments of Mayor Lewis.$h#$e#Oh! Make sure to dribble some of my secret mushroom sauce on there.",
+            "Jas": "Ow! A hen pecked my little finger!... Revenge will be mine...$u"
+         }
+      },
+      {
+         "Action": "EditData",
+         "Target": "Data/Festivals/fall27",
+         "Entries": {
+            "Abigail_spouse": "Check out these spiders... They almost look real.$s",
+            "Elliott_spouse": "Mmph... I think I've eaten a few too many slices of pumpkin pie. I don't feel so good.",
+            "Abigail": "I hate to admit it... but spiders kinda freak me out...$s",
+            "Sebastian": "I have no idea how these skeletons are walking... creepy.#$e#It's fascinating though... I wonder if that's what happened to me.#$e#Huh? Did I say something weird again?",
+            "Alex": "There's something weird over there. But how do I get to it?#$e#There's gotta be a secret passage somewhere around here. Where's Misty Step when you need it?",
+            "Emily": "Do you like the jack-o-lanterns? I carved them myself. One has a dick carved in the back.",
+            "Shane": "I wonder if that Wizard would be willing to talk to me...",
+            "Jas": "There are giant spiders in the maze. I bet I could ride them. All I need is a small saddle!$h"
+         }
+      },
+      {
+         "Action": "EditData",
+         "Target": "Data/Festivals/spring13",
+         "Entries": {
+            "AbbyWin": "pause 100/jump Abigail/faceDirection Vincent 3/pause 800/move Abigail 0 -1 0/faceDirection Vincent 0/speak Lewis \"Here's your prize, Abigail. Enjoy!\"/pause 500/move Abigail 0 -1 0/playSound coin/pause 400/move Abigail 0 2 0/faceDirection Lewis 0/speak Lewis \"Well, that's it for this year's Egg Festival. Thanks for coming, everyone!\"/pause 1000/viewport move 1 -1 5000/pause 2000/globalFade/viewport -1000 -1000/waitForOtherPlayers festivalEnd/end",
+            "Sebastian_spouse": "I'll be rooting for you in the egg hunt, dear.$h",
+            "Alex_spouse": "Ungh... I think I ate a dozen too many hard boiled eggs... There's gonna be some eldritch blasts tonight...$s",
+            "Elliott_spouse": "I enjoy seeing you so relaxed, dear.$h",
+            "Abigail": "I don't really care about the eggs, I just really like finding shit.$h",
+            "Sebastian": "We used to do a rotten egg toss.#$b#Mayor Lewis put an end to that pretty quick.",
+            "Caroline": "Beau's always loved the egg hunt, ever since she was a tiny girl.",
+            "Shane": "Why don't any of these festivals have a book barrel?#$b#I just want a little more arcane knowledge is all.$h",
+            "Elliott": "Don't wander too far during the egg hunt... Buddy system...",
+            "Jas": "Oh, I don't care about winning the hunt. I just want to collect the eggs.$h"
+         }
+      },
+      {
+         "Action": "EditData",
+         "Target": "Data/Festivals/spring24",
+         "Entries": {
+            "set-up": "event1/22 22/farmer 76 17 1/changeToTemporaryMap Forest-FlowerFestival/loadActors Set-Up/advancedMove Vincent true -1 0 0 -1 18 0 0 1 -17 0/advancedMove Jas true 18 0 0 1 -18 0 0 -1/advancedMove Pam true 2 25000 0 -3 4 0 4 25000 -4 0 0 3/advancedMove Haley true 0 1 2 3000 2 0 0 -1 -2 0 3 500 4 500 1 500 2 500 2 0 1 500 2 500 3 500 4 500 0 2 0 -2 -2 0/advancedMove Caroline true 7 0 0 1 1 18000 0 -1 -7 0 3 18000/advancedMove Willy true 2 25000 -4 0 0 -12 4 0 0 -1 4 30000 0 1 -4 0 0 12 4 0/playerControl flowerFestival",
+            "Sebastian": "I should have worn my fancy boots.",
+            "Alex": "I'm just tryin' to remember the moves. I got two left feet.",
+            "Clint": "I wonder if Jester would dance with me?",
+            "Emily": "Whoo... I'm stuffed. Hey, have you tried the red jelly donuts yet?",
+            "Leah": "Hi @. Aren't all the flowers lovely? Evelyn outdid herself.$h",
+            "Shane": "Mmm... excellent sauce... *slurp*#$e#Ah, I bet Frumpkin would enjoy this.#$b#*crunch* ...Wow... That's hot.$s",
+            "Jas": "Braiding flowers in your hair is good luck!",
+            "Vincent": "Can I have flowers in my hair?"
+                
+         }
+      },
+      {
+         "Action": "EditData",
+         "Target": "Data/Festivals/summer11",
+         "Entries": {
+            "Leah_spouse": "It's nice to see everyone once in a while, but mostly I want to get back to the farm. Crowds make me a little uncomfortable.",
+            "Sebastian_spouse": "I'm doing my best to not spike the punch.",
+            "Alex_spouse": "Hey, I'll take any excuse to come hang out at the beach. This weather is amazing! Really brings me back!",
+            "Abigail": "It's tiring to socialize with everyone... I just end up insulting people when I try.",
+            "Alex": "Perfect weather for a beach party, huh? Nothin' like it.",
+            "Leah": "The soup is never quite strong enough for me... Some spider venom would give it a nice kick.",
+            "Shane": "Hmm... This honey could work for my suggestion spell... I should take some for my component pouch.",
+            "Elliott": "I woke up late, stepped out of the door and found myself in the middle of all this hubbub!#$e#I forgot that today was the Luau. My memory isn't the uh... best.$h",
+            "Jas": "Vincent isn't a very good dancer."
+         }
+      },
+      {
+         "Action": "EditData",
+         "Target": "Data/Festivals/summer28",
+         "Entries": {
+            "Abigail": "Jester gets real excited this time of year.",
+            "Sebastian": "I thought I saw something moving in there... something big, something dark.#$e#Heh! Just trying to scare you, darling.$h",
+            "Alex": "They're beautiful... Last thing you wanna do is jump in there though. That is a bad time...$0",
+            "Emily": "Beautiful, isn't it?#$b#Sometimes things that are the most beautiful are the things that can hurt you the worst.",
+            "Sam": "I wonder if they're poisonous?#$e#Maybe I shouldn't push Molly in the water after all...$h",
+            "Leah": "Hey. What do you think jellies taste like? ",
+            "Shane": "Sometimes you need a night like this to step outside of yourself.",
+            "Elliott": "If we keep polluting the oceans, the jellies will surely go extinct. It's already in the process of happening.#$e#What a shame... people have no respect for nature anymore.",
+            "Jas": "I love jellies! I hope to eat one some day!"
+         }
+      },
+      {
+         "Action": "EditData",
+         "Target": "Data/Festivals/winter8",
+         "Entries": {
+            "Sebastian_spouse": "Don't worry about me, I know how we can warm up later.",
+            "Alex_spouse": "I'll be rootin' for you in the fishin' competition.",
+            "Abigail": "What do you think of my snow-goon? I think he looks like Molly.",
+            "Sebastian": "Cold? Nah, I never get cold. Fiendish blood!",
+            "Shane": "If it were up to me, I'd probably have a cat show at the saloon, instead...",
+            "Alex": "Snowmen are okay, I guess. But mostly I'm lookin' forward to the spring.",
+            "Clint": "Jester started helping me without any provocation... does that mean something? *gulp*$4",
+            "Emily": "Wow, this snowman needs a makeover. Who made this?$h",
+            "Leah": "Oh, ice. A beautiful material to sculpt in. We never got much snow back home.#$e#I don't really mind the cold though.",
+            "Elliott": "I'm entering the ice fishing competition today. Why not?#$e#We'll be releasing them back to the Wildmother in the end anyway.",
+            "Jas": "Can I eat his nose when we're done?$h"
+         }
+      },
+      {
+         "Action": "EditData",
+         "Target": "Data/Festivals/winter25",
+         "Entries": {
+            "Abigail_spouse": "I wonder if I could lick one of those giant canes...",
+            "Sebastian_spouse": "Hey, @. Why don't I show you what I'm thankful for when we get home.",
+            "Abigail": "Nothing like a piping hot feast on a cold winter's day, huh? Gonna grab some pocket bacon for later.$h",
+            "Robin": "Hiya, @. You're welcome to join our table if you need company.$h",
+            "Shane": "I'm really hoping I get a spell book this year.",
+            "Sebastian": "You ever get a craving to put scrambled eggs down your pants? That's the kind of thing I'm thankful for.",
+            "Alex": "Oh, hey there @. I know I'm supposed to be thinkin' on what I'm thankful for... but this time of year just reminds me of all that I've lost.$s"
+         }
+      }
+   ]
+}

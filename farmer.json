@@ -1,0 +1,19 @@
+{
+  "Changes": [
+      // append new hairstyles
+      {
+         "Action": "EditImage",
+         "Target": "Characters/Farmer/hairstyles",
+         "FromFile": "assets/Characters/Farmer/hairstyles.png",
+         "ToArea": { "X": 0, "Y": 672, "Width": 128, "Height": 192 }
+      },
+      // replace the relevant skin colors
+      {
+         "Action": "EditImage",
+         "Target": "Characters/Farmer/skinColors",
+         "FromFile": "assets/Characters/Farmer/skinColors.png",
+         "FromArea": { "X": 0, "Y": 16, "Width": 3, "Height": 4 },
+         "ToArea": { "X": 0, "Y": 16, "Width": 3, "Height": 4 }
+      }
+   ]
+}

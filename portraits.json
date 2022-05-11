@@ -1,0 +1,82 @@
+{
+  "Changes": [
+      // emily portrait
+      {
+         "Action": "Load",
+         "Target": "Portraits/Emily",
+         "FromFile": "assets/Portraits/EmilyPortrait.png"
+      },
+      // alex portrait
+      {
+         "Action": "Load",
+         "Target": "Portraits/Alex",
+         "FromFile": "assets/Portraits/AlexPortrait.png"
+      },
+      // leah portrait
+      {
+         "Action": "Load",
+         "Target": "Portraits/Leah",
+         "FromFile": "assets/Portraits/LeahPortrait.png"
+      },
+      // leah beach portrait
+      {
+         "Action": "Load",
+         "Target": "Portraits/Leah_Beach",
+         "FromFile": "assets/Portraits/Leah_Beach.png"
+      },
+      // abigail portrait
+      {
+         "Action": "Load",
+         "Target": "Portraits/Abigail",
+         "FromFile": "assets/Portraits/AbigailPortrait.png"
+      },
+      // caroline portrait
+      {
+         "Action": "Load",
+         "Target": "Portraits/Caroline",
+         "FromFile": "assets/Portraits/CarolinePortrait.png"
+      },
+      // pierre portrait
+      {
+         "Action": "Load",
+         "Target": "Portraits/Pierre",
+         "FromFile": "assets/Portraits/PierrePortrait.png"
+      },
+      // pierre beach portrait
+      {
+         "Action": "Load",
+         "Target": "Portraits/Pierre_Beach",
+         "FromFile": "assets/Portraits/Pierre_Beach.png"
+      },
+      // Elliott portrait
+      {
+         "Action": "Load",
+         "Target": "Portraits/Elliott",
+         "FromFile": "assets/Portraits/ElliottPortrait.png"
+      },
+      // Jas portrait
+      {
+         "Action": "Load",
+         "Target": "Portraits/Jas",
+         "FromFile": "assets/Portraits/JasPortrait.png"
+      },
+      // sebastian portrait
+      {
+         "Action": "Load",
+         "Target": "Portraits/Sebastian",
+         "FromFile": "assets/Portraits/SebastianPortrait.png"
+      },
+      // shane portrait
+      {
+         "Action": "Load",
+         "Target": "Portraits/Shane",
+         "FromFile": "assets/Portraits/ShanePortrait.png"
+      },
+      // shane beach portrait
+      {
+         "Action": "Load",
+         "Target": "Portraits/Shane_Beach",
+         "FromFile": "assets/Portraits/Shane_Beach.png"
+      }
+   ]
+}

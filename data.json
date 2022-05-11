@@ -1,0 +1,310 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/EngagementDialogue",
+            "Entries": {
+                "Leah1": "I never knew I would allow myself to love again.$h#$e# But I'm glad I have.",
+                "Abigail0": "Me? Married? I never thought this would happen.$h#$e#Every night will be a sleepover. Awesome.$h",
+                "Abigail1": "I can't believe I'm engaged.$h#$e#I won't have to live at home anymore.$l",
+                "Sebastian0": "In a couple days I'm going to begin a new chapter in my life.$h#$e#Exciting to think about.$l",
+                "Elliott0": "The farm will be such a lovely place to do my gardening. I'm really looking forward to this.$h#$e#We're going to make a great pair. I can just feel it.$l",
+                "Alex0": "@, this is... amazing. I never thought I'd get married.$l#$e#I... guess I didn't think I was worth it. But I'm glad you see more in me.$h",
+                "Alex1": "It's nice to finally know I'll have a home of my own... with you.$h",
+                "Shane1": "@... My head's spinning, this is a lot.",
+                "Emily0": "Can you believe we're about to move in together? I hope you like pets!.#$e#They need homes too!",
+                "Emily1": "I always knew something important would happen between us... I just never thought it would be this!$h#$e#I might draw some dicks on the walls for you.",
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/ExtraDialogue",
+            "Entries": {
+                "PurchasedItem_Pierre_QualityHigh": "Hey, remember that {2} you sold me the other day? I ended up serving it to the family for a special dinner.#$b#My wife loved it! ...And Beau even started going to town on it after I smothered the thing in hoisin sauce. $h#$b#... well,... back to business, huh?",
+                "PurchasedItem_Haley": "Jester tried to serve me {1} {2} for dinner last night... I threw it away when she wasn't looking.#$e#I don't like her cooking...$s",
+                "PurchasedItem_Alex": "Hey, so I picked up {1} {2} at the store last night. Evelyn made her special casserole...",
+                "PurchasedItem_Leah": "The other day I bought {1} {2} at Pierre's. It was a perfect side to the wild rabbit I caught.",
+            
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Furniture",
+            "Fields": {
+                "1306": { // Leah's Sculpture
+                    0: "Yasha's Sculpture"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/mail",
+            "Entries": {
+                "Emily": "Hi!^How are you doing? I hope you enjoy the gift I've sent you... Well, goodbye! +   ^   -Jester %item object 243 1 430 1 438 1 %%[#]A Gift From Jester",
+                "Shane": "Hey,^I thought it would be fun to send you a letter. I don't really know what to write, though.^ Here, I've enclosed a treat for you. I... hope you like it.^Okay, see you soon. ^   -Caleb %item object 215 1 349 1 %%[#]A Gift From Caleb",
+                "afterArtShow": "Dear @,^Thanks again for supporting me. I never would have taken the plunge without your help. I sold nearly all of my sculptures, and I think I'll be living quite comfortably now! I hope to see you again soon.  ^   -Yasha[#]Yasha's Thank-you Note",
+                "EmilyCooking": "@!^Flip this letter over for instructions on how to make a super-healthy meal!^You'll feel energized. See you soon. ^   -Jester%item cookingRecipe %%[#]Jester's Healthy Recipe",
+                "ShaneCooking": "@,^I found this recipe in a book I was reading and I thought it sounded interesting. Feel free to give me a taste if you make it. ^   -Caleb%item cookingRecipe %%[#]Caleb's Recipe",
+                "abbySpiritBoard": "Hi @.^One of these days you should come to my room after dark... Maybe around 8pm. ^I want to show you something. ^   -Beau[#]Beau's Note",
+                "elliottReading": "@,^I have great news... my guide is finished. I'm giving a public reading this afternoon at the library. Hope to see you there. ^   -Caduceus[#]Caduceus's Reading",
+                "elliottBoat": "Meet me at the docks on a sunny morning. I've got something in mind. ^   -Caduceus[#]Caduceus's Note",
+                "joshMessage": "@,^meet me at the saloon tonight after dark. ^   -Fjord[#]Fjord's Invitation",
+                "EmilyClothingTherapy": "@,^I have this crazy new idea that I want to involve you in... It's called \"Clothing Therapy\".^^Please come to the Mayor's house today to see what it's all about.^^ Love, Jester[#]Jester's Idea",
+                "EmilyCamping": "@,^Let's go camping! ^^ Meet me in the secret woods after 10pm. Wink wink.^^  Love, Jester[#]Jester's Invitation",
+                "EmilyDoneCamping": "Thanks for joining me last night... I had a great time.^I'm actually glad that bear showed up! I love bears!^^See you soon^^  Love, Jester[#]Jester's Note",
+                "winter_6_1": "I've got an unusual request. Could you keep this a secret?^ I want you to deliver a ruby to Jester. It's her favorite stone. Tell her it's from me.^   -Clint %item quest 110 %%[#]Clint's Unusual Request",
+                "spring_6_2": "@-^I'm really craving a pink cake. I haven't been able to find one at the store, so I'm asking you. I'll pay really well for it!^   -Jester%item quest 115 %%[#]Jester's Request",
+                "winter_19_2": "Dear @,^I'm at my wit's end. Beau keeps pestering me to make her a Coco-no-no at the saloon, but I have no way of getting a coconut!^Can you help me?^  -Gus%item quest 125 %%[#]Gus Needs A Coconut",
+                "elliottLetter1": "@, my love,^^I've just arrived in Grampleton, to start the tour. I've forgotten how hectic the city is! The streets are packed with people... they either seem in a mad hurry, or lost in a daze, unaware of their surroundings. I miss Pelican Town already!^^I begin the tour this evening, at a local bookstore. I must admit, I'm becoming a bit nervous at the thought of public speaking... my stomach feels as if it's been twisted into a soft pretzel and doused with spicy cheese dip. Wish me luck!^^-Love, Caduceus^^P.S. I hope you had a peaceful night, and weren't too scared all alone in that big house! %item conversationTopic ElliottGone2 0 %%[#]Letter From My Husband",
+                "elliottLetter2": "My dear @,^^The first reading went well, though the audience was a bit smaller than I'd hoped. Still, I sold enough copies of the guide to pay for my (bug-infested) hotel room!^^In a few hours, I leave for Zuzu City. If yesterday's reading was a warm-up, this next one will be a true napalm blast...^^I miss you very much. Remember to eat well! Oh, and don't forget the leftover crab cakes I put in the fridge...^-Love, Caduceus %item conversationTopic ElliottGone3 0 %%[#]Letter From My Husband 2",
+                "elliottLetter3": "My sweet @,^^Last night in Zuzu City was quite the experience! It seems there's a large literary scene here... a few dozen people showed up at my reading!^^I even signed a couple of autographs... it's strange to be seen as someone important. It's all a matter of framing, a grand illusion... for truly I am no one special. Only your devoted Caduceus, as always.^^Currently I'm alone, in my hotel room, 'ingesting' a Joja Value Meal...^^Should this be called 'food'?^Or 'edible matter'?^I needn't long brood^It must be the latter^^I look forward to returning home soon. Hope you enjoyed the crab cakes.^^-Love, Caduceus %item conversationTopic ElliottGone4 0 %%[#]Letter From My Husband 3",
+                "elliottLetter4": "In dreams, when graced with lofty view^I gaze upon the sunlit sea^What distant shores I've travelled to^But time now clouds my memory^^There is but one eternal place^Where I shall someday pass beyond^In Valley dear, where my love waits:^Our little home beside the pond^^-Caduceus %item conversationTopic ElliottGone5 0 %%[#]Letter From My Husband 4",
+                "elliottLetter5": "My dear @,^^I won't bore you with any more details about my readings. They are mostly the same.^^I'm sure your time has been much more exciting! I can't wait to return and see what progress has been made.^^On these long travels between towns, I amuse myself by closing my eyes and envisioning the farm... I see kegs pulsing with sweet wine, a furnace ablaze with precious ore, and our little kitchen with the smell of cinnamon and nutmeg. There's a lot to enjoy!^^Just don't stay out too late in the mines, my love. It's dangerous in there! If you must go... bring plenty of food.^^-Love, Caduceus %item conversationTopic ElliottGone6 0 %%[#]Letter From My Husband 5",
+                "elliottLetter6": "My dear @,^^This will be my last letter before I return home. I've had a fine trip... though nothing too exciting. It's been nice to meet people who enjoy my work, but I'm eager to return home.^^I look forward to the comfort of our little house, the satisfying farm work, a home-cooked meal, and most of all, cozying into the flannel sheets with you.^^See you soon!^-Love, Caduceus %item conversationTopic ElliottGone7 0 %%[#]Letter From My Husband 6",
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/NPCDispositions",
+            "Fields": {
+                "Abigail": { 11: "Beau" },
+                "Elliott": { 11: "Caduceus" },
+                "Emily": { 9: "Haley 'roommate'", 11: "Jester" },
+                "Haley": { 9: "Emily 'roommate'" },
+                "Jas": { 11: "Nott" },
+                "Alex": {9: "George 'pa' Evelyn 'ma'", 11: "Fjord" },
+                "Leah" : {11: "Yasha" },
+                "Marnie": { 9: "Lewis '' Shane 'tenant' Jas 'tenant'" },
+                "Maru": { 9: "Robin 'mom' Demetrius 'dad' Sebastian 'tenant'" },
+                "Robin": { 9: "Demetrius 'husband' Maru 'daughter' Sebastian 'tenant'" },
+                "Sebastian": { 1: "Neutral", 9: "Robin 'landlord' Maru 'landlord's_daughter' Sam ''", 11: "Mollymauk" },
+                "Shane": { 9: "Marnie 'landlord'", 11: "Caleb" },
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "Fields": {
+                "Sebastian": { // Mollymauk
+                    0: "This is fabulous! Thank you!",
+                    // Loves: Strawberry (400) Pale Ale (303) Beer (346) Void Egg (305) Wine (348) Omelet (195) Piña Colada (873) Mead (459) Red Mushroom (420) Fried Egg (194)
+                    1: "400 303 346 305 348 195 459 420 194 873",
+                    // Likes: Flounder (267) Pumpkin (276) Caviar (445) Ring Category (-96) Fairy Stone (577) Fireworks (Red, Purple, Green) (893, 894, 895) Elvish Jewelry (104)
+                    3: "267 276 445 -96 577 893 894 895 104",
+                    // Dislikes: Lumber (30)
+                    5: "30",
+                    // Hates: Fish Category (-4) Clay (330) Building Resources (-16)
+                    7: "-4 330 -16"
+                },
+                "Abigail": { // Beau
+                    0: "Awe yeah! This is awesome, @!",
+                    // Loves: Cherry Bomb (286) Pocket Bacon (666) Red Mushroom (420) Pale Ale (303) Beer (346) Wine (348) Muscle Remedy (351) Complete Breakfast (201)
+                    1: "286 666 420 303 346 348 351 201",
+                    2: "Hey, this looks great!",
+                    // Likes: Dragon Tooth (852) Fireworks (Red, Purple, Green) (893, 894, 895) Aquamarine (62)
+                    3: "852 893 894 895 62",
+                    4: "Um... What am I supposed to do with this?",
+                    // Dislikes: Egg Category (-5) Vegetable Category (-75) Wild Horseradish (16) Sugar (245) Wheat Flour (246)
+                    5: "-5 -75 16 245 246",
+                    6: "Why would I want this?",
+                    // Hates: Clay (330)
+                    7: "330"
+                },
+                "Alex": { // Fjord
+                    0: "Hey, now that's really something, isn't it? Thanks!",
+                    // Loves: Complete Breakfast (201) Salmon Dinner (212) Pale Ale (303) Beer (346) Octopus (149) Squid (151)
+                    1: "201 212 303 346 149 151",
+                    2: "This really brings me back. Thanks!",
+                    // Likes: Fish Category (-4) Egg Category (-5) Wine (348) Rusty Spur (111) Anchor (117) Ocean Stone (560) Stone (2)
+                    3: "-4 -5 348 111 117 560 2",
+                    // Dislikes: Wild Horseradish (16)
+                    5: "16",
+                    // Hates: Mutant Carp (682)
+                    7: "682"
+                },
+                "Emily": { // Jester
+                    0: "This is so thoughtful! Thank you!",
+                    // Loves: Ruby (64) Milk Category (-6) Honey (340) Sunflower (421) Fairy Rose (595) Diamond (72) Miner's Treat (243) Ice Cream (233) Chocolate Cake (220)
+                    1: "64 -6 340 421 595 72 243 233 220",
+                    2: "*gasp* This is great!",
+                    // Likes: Fire Quartz (82) Sweet Pea (402) Crocus (418) Cherry Bomb (286) Bomb (287) Mega Bomb (288) Napalm Ring (811) Ornamental Fan (106)
+                    3: " 82 402 418 286 287 288 811 106",
+                    4: "Sorry, @. I don't really like this.",
+                    // Dislikes: Frozen Tear (84) Cave Carrot (78) Fried Eel (225) Spicy Eel (226)
+                    5: "84 78 225 226",
+                    6: "Thanks... I hate it.",
+                    // Hates: Oil (247) Red Cabbage (266)
+                    7: "247 266"
+                },
+                "Jas": { // Nott
+                    0: "*gasp*... FLUFFER NUTTER!$h",
+                    // Loves: Cherry Bomb (286) Bomb (287) Mega Bomb (288) Explosive Ammo (441) Void Egg (305) Void Mayonnaise(308) Pale Ale (303) Beer (346) Wine (348) Mead (459) Piña Colada (873) Napalm Ring (811)
+                    1: "286 287 288 441 305 308 303 346 348 459 873 811",
+                    2: "I love shiny things! Thank you!",
+                    // Likes: Daffodil (18) Gem Category (-2) Mineral Cateogry (-12) Metal Resources (-15) Junk Category (-20) Sweet Pea (402) Monster Loot Category (-28) Wild Bait (774) Burglar's Ring (526) Pocket Bacon (666) Fireworks (Red, Purple, Green) (893, 894, 895) Chewing Stick (105)
+                    3: "18 -2 -12 -15 -20 402 -28 774 526 666 893 894 895 105",
+                    // Dislikes: Egg Category (-5) Greens Category (-81) Vegetable Category (-75) Fruits Category (-79)
+                    5: "-5 -81 -75 -79",
+                    // Hates: Artisan Goods Cateogry (-26) Stone (2) Wild Horseradish (16) Clay (330)
+                    7: "-26 2 16 330"
+                },
+                "Leah": { // Yasha
+                    0: "Oh! This is really very nice. Thank you.",
+                    // Loves: Ancient Sword (109) Beer (346) Pale Ale (303) Wine (348) Sunflower (421) Mead (459) Warrior Ring (521) Tulip (591) Summer Spangle (593) Fairy Rose (595) Bug Steak (874)
+                    1: "109 346 303 348 421 459 521 591 593 595 874",
+                    2: "This is a nice gift! Thank you!",
+                    // Likes: Egg Category (-5) Milk Cateogry (-6) Fruits Category (-79) Greens Category (-81) Flowers Category (-80) Daffodil (18) Dandelion (22) Prehistoric Skull (581) Blue Jazz (597) Poppy (376) Bug Meat (684) Lobster (715) Crab (717)
+                    3: "-5 -6 -79 -81 -80 18 22 581 597 376 684 715 717",
+                    // Dislikes: Gem Category (-2) Stone (2) Seaweed (152) Clay (330) Pink Cake (221) Rice Pudding (232) Carp Surprise (209)
+                    5: "-2 2 152 330 221 232 209",
+                    // Hates: Cauliflower (190)
+                    7: "190"
+                },
+                "Shane": { // Caleb
+                    0: "Oh wow, @. How'd you know this is my favorite?",
+                    // Loves: Clay (330) Honey (340) Diamond (72) Fire Opal (565) Fire Quartz (82) Pepper Poppers (215) Hot Pepper (260) Beer (346) Bread (216)
+                    1: "330 340 72 565 82 215 260 346 216",
+                    2: "This is great. Thanks!",
+                    // Likes: Egg Category (-5) Fruits Category (-79) Pale Ale (303) Wine (348) Mead (459) Bat Wing (767) Dwarf Scroll I to IV (96, 97, 98, 99) Lost Book (102)
+                    3: "-5 -79 303 348 459 767 96 97 98 99 102",
+                    // Dislikes: Greens Category (-81) Seaweed (152)
+                    5: "-81 152",
+                    // Hates: Rare Disc (108)
+                    7: "108"
+                },
+                "Elliott": { // Caduceus
+                    0: "@, this is a beautiful gift. Thank you very much.",
+                    // Loves: Green Tea (614) Spice Berry Tea (615) Clay (330) Red Mushroom (420) Common Mushroom (404) Morel (257) Chanterelle (281) Fried Mushroom (205) Tea Set (341) Purple Mushroom (422) Tea Leaves (815) Fiddlehead Risotto (649) Bone Flute (119)
+                    1: "614 615 330 420 404 257 281 205 341 422 815 649 119",
+                    2: "This is for me? Thank you!",
+                    // Likes: Cave Carrot (78) Sunflower Seeds (431) Greens Category (-81) Vegetable Category (-75) Gem Category (-2) Mineral Cateogry (-12) Fruits Category (-79) Fiddlehead Fern (259) Tea Sapling (251) Fertilizer Category (-19) Flute Block (464) Taro Root (830) Horse Flute (911) Snow Yam (416) Potato (192)
+                    3: "78 431 -81 -75 -2 -12 -79 259 251 -19 464 830 911 416 192",
+                    4: "Hmm... I'm not sure I like his.",
+                    // Dislikes: Pizza (206)
+                    5: "206",
+                    // Hates: Fried Egg (194) Fish Category (-4) Egg Category (-5) Mayonnaise (306) Duck Mayonnaise (307) Void Mayonnaise (308) Rabbit's Foot (446) Eggplant (272) Lobster Bisque (730) Fish Stew (728) Escargot (729)
+                    7: "194 -4 -5 306 307 308 446 272 730 728 729",
+                    // Neutral: Metal Resources (-15)
+                    9: "-15"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/ObjectInformation",
+            "Entries": {
+                "615": "Spice Berry Tea/150/1/Crafting/Spice Berry Tea/It smells delicious. This is sure to give you a boost./drink/0 0 0 0 0 0 0 0 0 1 0/120",
+                "666": "Pocket Bacon/300/55/Cooking -7/Pocket Bacon/You can pick the lint off./food/0 0 0 0 0 0 0 0 0 0 0/0",
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Quests",
+            "Fields": {
+                "108": { 9: "Oh, the pumpkin! It's a good one... Beauregard will be so happy when she sees this. Thanks, @!$h" },
+                "110": {
+                    2: "Clint wants you to give Jester a ruby. He wants you to tell her it's from him.",
+                    3: "Bring Jester a Ruby.",
+                    4: "Emily 64",
+                    9: "Oh, my favorite stone! It reminds me of my mom! You're so sweet!$h#$b#Huh? It's from who?$u#$b#Oh, you got it at Clint's? Well I don't care where you got it from, it's beautiful! Thank you! *smooch*$h"
+                },
+                "115": {
+                    1: "Baked Goods",
+                    2: "Jester wants baked goods if you have any. She's asking for a pink cake.",
+                    3: "Bring Jester a pink cake.",
+                    4: "Emily 221"
+                },
+                "126": { 3: "Bring Jester 200 fiber." },
+            }
+        },
+
+        {
+            "Action": "EditData",
+            "Target": "Data/SecretNotes",
+            "Entries": {
+                "1": "It's a page from Beau's journal^^'I stole some of dad's secret stash. It was stronger than I expected. I might grab some of his wine later too.'%revealtasteAbigail303%revealtasteAbigail346%revealtasteAbigail348",
+                "2": "It's Sam's holiday shopping list^^Everyone's favorites^^Mollymauk: Alcohol, Red Mushroom^Penny: Emerald, Poppy^Vincent: Grape, Cranberry Candy^Mom: Crispy Bass, Pancakes^Dad: Risotto, Roasted Hazelnuts^Me: Cactus, Maple Bar, Pizza%revealtasteSebastian303%revealtasteSebastian420%revealtasteSebastian348%revealtasteSebastian459%revealtasteSebastian113%revealtastePenny60%revealtastePenny376%revealtasteVincent398%revealtasteVincent612%revealtasteJodi214%revealtasteJodi211%revealtasteKent649%revealtasteKent607%revealtasteSam90%revealtasteSam731%revealtasteSam206",
+                "3": "It's written in Yasha's handwriting^^I miss the ales from Xhorhas, but the ales from this land are still quite good.%revealtasteLeah346%revealtasteLeah303",
+                "5": "It's Penny's handwriting:^^I want to get everyone something they love!^^Mom: Parsnip, Glazed Yams, NO BEER!^Nott: Explosives, Alcohol^Vincent: Pink Cake, Grape^Mr. Mullner: Leek, Fried Mushroom^Granny Mullner: Beet, Tulip%revealtastePam24%revealtastePam208%revealtastePam346%revealtasteJas286%revealtasteJas287%revealtasteJas288%revealtasteJas441%revealtasteJas303%revealtasteJas346%revealtasteJas348%revealtasteJas459%revealtasteVincent398%revealtasteVincent221%revealtasteGeorge20%revealtasteGeorge205%revealtasteEvelyn284%revealtasteEvelyn591",
+                "7": "It's a page from someone's diary...^^...There are only a few 'older' bachelors in town, and none of them are perfect! Harvey is really anxious and weak, but I know he would make a loyal and devoted husband. He likes coffee and pickles.^^Caduceus is a bit crunchy, but he does have a nice chin. He really likes mushrooms.^^Caleb is messy and anti-social. But I think his dirty exterior is a defense mechanism, insulating his softness from the world. He likes hot things, Pepper Poppers, fire quartz.%revealtasteHarvey395%revealtasteHarvey342%revealtasteElliott420%revealtasteElliott404%revealtasteElliott257%revealtasteElliott281%revealtasteElliott205%revealtasteElliott422%revealtasteShane565%revealtasteShane82%revealtasteShane215%revealtasteShane260",
+                "8": "^To Jester^^Hope you are doing well! I've sent you your favorite gifts: Rubys and sweets!^^-Love Mom%revealtasteEmily64%revealtasteEmily243%revealtasteEmily340%revealtasteEmily233%revealtasteEmily220",
+                "9": "It's written in Fjord's handwriting:^^*Squid^*Salmon Dinner^^(I've learned to love this food... It was Vandran's favorite.)%revealtasteAlex151%revealtasteAlex212",
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Weapons",
+            "Fields": {
+                "5": {
+                    0: "Holy Weapon",
+                    1: "A magically summoned lollipop.",
+                    2: "30",
+                    3: "40",
+                    4: "1.3",
+                    5: "-10",
+                    6: "1",
+                    8: "2",
+                    9: "68"
+                },
+                "6": {
+                    0: "Magician's Judge",
+                    1: "A heavy greatsword from the Age of Arcanum.",
+                    2: "55",
+                    3: "64",
+                    4: "1",
+                    5: "6",
+                    7: "0",
+                    8: "0",
+                    9: "-1"
+                },
+                "7": {
+                    0: "Sword of Fathoms",
+                    1: "A pact blade with an ancient sea serpent.",
+                    2: "20",
+                    3: "40",
+                    5: "6",
+                    6: "0",
+                    7: "0",
+                    8: "0",
+                    9: "-1",
+                    10: "-1",
+                    12: ".02"
+                },
+                "11": {
+                    0: "Summer's Dance",
+                    1: "A golden scimitar.",
+                    2: "70",
+                    3: "80",
+                    5: "8",
+                    9: "-1"
+                },
+                "12": {
+                    0: "Wooden Bo Staff",
+                    1: "It's a stick.",
+                    2: "10",
+                    3: "20",
+                    5: "10",
+                    9: "-1"
+                },
+                "27": {
+                    0: "Cat's Ire",
+                    1: "A giant magical cat's paw.",
+                    2: "20",
+                    3: "30",
+                    4: "1",
+                    5: "-10",
+                    6: "0",
+                    9: "-1",
+                    10: "-1"
+                },
+                "46": {
+                    0: "Blight Staff",
+                    1: "A wooden staff with a crystal on top. It's full of beetles.",
+                    2: "40",
+                    3: "60",
+                    5: "-6"
+                },
+            }
+        }
+    ]
+}

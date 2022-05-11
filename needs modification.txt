@@ -11,6 +11,7 @@ Dialogue/Shane.yaml: breakUp
 Events/Farm.yaml: line 59 "3917587/f Alex 3500/O Alex/t 500 820/M 5000/d Sun/y 2" to the end; modified names but not content from basegame
 Events/FarmHouse.yaml: line 20 "558292/e 321777/t 600 620/H" to the end; modified names but not content from basegame
 Events/Forest.yaml: line 34 "3091462/e 3911124/O Leah/w sunny/t 1130 1400/A leahPaint"; modified names but not content from basegame
+Events/Forest.yaml some event with Penny keeps referring to the "children" i.e. Nott and Vincent
 Events/Mountain.yaml: line 29 "9333219/O Sebastian/f Sebastian 3500/w rainy/t 600 1900"; modified names but not content from basegame
 Events/Saloon.yaml: line 28 "wewereworried" to end; modified names but not content from basegame
 Events/Town.yaml: line 40 "3917584/f Shane 3500/O Shane/d Fri/t 800 1700" to end; modified names but not content from basegame
