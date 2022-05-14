@@ -6,6 +6,11 @@
          "Target": "Portraits/Emily",
          "FromFile": "assets/Portraits/EmilyPortrait.png"
       },
+      {
+         "Action": "Load",
+         "Target": "Portraits/Emily_Beach",
+         "FromFile": "assets/Portraits/Emily_Beach.png"
+      },
       // fjord
       {
          "Action": "Load",
