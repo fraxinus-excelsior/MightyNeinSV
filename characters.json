@@ -102,6 +102,12 @@
          "Target": "Characters/Abigail",
          "FromFile": "assets/Characters/AbigailSprite.png"
       },
+      // beau beach sprite
+      {
+         "Action": "Load",
+         "Target": "Characters/Abigail_Beach",
+         "FromFile": "assets/Characters/Abigail_Beach.png"
+      },
       // caroline sprite
       {
          "Action": "Load",
