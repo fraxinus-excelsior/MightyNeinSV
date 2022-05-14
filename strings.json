@@ -1,14 +1,14 @@
 {
   "Changes": [
       {
-         "Action": "Load",
+         "Action": "EditData",
          "Target": "Strings/animationDescriptions",
          "Entries": {
             "shane_work": "%Caleb's hard at work. He doesn't seem interested in talking."
          }
       },
       {
-         "Action": "Load",
+         "Action": "EditData",
          "Target": "Strings/Characters",
          "Entries": {
             "AbigailInMineFlute": "%Beau is lost in her music...",
@@ -16,14 +16,14 @@
          }
       },
       {
-         "Action": "Load",
+         "Action": "EditData",
          "Target": "Data/Strings/NPCNames",
          "Entries": {
             "Kel": "Sky Spear"
          }
       },
       {
-         "Action": "Load",
+         "Action": "EditData",
          "Target": "Strings/StringsFromCSFiles",
          "Entries": {
             "Event.cs.1257": "I finished writing my guide, and it ended up being about death! Remember when you told me you were interested in it?$h#$b#Behold, '%book', an in depth guide to the natural order!$u#$b#I -almost- feel like I should split the profits with you, considering how much help you gave me!$h",
@@ -53,7 +53,7 @@
          }
       },
       {
-         "Action": "Load",
+         "Action": "EditData",
          "Target": "Strings/StringsFromMaps",
          "Entries": {
             "AnimalShop.3": "A Tale Of Reincarnation",
