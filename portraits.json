@@ -72,6 +72,11 @@
          "Target": "Portraits/Elliott",
          "FromFile": "assets/Portraits/ElliottPortrait.png"
       },
+      {
+         "Action": "Load",
+         "Target": "Portraits/Elliott_Beach",
+         "FromFile": "assets/Portraits/Elliott_Beach.png"
+      },
       // nott
       {
          "Action": "Load",
