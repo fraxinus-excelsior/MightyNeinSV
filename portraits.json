@@ -45,6 +45,11 @@
          "Target": "Portraits/Caroline",
          "FromFile": "assets/Portraits/CarolinePortrait.png"
       },
+      {
+         "Action": "Load",
+         "Target": "Portraits/Caroline_Beach",
+         "FromFile": "assets/Portraits/Caroline_Beach.png"
+      },
       // pierre
       {
          "Action": "Load",
