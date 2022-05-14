@@ -12,6 +12,11 @@
          "Target": "Portraits/Alex",
          "FromFile": "assets/Portraits/AlexPortrait.png"
       },
+      {
+         "Action": "Load",
+         "Target": "Portraits/Alex_Beach",
+         "FromFile": "assets/Portraits/Alex_Beach.png"
+      },
       // yasha
       {
          "Action": "Load",
