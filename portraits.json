@@ -1,5 +1,5 @@
 {
-  "Changes": [
+   "Changes": [
       // jester
       {
          "Action": "Load",
@@ -88,6 +88,11 @@
          "Action": "Load",
          "Target": "Portraits/Sebastian",
          "FromFile": "assets/Portraits/SebastianPortrait.png"
+      },
+      {
+         "Action": "Load",
+         "Target": "Portraits/Sebastian_Beach",
+         "FromFile": "assets/Portraits/Sebastian_Beach.png"
       },
       // caleb
       {
