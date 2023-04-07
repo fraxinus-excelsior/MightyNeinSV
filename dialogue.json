@@ -634,7 +634,7 @@
                 "fall_15": "I have a craving for roots today.",
                 "fall_26": "I'm not a fan of alcohol... but that Pumkin Ale... leaves a nice tingle on my tongue... wait... I might be allergic to it.",
                 "winter_7": "I'm not really sure what I'm doing but I want to enter that fishing competition tomorrow... So long as we release them after. I don't eat fish...",
-                "winter_28": "Happy new year's eve, my dear. Please accept this to celebrate. [200]"          
+                "winter_28": "Happy new year's eve, my dear. Please accept this to celebrate. [200]"
             }
         },
         {
@@ -753,7 +753,6 @@
                 "fall_2": "I know harvest season is a busy time for you. I'll try and help out as much as I can. I'll sharpen your sowrd for you.",
                 "winter_1": "Winter's here, and that means crystal fruit is in season. It has such a unique flavor, don't you think? They taste like you.",
                 "winter_7": "I'm looking forward to carving ice sculptures tomorrow. I've already sharpened my blade."
-            
             }
         },
         {
@@ -761,7 +760,7 @@
             "Target": "Characters/Dialogue/MarriageDialogueMaru",
             "Entries": {
                 "spring_22": "I should invite Molly for dinner sometime.",
-                "summer_20": "I wonder if Molly will ever have the courage to ask Caleb out?"            
+                "summer_20": "I wonder if Molly will ever have the courage to ask Caleb out?"
             }
         },
         {
@@ -925,7 +924,7 @@
                 "Fri_inlaw_Sebastian": "I miss having Molly around the house. He was wonderful at helping me get ready for date night.",
                 "Fri4": "#$1 RobinSeb#I found an ashtray in Molly's room, and it smelled really weird. Should I be worried about this?#$e#Sometimes I worry about Molly... he came to us with no name and no home...#$e#I can only imagine what that would be like.",
                 "Fri4_inlaw_Sebastian": "Molly told me he's trying to quit smoking! You must be a good influence on him.",
-                "winter_Fri_inlaw_Sebastian": "I think the farm life is really healthy for Molly."            
+                "winter_Fri_inlaw_Sebastian": "I think the farm life is really healthy for Molly."
             }
         },
         {
@@ -997,7 +996,7 @@
                 "summer_10": "Hehe... I'll let you know because I like you... I'm going to spike the punch at the potluck tomorrow.#$e#Why? Hmm... The people in this town need to live a little! I'm doing them a favor!$h",
                 "summer_27": "Tomorrow we'll all be gathering at the docks to see the migration of the moonlight jellies. I think it starts at ten o'clock. Fabulous little things.",
                 "summer_Sun": "Never trust the truth. Truth is vicious. The truth thinks that you owe it something. None of that. I like my bullshit.",
-                "summer_Sun4": "Be the chaos you want to see in the world.#$e#Just don't be trite dick about it.",
+                "summer_Sun4": "Be the chaos you want to see in the world.#$e#Just don't be a trite dick about it.",
                 "fall_Mon": "Why do you look so sad? Do you need a kiss on the forhead?",
                 "fall_Mon4": "You're probably making a lot of money on your farm, huh?#$e#Don't suppose you brew anything on your farm do you?$h",
                 "fall_Tue": "Pumpkin spice this... pumpkin spice that... why no pumpkin spice Molly?",

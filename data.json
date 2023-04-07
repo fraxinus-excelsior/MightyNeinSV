@@ -24,7 +24,6 @@
                 "PurchasedItem_Haley": "Jester tried to serve me {1} {2} for dinner last night... I threw it away when she wasn't looking.#$e#I don't like her cooking...$s",
                 "PurchasedItem_Alex": "Hey, so I picked up {1} {2} at the store last night. Evelyn made her special casserole...",
                 "PurchasedItem_Leah": "The other day I bought {1} {2} at Pierre's. It was a perfect side to the wild rabbit I caught.",
-            
             }
         },
         {
@@ -67,18 +66,47 @@
             "Action": "EditData",
             "Target": "Data/NPCDispositions",
             "Fields": {
-                "Abigail": { 11: "Beau" },
-                "Elliott": { 11: "Caduceus" },
-                "Emily": { 9: "Haley 'roommate'", 11: "Jester" },
-                "Haley": { 9: "Emily 'roommate'" },
-                "Jas": { 11: "Nott" },
-                "Alex": {9: "George 'pa' Evelyn 'ma'", 11: "Fjord" },
-                "Leah" : {11: "Yasha" },
-                "Marnie": { 9: "Lewis '' Shane 'tenant' Jas 'tenant'" },
-                "Maru": { 9: "Robin 'mom' Demetrius 'dad' Sebastian 'tenant'" },
-                "Robin": { 9: "Demetrius 'husband' Maru 'daughter' Sebastian 'tenant'" },
-                "Sebastian": { 1: "Neutral", 9: "Robin 'landlord' Maru 'landlord's_daughter' Sam ''", 11: "Mollymauk" },
-                "Shane": { 9: "Marnie 'landlord'", 11: "Caleb" },
+                "Abigail": {
+                    11: "Beau"
+                },
+                "Elliott": {
+                    11: "Caduceus"
+                },
+                "Emily": {
+                    9: "Haley 'roommate'",
+                    11: "Jester"
+                },
+                "Haley": {
+                    9: "Emily 'roommate'"
+                },
+                "Jas": {
+                    11: "Nott"
+                },
+                "Alex": {
+                    9: "George 'pa' Evelyn 'ma'",
+                    11: "Fjord"
+                },
+                "Leah": {
+                    11: "Yasha"
+                },
+                "Marnie": {
+                    9: "Lewis '' Shane 'tenant' Jas 'tenant'"
+                },
+                "Maru": {
+                    9: "Robin 'mom' Demetrius 'dad' Sebastian 'tenant'"
+                },
+                "Robin": {
+                    9: "Demetrius 'husband' Maru 'daughter' Sebastian 'tenant'"
+                },
+                "Sebastian": {
+                    1: "Neutral",
+                    9: "Robin 'landlord' Maru 'landlord's_daughter' Sam ''",
+                    11: "Mollymauk"
+                },
+                "Shane": {
+                    9: "Marnie 'landlord'",
+                    11: "Caleb"
+                },
             }
         },
         {
@@ -201,7 +229,9 @@
             "Action": "EditData",
             "Target": "Data/Quests",
             "Fields": {
-                "108": { 9: "Oh, the pumpkin! It's a good one... Beauregard will be so happy when she sees this. Thanks, @!$h" },
+                "108": {
+                    9: "Oh, the pumpkin! It's a good one... Beauregard will be so happy when she sees this. Thanks, @!$h"
+                },
                 "110": {
                     2: "Clint wants you to give Jester a ruby. He wants you to tell her it's from him.",
                     3: "Bring Jester a Ruby.",
@@ -214,10 +244,11 @@
                     3: "Bring Jester a pink cake.",
                     4: "Emily 221"
                 },
-                "126": { 3: "Bring Jester 200 fiber." },
+                "126": {
+                    3: "Bring Jester 200 fiber."
+                },
             }
         },
-
         {
             "Action": "EditData",
             "Target": "Data/SecretNotes",
@@ -238,7 +269,7 @@
                 "5": {
                     0: "Holy Weapon",
                     1: "A magically summoned lollipop.",
-                    2: "30",
+                    2: "30", // overriding 20-30
                     3: "40",
                     4: "1.3",
                     5: "-10",
@@ -247,9 +278,9 @@
                     9: "68"
                 },
                 "6": {
-                    0: "Magician's Judge",
+                    0: "Magician's Judge", // pretty OP
                     1: "A heavy greatsword from the Age of Arcanum.",
-                    2: "55",
+                    2: "55", // overriding 12-25
                     3: "64",
                     4: "1",
                     5: "6",
@@ -260,7 +291,7 @@
                 "7": {
                     0: "Sword of Fathoms",
                     1: "A pact blade with an ancient sea serpent.",
-                    2: "20",
+                    2: "20", // overriding 22-29
                     3: "40",
                     5: "6",
                     6: "0",
@@ -271,9 +302,9 @@
                     12: ".02"
                 },
                 "11": {
-                    0: "Summer's Dance",
+                    0: "Summer's Dance", // WAY OP
                     1: "A golden scimitar.",
-                    2: "70",
+                    2: "70", // overriding 4-8
                     3: "80",
                     5: "8",
                     9: "-1"
@@ -281,7 +312,7 @@
                 "12": {
                     0: "Wooden Bo Staff",
                     1: "It's a stick.",
-                    2: "10",
+                    2: "10", // overriding 3-7
                     3: "20",
                     5: "10",
                     9: "-1"
@@ -289,7 +320,7 @@
                 "27": {
                     0: "Cat's Ire",
                     1: "A giant magical cat's paw.",
-                    2: "20",
+                    2: "20", // overriding 15-24
                     3: "30",
                     4: "1",
                     5: "-10",
@@ -300,7 +331,7 @@
                 "46": {
                     0: "Blight Staff",
                     1: "A wooden staff with a crystal on top. It's full of beetles.",
-                    2: "40",
+                    2: "40", // overriding 27-40
                     3: "60",
                     5: "-6"
                 },
