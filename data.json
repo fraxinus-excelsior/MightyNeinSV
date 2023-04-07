@@ -267,73 +267,75 @@
             "Target": "Data/Weapons",
             "Fields": {
                 "5": {
-                    0: "Holy Weapon",
+                    0: "Holy Weapon", // Bone Sword
                     1: "A magically summoned lollipop.",
                     2: "30", // overriding 20-30
                     3: "40",
-                    4: "1.3",
-                    5: "-10",
-                    6: "1",
-                    8: "2",
-                    9: "68"
+                    4: "1.3", // knockback, was 0.8
+                    5: "-10", // speed, was 8
+                    6: "1", // added precision, was 5
+                    8: "2", // type, was 0 (was stabbing, now club)
+                    9: "69" // n i c e, also base mine level, was 74; min is 50
                 },
                 "6": {
-                    0: "Magician's Judge", // pretty OP
+                    0: "Magician's Judge", // Iron Edge
                     1: "A heavy greatsword from the Age of Arcanum.",
-                    2: "55", // overriding 12-25
-                    3: "64",
-                    4: "1",
-                    5: "6",
-                    7: "0",
-                    8: "0",
-                    9: "-1"
+                    2: "45", // overriding 12-25
+                    3: "54",
+                    4: "1", // knockback, was 1.2
+                    5: "4", // speed, was -4
+                    7: "0", // added defence, was 1
+                    8: "0", // type, was 3 (was slashing, now stabbing)
+                    9: "67", // base mine level, was 44
+                    10: "50" // min mine level, was -1
                 },
                 "7": {
-                    0: "Sword of Fathoms",
+                    0: "Sword of Fathoms", // Templar's Blade
                     1: "A pact blade with an ancient sea serpent.",
                     2: "20", // overriding 22-29
                     3: "40",
-                    5: "6",
-                    6: "0",
-                    7: "0",
-                    8: "0",
-                    9: "-1",
-                    10: "-1",
-                    12: ".02"
+                    5: "6", // speed, was 0
+                    6: "0", // added precision, was 10
+                    7: "0", // added defence, was 1
+                    8: "0", // type, was 3
+                    9: "80", // base mine level, was 90
+                    10: "45", // min mine level, was 50
+                    12: ".02" // critical chance, was 0
                 },
                 "11": {
-                    0: "Summer's Dance", // WAY OP
+                    0: "Summer's Dance", // Steel Smallsword
                     1: "A golden scimitar.",
-                    2: "70", // overriding 4-8
-                    3: "80",
-                    5: "8",
-                    9: "-1"
+                    2: "15", // overriding 4-8
+                    3: "25",
+                    5: "8" // speed, was 4
+                    // base mine level is 26, min is -1
                 },
                 "12": {
-                    0: "Wooden Bo Staff",
+                    0: "Wooden Bo Staff", // Wooden Blade
                     1: "It's a stick.",
                     2: "10", // overriding 3-7
                     3: "20",
-                    5: "10",
-                    9: "-1"
+                    5: "10" // speed, was 0
+                    //  base mine level is 3, min is -1
                 },
                 "27": {
-                    0: "Cat's Ire",
+                    0: "Cat's Ire", // Wood Mallet
                     1: "A giant magical cat's paw.",
                     2: "20", // overriding 15-24
                     3: "30",
-                    4: "1",
-                    5: "-10",
-                    6: "0",
-                    9: "-1",
-                    10: "-1"
+                    4: "1.1", // knockback, was 1.3
+                    5: "-10", // speed, was -4
+                    6: "0", // added precision, was 1
+                    9: "45", // base mine level, was 68
+                    10: "30" // min mine level, was 50
                 },
-                "46": {
+                "46": { // Kudgel
                     0: "Blight Staff",
                     1: "A wooden staff with a crystal on top. It's full of beetles.",
                     2: "40", // overriding 27-40
                     3: "60",
-                    5: "-6"
+                    5: "-6" // speed, was -10
+                    // base 107, min 100
                 },
             }
         }
