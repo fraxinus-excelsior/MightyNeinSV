@@ -1,11 +1,13 @@
 {
-  "Name": "The Mighty Nein - Patched",
-  "Author": "goatman14",
-  "Version": "3.0.0-beta",
-  "Description": "Add the members of the Mighty Nein to Stardew Valley, replacing NPCs. Patched for more recent game versions.",
-  "UniqueID": "goatman14.TheMightyNein-Patched",
+   "Name": "The Mighty Nein - Patched",
+   "Author": "goatman14",
+   "Version": "3.1.0",
+   "Description": "Add the members of the Mighty Nein to Stardew Valley, replacing NPCs. Patched for more recent game versions.",
+   "UniqueID": "goatman14.TheMightyNein-Patched",
    "MinimumApiVersion": "2.5",
-   "UpdateKeys": ["Nexus:7419"],
+   "UpdateKeys": [
+      "Nexus:7419"
+   ],
    "ContentPackFor": {
       "UniqueID": "Pathoschild.ContentPatcher",
       "MinimumVersion": "1.25.0"

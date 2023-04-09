@@ -1,3 +1,9 @@
+3.1.0 April 08 2023
+-Updated beach sprites for Beau
+-Updated beach portraits for Beau, Fjord, Caroline, Jester, Caduceus, and Mollymauk
+-Nerfed some very overpowered Mighty Nein weapons
+-Fixed typos and minor bugs
+
 3.0.0-beta May 14 2022
 -Optimized use of Content Patcher; replaced all .xnb files with Content Patcher .json files
 -Updated beach sprites for Fjord, Jester, Mollymauk, and Caduceus
