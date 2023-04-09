@@ -17,9 +17,54 @@
       },
       {
          "Action": "EditData",
-         "Target": "Data/Strings/NPCNames",
+         "Target": "Strings/schedules/Alex",
          "Entries": {
-            "Kel": "Sky Spear"
+            "Sun.000": "%Fjord is completely engrossed in the game. He doesn't notice your presence."
+         }
+      },
+      {
+         "Action": "EditData",
+         "Target": "Strings/schedules/Elliott",
+         "Entries": {
+            "summer_9.001": "My back has been hurting, doctor... you know, with all the hunching over to write my guide."
+         }
+      },
+      {
+         "Action": "EditData",
+         "Target": "Strings/schedules/Haley",
+         "Entries": {
+            "marriage_Mon.000": "Hi, honey! I'm mostly just here to visit Jester."
+         }
+      },
+      {
+         "Action": "EditData",
+         "Target": "Strings/schedules/Jas",
+         "Entries": {
+            "winter_18.000": "I have to visit the doctor today.",
+            "winter_15.001": "The mermaid show seems pretty cool.",
+            "winter_18.001": "Do you think any of these medicines could be used to make explosives? I'm aiming for another fluffernutter."
+         }
+      },
+      {
+         "Action": "EditData",
+         "Target": "Strings/schedules/Marnie",
+         "Entries": {
+            "winter_18.000": "Nott doesn't mind going to the doctor, but it never hurts to come along and keep an eye on her.",
+            "winter_18.002": "Hey, Doctor Harvey? Nott's very inventive. And a little destructive... You might want to keep her away from your medical equipment."
+         }
+      },
+      {
+         "Action": "EditData",
+         "Target": "Strings/schedules/Sebastian",
+         "Entries": {
+            "marriage_Mon.001": "Robin's face lit up when I walked in. She deserves to be happy.$7"
+         }
+      },
+      {
+         "Action": "EditData",
+         "Target": "Strings/schedules/Shane",
+         "Entries": {
+            "winter_15.000": "I'm taking a night off from the saloon for Nott's sake..."
          }
       },
       {
