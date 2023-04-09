@@ -1,5 +1,5 @@
 {
-  "Changes": [
+   "Changes": [
       {
          "Action": "EditData",
          "Target": "Strings/animationDescriptions",
@@ -20,6 +20,17 @@
          "Target": "Data/Strings/NPCNames",
          "Entries": {
             "Kel": "Sky Spear"
+         }
+      },
+      {
+         "Action": "EditData",
+         "Target": "Strings/SpecialOrderStrings",
+         "Entries": {
+            "Emily_Objective_0_Text": "Deliver a Ruby to Jester",
+            "Emily_Objective_1_Text": "Deliver a Topaz to Jester",
+            "Emily_Objective_2_Text": "Deliver an Emerald to Jester",
+            "Emily_Objective_3_Text": "Deliver a Jade to Jester",
+            "Emily_Objective_4_Text": "Deliver an Amethyst to Jester"
          }
       },
       {
@@ -99,7 +110,7 @@
             "SeedShop.1": "'Martial Arts: The Way of the Cobalt Soul'",
             "SeedShop.2": "Professor the Guinea Pig",
             "SeedShop.3": "Professor the Guinea Pig",
-            "SeedShop.10": "A Spirit Board. Molly must have given this to her."                                                                               
+            "SeedShop.10": "A Spirit Board. Molly must have given this to her."
          }
       }
    ]
