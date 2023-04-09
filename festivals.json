@@ -51,7 +51,7 @@
          "Action": "EditData",
          "Target": "Data/Festivals/spring24",
          "Entries": {
-            "set-up": "event1/22 22/farmer 76 17 1/changeToTemporaryMap Forest-FlowerFestival/loadActors Set-Up/advancedMove Vincent true -1 0 0 -1 18 0 0 1 -17 0/advancedMove Jas true 18 0 0 1 -18 0 0 -1/advancedMove Pam true 2 25000 0 -3 4 0 4 25000 -4 0 0 3/advancedMove Haley true 0 1 2 3000 2 0 0 -1 -2 0 3 500 4 500 1 500 2 500 2 0 1 500 2 500 3 500 4 500 0 2 0 -2 -2 0/advancedMove Caroline true 7 0 0 1 1 18000 0 -1 -7 0 3 18000/advancedMove Willy true 2 25000 -4 0 0 -12 4 0 0 -1 4 30000 0 1 -4 0 0 12 4 0/playerControl flowerFestival",
+            "set-up": "event1/22 22/farmer 76 17 1/changeToTemporaryMap Forest-FlowerFestival/loadActors Set-Up/advancedMove Jas false -2 0 0 6 3 1000/advancedMove Vincent false 9 0 0 -1 4 1000/advancedMove Pam true 2 25000 0 -3 4 0 4 25000 -4 0 0 3/advancedMove Haley true 0 1 2 3000 2 0 0 -1 -2 0 3 500 4 500 1 500 2 500 2 0 1 500 2 500 3 500 4 500 0 2 0 -2 -2 0/advancedMove Caroline true 7 0 0 1 1 18000 0 -1 -7 0 3 18000/advancedMove Willy true 2 25000 -4 0 0 -12 4 0 0 -1 4 30000 0 1 -4 0 0 12 4 0/playerControl flowerFestival",
             "Sebastian": "I should have worn my fancy boots.",
             "Alex": "I'm just tryin' to remember the moves. I got two left feet.",
             "Clint": "I wonder if Jester would dance with me?",
@@ -60,7 +60,6 @@
             "Shane": "Mmm... excellent sauce... *slurp*#$e#Ah, I bet Frumpkin would enjoy this.#$b#*crunch* ...Wow... That's hot.$s",
             "Jas": "Braiding flowers in your hair is good luck!",
             "Vincent": "Can I have flowers in my hair?"
-                
          }
       },
       {
