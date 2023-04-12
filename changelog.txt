@@ -1,5 +1,5 @@
 3.1.1 April 09 2023
--Fix Night Market, doctor's office, and other scheduled dialogues
+-Fixed Night Market, doctor's office, and other scheduled dialogues
 
 3.1.0 April 08 2023
 -Updated beach sprites for Beau
