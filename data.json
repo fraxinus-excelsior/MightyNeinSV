@@ -2,6 +2,20 @@
     "Changes": [
         {
             "Action": "EditData",
+            "Target": "Data/Boots",
+            "Entries": {
+                "804": "Jester's Magic Boots/Made with love by Jester. 100% compostable!/250/4/4/13",
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/ClothingInformation",
+            "Entries": {
+                "1127": "Jester's Magic Shirt/Jester's Magic Shirt/Made with love by Jester. Colored with all-natural dye!/127/-1/50/255 235 203/false/Shirt",
+            }
+        },
+        {
+            "Action": "EditData",
             "Target": "Data/EngagementDialogue",
             "Entries": {
                 "Leah1": "I never knew I would allow myself to love again.$h#$e# But I'm glad I have.",
@@ -11,6 +25,7 @@
                 "Elliott0": "The farm will be such a lovely place to do my gardening. I'm really looking forward to this.$h#$e#We're going to make a great pair. I can just feel it.$l",
                 "Alex0": "@, this is... amazing. I never thought I'd get married.$l#$e#I... guess I didn't think I was worth it. But I'm glad you see more in me.$h",
                 "Alex1": "It's nice to finally know I'll have a home of my own... with you.$h",
+                "Shane0": "Part of me is wondering if this isn't all some elaborate prank.#$e#I can't believe you'd actually want to marry me.",
                 "Shane1": "@... My head's spinning, this is a lot.",
                 "Emily0": "Can you believe we're about to move in together? I hope you like pets!.#$e#They need homes too!",
                 "Emily1": "I always knew something important would happen between us... I just never thought it would be this!$h#$e#I might draw some dicks on the walls for you.",
@@ -33,6 +48,13 @@
                 "1306": { // Leah's Sculpture
                     0: "Yasha's Sculpture"
                 }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/hats",
+            "Entries": {
+                "41": "Jester's Magic Hat/Made with love by Jester. It's 100% organic!/false/true",
             }
         },
         {
@@ -60,6 +82,7 @@
                 "elliottLetter4": "In dreams, when graced with lofty view^I gaze upon the sunlit sea^What distant shores I've travelled to^But time now clouds my memory^^There is but one eternal place^Where I shall someday pass beyond^In Valley dear, where my love waits:^Our little home beside the pond^^-Caduceus %item conversationTopic ElliottGone5 0 %%[#]Letter From My Husband 4",
                 "elliottLetter5": "My dear @,^^I won't bore you with any more details about my readings. They are mostly the same.^^I'm sure your time has been much more exciting! I can't wait to return and see what progress has been made.^^On these long travels between towns, I amuse myself by closing my eyes and envisioning the farm... I see kegs pulsing with sweet wine, a furnace ablaze with precious ore, and our little kitchen with the smell of cinnamon and nutmeg. There's a lot to enjoy!^^Just don't stay out too late in the mines, my love. It's dangerous in there! If you must go... bring plenty of food.^^-Love, Caduceus %item conversationTopic ElliottGone6 0 %%[#]Letter From My Husband 5",
                 "elliottLetter6": "My dear @,^^This will be my last letter before I return home. I've had a fine trip... though nothing too exciting. It's been nice to meet people who enjoy my work, but I'm eager to return home.^^I look forward to the comfort of our little house, the satisfying farm work, a home-cooked meal, and most of all, cozying into the flannel sheets with you.^^See you soon!^-Love, Caduceus %item conversationTopic ElliottGone7 0 %%[#]Letter From My Husband 6",
+                "emilyStones": "Hi @,^^Thanks again for the wonderful gemstones.^These will be perfect for my energy re-alignment work!^I wanted to thank you with this special gift. I hope you create some wonderful items with it!^^-Jester%item bigobject 247 %%[#]Jester's Gemstones",
             }
         },
         {

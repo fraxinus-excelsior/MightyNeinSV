@@ -1,0 +1,215 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/MoviesReactions",
+            "TargetField": [
+                "Penny",
+                "Reactions",
+                "#1",
+                "SpecialResponses"
+            ],
+            "Entries": {
+                "BeforeMovie": {
+                    "ResponsePoint": null,
+                    "Script": "",
+                    "Text": "I'm looking forward to this! Vincent has been talking about it non-stop."
+                },
+                "AfterMovie": {
+                    "ResponsePoint": null,
+                    "Script": "",
+                    "Text": "Thanks for taking me to this, I can't wait to tell Vincent how good it was!"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/MoviesReactions",
+            "TargetField": [
+                "Penny",
+                "Reactions",
+                "#3",
+                "SpecialResponses"
+            ],
+            "Entries": {
+                "AfterMovie": {
+                    "ResponsePoint": null,
+                    "Script": "",
+                    "Text": "I should totally bring Vincent to see this sometime!"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/MoviesReactions",
+            "TargetField": [
+                "Abigail",
+                "Reactions",
+                "#4",
+                "SpecialResponses"
+            ],
+            "Entries": {
+                "DuringMovie": {
+                    "ResponsePoint": null,
+                    "Script": "/shake Abigail 3000/pause 500/message \"Beau is giggling!\"",
+                    "Text": "Haha! It's not scary, but I love it.$h"
+                },
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/MoviesReactions",
+            "TargetField": [
+                "Emily",
+                "Reactions",
+                "#5",
+                "SpecialResponses"
+            ],
+            "Entries": {
+                "DuringMovie": {
+                    "ResponsePoint": null,
+                    "Script": "/message \"Jester is whispering to herself...\"",
+                    "Text": "Traveler, please protect me from the dark energy of this movie.$7"
+                },
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/MoviesReactions",
+            "TargetField": [
+                "Shane",
+                "Reactions",
+                "#5",
+                "SpecialResponses"
+            ],
+            "Entries": {
+                "DuringMovie": {
+                    "ResponsePoint": null,
+                    "Script": "/message \"Caleb's trying not to smile.\"",
+                    "Text": "Okay, this is good...$h"
+                },
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/MoviesReactions",
+            "TargetField": [
+                "Shane",
+                "Reactions",
+                "#7",
+                "SpecialResponses"
+            ],
+            "Entries": {
+                "DuringMovie": {
+                    "ResponsePoint": null,
+                    "Script": "/emote Shane 28/message \"Caleb's slumped over...\"",
+                    "Text": ""
+                },
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/MoviesReactions",
+            "TargetField": [
+                "Jas",
+                "Reactions",
+                "#3",
+                "SpecialResponses"
+            ],
+            "Entries": {
+                "DuringMovie": {
+                    "ResponsePoint": null,
+                    "Script": "/jump Jas/pause 400/playSound reward/message \"Nott is ecstatic!\"",
+                    "Text": ""
+                },
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/MoviesReactions",
+            "TargetField": [
+                "Jas",
+                "Reactions",
+                "#4",
+                "SpecialResponses"
+            ],
+            "Entries": {
+                "BeforeMovie": { // TODO: these are all really boring but urgently needed to be changed
+                    "ResponsePoint": null,
+                    "Script": "",
+                    "Text": "This looks like it'll be good!"
+                },
+                "DuringMovie": {
+                    "ResponsePoint": null,
+                    "Script": "/message \"Nott is nodding and glancing sideways.\"",
+                    "Text": ""
+                },
+                "AfterMovie": {
+                    "ResponsePoint": null,
+                    "Script": "",
+                    "Text": "I thought it was good!"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/MoviesReactions",
+            "TargetField": [
+                "Jas",
+                "Reactions",
+                "#5",
+                "SpecialResponses"
+            ],
+            "Entries": {
+                "BeforeMovie": { // TODO: see above
+                    "ResponsePoint": null,
+                    "Script": "",
+                    "Text": "I love horror movies.$s"
+                },
+                "DuringMovie": {
+                    "ResponsePoint": null,
+                    "Script": "/shake Jas 3000/pause 500/message \"Nott is grinning.\"",
+                    "Text": "This is great...$s"
+                },
+                "AfterMovie": {
+                    "ResponsePoint": null,
+                    "Script": "",
+                    "Text": "That wasn't even scary."
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/MoviesReactions",
+            "TargetField": [
+                "Jas",
+                "Reactions",
+                "#5",
+                "SpecialResponses"
+            ],
+            "Entries": {}
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/MoviesReactions",
+            "TargetField": [
+                "Jas",
+                "Reactions",
+                "#5",
+                "SpecialResponses"
+            ],
+            "Entries": {}
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/MoviesReactions",
+            "TargetField": [
+                "Jas",
+                "Reactions",
+                "#5",
+                "SpecialResponses"
+            ],
+            "Entries": {}
+        },
+    ]
+}
