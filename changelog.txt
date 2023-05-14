@@ -1,3 +1,7 @@
+3.1.2 May 14 2023
+-Added movie reactions
+-Fixed small dialogue issues and typos
+
 3.1.1 April 09 2023
 -Fixed Night Market, doctor's office, and other scheduled dialogues
 
