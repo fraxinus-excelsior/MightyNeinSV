@@ -71,7 +71,19 @@
             "Y": 1852,
             "Width": 48,
             "Height": 36
-         } // TODO: CONFIRM COORDINATES
+         }
+      },
+      // replace emoji character icons
+      {
+         "Action": "EditImage",
+         "Target": "LooseSprites/emojis",
+         "FromFile": "assets/LooseSprites/emojisIcons.png",
+         "ToArea": {
+            "X": 0,
+            "Y": 99,
+            "Width": 117,
+            "Height": 18
+         }
       },
       // towninterior - books
       {
