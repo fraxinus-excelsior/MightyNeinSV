@@ -4,7 +4,8 @@
          "Action": "EditData",
          "Target": "Strings/animationDescriptions",
          "Entries": {
-            "shane_work": "%Caleb's hard at work. He doesn't seem interested in talking."
+            "shane_work": "%Caleb's hard at work. He doesn't seem interested in talking.",
+            "penny_wave_left": "This town's safe, but Nott and I always walk Vincent home anyway."
          }
       },
       {
@@ -12,7 +13,15 @@
          "Target": "Strings/Characters",
          "Entries": {
             "AbigailInMineFlute": "%Beau is lost in her music...",
-            "Phone_Pierre_Open_Rare": "Beau! Your guinea pig is loose again! Come here *right now* and take care of this! $3#$b#Oh! Uh... Hello? Thank you for calling. Y... Yes, we're open until 5PM. Goodbye. *click*$4"
+            "Phone_Pierre_Open_Rare": "Beau! Your guinea pig is loose again! Come here *right now* and take care of this! $3#$b#Oh! Uh... Hello? Thank you for calling. Y... Yes, we're open until 5PM. Goodbye. *click*$4",
+            "MovieInvite_Spouse_Alex": "Hey, sounds fun! I've been wantin' to see this one... and I'd rather see it with you!#$b#I'll meet you at the theater."
+         }
+      },
+      {
+         "Action": "EditData",
+         "Target": "Strings/Locations",
+         "Entries": {
+            "ElliottHouse_ElliottBook_Filled": "'{0}' by Caduceus ... Dedicated to {1}"
          }
       },
       {
@@ -105,7 +114,9 @@
             "ItemDeliveryQuest.cs.13476": "Looking for {0} to make into buttons for a dress I'm making. If you find one could you bring it to me?.     -Jester",
             "ItemDeliveryQuest.cs.13590": "Bored... could someone bring me {0}?    -Beau",
             "ItemDeliveryQuest.cs.13593": "I want to pull a prank on my Dad. I'll need {0}. Keep it secret or I'll kick your ass :)      -Beau",
-            "SocializeQuest.cs.13786": "Hey! Will someone say 'Hi' to everyone in town for me? I want to spread a message of {0} today!   -Jester"
+            "SocializeQuest.cs.13786": "Hey! Will someone say 'Hi' to everyone in town for me? I want to spread a message of {0} today!   -Jester",
+            "Utility.cs.5864_3": "Caleb's Theme",
+            "Utility.cs.5864_5": "Jester's Dance"
          }
       },
       {
