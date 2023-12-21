@@ -1,5 +1,24 @@
 {
-  "Changes": [
+   "Changes": [
+      // nott schedule
+      {
+         "Action": "EditData",
+         "Target": "Characters/schedules/Jas",
+         "Fields": {
+            "summer": {
+               2: "1320 Beach 40 23"
+            },
+            "winter_15": {
+               1: "1100 Forest 38 10 2"
+            },
+            "Sat": {
+               1: "1200 Town 24 12"
+            },
+            "spring": {
+               1: "1100 Forest 38 10 2"
+            }
+         }
+      },
       // jester sprite
       {
          "Action": "Load",
