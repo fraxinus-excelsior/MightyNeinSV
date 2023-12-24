@@ -107,21 +107,37 @@
                 },
             }
         },
+        // Nott reactions
         {
             "Action": "EditData",
             "Target": "Data/MoviesReactions",
             "TargetField": [
                 "Jas",
                 "Reactions",
-                "#3",
-                "SpecialResponses"
+                "#0" // TODO: test
             ],
             "Entries": {
-                "DuringMovie": {
-                    "ResponsePoint": null,
-                    "Script": "/jump Jas/pause 400/playSound reward/message \"Nott is ecstatic!\"",
-                    "Text": ""
+                "Tag": "spring_movie_0",
+                "Response": "like",
+                "Whitelist": [],
+                "SpecialResponses": {
+                    "BeforeMovie": {
+                        "ResponsePoint": null,
+                        "Script": "",
+                        "Text": "I used to see family movies like this a lot more often."
+                    },
+                    "DuringMovie": {
+                        "ResponsePoint": null,
+                        "Script": "/message \"Nott looks teary-eyed.\"",
+                        "Text": ""
+                    },
+                    "AfterMovie": {
+                        "ResponsePoint": null,
+                        "Script": "",
+                        "Text": "I know a little boy who would have loved that movie."
+                    }
                 },
+                "ID": "reaction_0"
             }
         },
         {
@@ -130,25 +146,14 @@
             "TargetField": [
                 "Jas",
                 "Reactions",
-                "#4",
-                "SpecialResponses"
+                "#1" // TODO: test
             ],
             "Entries": {
-                "BeforeMovie": { // TODO: these are all really boring but urgently needed to be changed
-                    "ResponsePoint": null,
-                    "Script": "",
-                    "Text": "This looks like it'll be good!"
-                },
-                "DuringMovie": {
-                    "ResponsePoint": null,
-                    "Script": "/message \"Nott is nodding and glancing sideways.\"",
-                    "Text": ""
-                },
-                "AfterMovie": {
-                    "ResponsePoint": null,
-                    "Script": "",
-                    "Text": "I thought it was good!"
-                }
+                "Tag": "romance",
+                "Response": "like",
+                "Whitelist": [],
+                "SpecialResponses": null,
+                "ID": "reaction_1"
             }
         },
         {
@@ -157,25 +162,30 @@
             "TargetField": [
                 "Jas",
                 "Reactions",
-                "#5",
-                "SpecialResponses"
+                "#2" // TODO: test
             ],
             "Entries": {
-                "BeforeMovie": { // TODO: see above
-                    "ResponsePoint": null,
-                    "Script": "",
-                    "Text": "I love horror movies.$s"
+                "Tag": "documentary",
+                "Response": "dislike",
+                "Whitelist": [],
+                "SpecialResponses": {
+                    "BeforeMovie": {
+                        "ResponsePoint": null,
+                        "Script": "",
+                        "Text": "I bet Caleb would like this movie."
+                    },
+                    "DuringMovie": {
+                        "ResponsePoint": null,
+                        "Script": "/message \"Nott is sipping from her flask instead of watching.\"",
+                        "Text": ""
+                    },
+                    "AfterMovie": {
+                        "ResponsePoint": null,
+                        "Script": "",
+                        "Text": "If I wanted to learn about ecology, I'd rather just ask Caleb. He knows pretty much everything."
+                    }
                 },
-                "DuringMovie": {
-                    "ResponsePoint": null,
-                    "Script": "/shake Jas 3000/pause 500/message \"Nott is grinning.\"",
-                    "Text": "This is great...$s"
-                },
-                "AfterMovie": {
-                    "ResponsePoint": null,
-                    "Script": "",
-                    "Text": "That wasn't even scary."
-                }
+                "ID": "reaction_2"
             }
         },
         {
@@ -184,10 +194,23 @@
             "TargetField": [
                 "Jas",
                 "Reactions",
-                "#5",
-                "SpecialResponses"
+                "#3" // TODO: test
             ],
-            "Entries": {}
+            "Entries": {
+                "Tag": "horror",
+                "Response": "like",
+                "Whitelist": [],
+                "SpecialResponses": {
+                    "BeforeMovie": null,
+                    "DuringMovie": null,
+                    "AfterMovie": {
+                        "ResponsePoint": null,
+                        "Script": "",
+                        "Text": "We should go. Some people are scared seeing a goblin in the theater after a movie like that."
+                    }
+                },
+                "ID": "reaction_3"
+            }
         },
         {
             "Action": "EditData",
@@ -195,10 +218,15 @@
             "TargetField": [
                 "Jas",
                 "Reactions",
-                "#5",
-                "SpecialResponses"
+                "#4" // TODO: test
             ],
-            "Entries": {}
+            "Entries": {
+                "Tag": "family",
+                "Response": "like",
+                "Whitelist": [],
+                "SpecialResponses": null,
+                "ID": "reaction_4"
+            }
         },
         {
             "Action": "EditData",
@@ -206,10 +234,27 @@
             "TargetField": [
                 "Jas",
                 "Reactions",
-                "#5",
-                "SpecialResponses"
+                "#5" // TODO: test
             ],
-            "Entries": {}
-        },
+            "Entries": {
+                "Tag": "like",
+                "Response": "like",
+                "Whitelist": [],
+                "SpecialResponses": {
+                    "BeforeMovie": {
+                        "ResponsePoint": null,
+                        "Script": "",
+                        "Text": "Do you think anyone will notice if I sneak my flask in?"
+                    },
+                    "DuringMovie": null,
+                    "AfterMovie": {
+                        "ResponsePoint": null,
+                        "Script": "",
+                        "Text": "That was great! I should bring Caleb to see that movie."
+                    }
+                },
+                "ID": "reaction_5"
+            }
+        }
     ]
 }
