@@ -119,7 +119,7 @@
             "Entries": {
                 "Tag": "spring_movie_0",
                 "Response": "like",
-                "Whitelist": [],
+                // "Whitelist": [],
                 "SpecialResponses": {
                     "BeforeMovie": {
                         "ResponsePoint": null,
@@ -151,8 +151,8 @@
             "Entries": {
                 "Tag": "romance",
                 "Response": "like",
-                "Whitelist": [],
-                "SpecialResponses": null,
+                // "Whitelist": [],
+                "SpecialResponses": {},
                 "ID": "reaction_1"
             }
         },
@@ -167,7 +167,7 @@
             "Entries": {
                 "Tag": "documentary",
                 "Response": "dislike",
-                "Whitelist": [],
+                // "Whitelist": [],
                 "SpecialResponses": {
                     "BeforeMovie": {
                         "ResponsePoint": null,
@@ -199,7 +199,7 @@
             "Entries": {
                 "Tag": "horror",
                 "Response": "like",
-                "Whitelist": [],
+                // "Whitelist": [],
                 "SpecialResponses": {
                     "BeforeMovie": null,
                     "DuringMovie": null,
@@ -223,8 +223,8 @@
             "Entries": {
                 "Tag": "family",
                 "Response": "like",
-                "Whitelist": [],
-                "SpecialResponses": null,
+                // "Whitelist": [],
+                "SpecialResponses": {},
                 "ID": "reaction_4"
             }
         },
@@ -239,7 +239,7 @@
             "Entries": {
                 "Tag": "like",
                 "Response": "like",
-                "Whitelist": [],
+                // "Whitelist": [],
                 "SpecialResponses": {
                     "BeforeMovie": {
                         "ResponsePoint": null,
