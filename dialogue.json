@@ -890,9 +890,10 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/Penny",
             "Entries": {
-                "Tue": "I'm tutoring Vincent and Nott today... They're a handful, but it's nice to make a difference in someone's life.",
-                "Wed": "We don't have a school here but I'm doing my best to give Vincent and Nott a proper education.#$e#Everyone deserves a chance to be successful.#$e#Nott is very good at math and science... but she's still adjusting to life in the valley and has so many questions!",
-                "Wed2": "You know what? I should take my students on a field trip some time. Maybe to the forest.#$e#A guest speaker would be nice... maybe someone familiar with nature?#$e#Sorry, I'm just thinking out loud."
+                "Tue": "I'm tutoring Vincent today... He's a handful, but having Nott around is a big help.",
+                "Wed": "We don't have a school here but I'm doing my best to give Vincent a proper education.#$e#Everyone deserves a chance to be successful.#$e#Nott is very good at teaching science... but sometimes she gets this nostalgic look in her eye when she watches Vincent play. Almost like she's missing someone...",
+                "Wed2": "You know what? Nott and I should take Vincent on a field trip some time. Maybe to the forest.#$e#A guest speaker would be nice... maybe someone familiar with nature?#$e#Sorry, I'm just thinking out loud.",
+                "event_speaker_yes": "Great!$h#$b#Let me just call Vincent over."
             }
         },
         {
