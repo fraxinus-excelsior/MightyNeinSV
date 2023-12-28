@@ -312,10 +312,7 @@
                     1: "A heavy greatsword from the Age of Arcanum.",
                     2: "45", // overriding 12-25
                     3: "54",
-                    4: "1", // knockback, was 1.2
-                    5: "4", // speed, was -4
                     7: "0", // added defence, was 1
-                    8: "0", // type, was 3 (was slashing, now stabbing)
                     9: "67", // base mine level, was 44
                     10: "50" // min mine level, was -1
                 },
