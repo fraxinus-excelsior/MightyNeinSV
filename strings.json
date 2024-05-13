@@ -92,7 +92,7 @@
          "Target": "Strings/StringsFromCSFiles",
          "Entries": {
             "Event.cs.1257": "I finished writing my guide, and it ended up being about death! Remember when you told me you were interested in it?$h#$b#Behold, '%book', an in depth guide to the natural order!$u#$b#I -almost- feel like I should split the profits with you, considering how much help you gave me!$h",
-            "Event.cs.1258": "I finished writing my guide, and it ended up being all about tea! ...You told me once that you were interested in it, and, well, I've also been able to draw some inpsiration from real life experiences lately. $l#$b#Here it is, '%book'. It covers all the different kinds of teas you can think of from red to green!#$b#I *almost* feel like I should split the profits with you, considering how much help you gave me!$h",
+            "Event.cs.1258": "I finished writing my guide, and it ended up being all about tea! ...You told me once that you were interested in it, and, well, I've also been able to draw some inspiration from real life experiences lately. $l#$b#Here it is, '%book'. It covers all the different kinds of teas you can think of from red to green!#$b#I *almost* feel like I should split the profits with you, considering how much help you gave me!$h",
             "Event.cs.1259": "I finished writing my guide, and it's all about fungai! Remember when you told me you were curious about the mushrooms in the valley?$h#$b#Behold, '%book'. It even has a section about the recreational use of certain red mushrooms!$u#$b#I -almost- feel like I should split the profits with you, considering how much help you gave me!$h",
             "Event.cs.1761": "...You're right. Nott... Ugh, God... I'm a horrible, *hic*... selfish person.$7#$b#Now I feel even worse...$7",
             "Event.cs.1763": "Wha... Yoba...? @, don't... don't you know I don't believe that nonsense? Ugh... $7",
@@ -103,7 +103,6 @@
             "MapPage.cs.11088": "Caduceus' Cabin",
             "MapPage.cs.11093": "Home of George, Evelyn & Fjord",
             "MapPage.cs.11095": "Home of Robin, Demetrius, Mollymauk & Maru",
-            "MapPage.cs.11168": "Caduceus' Cabin",
             "TitleMenu.cs.11726": "Caduceus' latest sentence:",
             "AbigailGame.cs.11898": "Hell yeah! We did it!",
             "ItemDeliveryQuest.cs.13324": "Feeling gloomy... {0} might cheer me up.     -Mollymauk",

@@ -6,6 +6,10 @@
             "Entries": {
                 "4": "Oh, hey.",
                 "Introduction": "Oh, that's right... I heard someone new was moving onto that old farm.#$e#It's kind of a shame, really. I liked exploring those overgrown fields by myself.$9",
+                "eventSeen_733330_memory_oneday": "Sam and Mollymauk asked me to play drums in their band... I've never played drums before, but it's actually pretty fun.#$e#You have to learn how to move your limbs to different rhythms, at the same exact time. I feel like my brain is growing.$h",
+                "eventSeen_2_memory_oneday": "Mollymauk mentioned that he heard strange music while having dinner the other night...#$e#I didn't tell him it was us! It seemed better to keep it a mystery.$h",
+                "dating_Sebastian_memory_oneday": "I heard you and Mollymauk started dating... I didn't realize you guys had a thing...$6",
+                "married_Sebastian": "Congratulations on the marriage. I guess this means Mollymauk won't be moving to the city like he always talked about.$6#$b#That'll be nice. I'd be kind of sad if I never saw him again. We've always been good friends.$6",
                 "Resort_Shore_2": "Hmm, you think I could sneak my guinea pig onto the island?#$e#Nah, Professor's probably not much of a swimmer anyways.$h",
                 "divorced": "What are you doing here? Fuck off!$a",
                 "dumped_Girls": "Don't talk to me.$a",
@@ -143,6 +147,7 @@
             "Target": "Characters/Dialogue/Caroline",
             "Entries": {
                 "Introduction": "Hello! You must be @, the new farmer. I'm Caroline.#$e#My husband runs the general store here. And have you met my daughter, Beauregard? She's the angry one with the undercut.",
+                "dating_Abigail_memory_oneday": "Beau told me that you and her are seeing each other. That's sweet!",
                 "Mon": "I wish Beauregard wouldn't spend so much time in her room.",
                 "Mon8": "#$1 Caroline23#We first moved to Pelican Town to start a winery but never could afford the land. We make a few bottles now and then though.#$e#Beauregard was born about a year after we moved to Pelican Town. I wonder if she'll ever experience life outside the valley?",
                 "Sat": "Is it just me, or does Beauregard have an unhealthy interest in violence?#$e#Maybe I'm just too old to understand.",
@@ -155,6 +160,15 @@
                 "fall_Mon_inlaw_Abigail": "Beauregard was taking online classes here, but I don't think her heart was really in it...#$e#She's a free spirit, like I was before I met Pierre. She's probably having the time of her life on your farm.",
                 "fall_Sat": "Is it just me, or does Beauregard play too many video games?#$e#Maybe I'm a little old-fashioned.",
                 "winter_Sat": "Don't you think Beauregard would look better if she grew out her hair?#$e#When she was little she had such nice long hair..."
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Clint",
+            "Entries": {
+                "eventSeen_101_memory_oneweek": "Did Jester say anything about our date the other day?#$b#Wait, don't tell me... I'm better off not knowing. Maybe I can still salvage my dignity.$s",
+                "dating_Emily": "I... um... heard that you and Jester are together. Congratulations.$s",
+                "Thu8": "I heard Jester has a friend who lives in the desert. Do you know anything about her?#$e#I wonder if she's single...$s"
             }
         },
         {
@@ -205,6 +219,7 @@
             "Target": "Characters/Dialogue/Emily",
             "Entries": {
                 "Introduction": "Hi! I'm Jester!#$b#If you're ever looking for something to do in the evening, stop by the saloon. That's where I work!",
+                "married_Shane": "Well, now that you're married, I assume Caleb won't be coming to the Saloon as much!#$e#That's probably a good thing, but it's always a little sad to lose a regular...$s",
                 "Resort_Dance": "%Jester is lost in the music.",
                 "Mon": "Have I told you Haley's my roommate? Beau was going to be my roommate but her dad wouldn't let her move out.",
                 "Mon2": "Fjord's really handsome, huh?#$e#'BUT I MEAN, HE'S NOT THAT COOL OR ANYTHING, I MEAN YOU PROBABLY WOULDN'T BE INTERESTED IN HIM AT ALL.$6",
@@ -262,6 +277,7 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/Evelyn",
             "Entries": {
+                "GreenRain": "George, dear... Is this the end? It's been a good life, but I'd like to see Fjord find his way before departing...$s%noturn",
                 "summer_Mon_inlaw_Alex": "How's our boy Fjord doing? I imagine he's quite happy living on the farm.#$e#He deserves to be happy... he's a good boy.",
                 "summer_Wed": "I saw this beautiful purple butterfly today.#$e#It reminded me of that Mollymauk.",
                 "fall_Sat": "Are you friends with Fjord?#$e#Sometime he worries me sick... He misses Vandran so much."
@@ -279,6 +295,7 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/Gus",
             "Entries": {
+                "dating_Emily_memory_oneweek": "Jester has a real pep in her step lately... I wonder why? *wink*",
                 "Wed": "Jester's been working here for a while now. I don't know what I'd do without her!#$e#I would hate to have to clean all those pots by myself.$s",
                 "Thu6": "Clint comes into the saloon almost every night and sits at the same table by himself.#$e#Sometimes he glances over at Jester with a nervous look. Hmmm.#$e#Maybe that's why he comes in so often. Oh well, that means more business for me.",
                 "Fri": "Hi there, @. If you're ever thirsty, the Saloon is the place to be."
@@ -288,6 +305,11 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/Haley",
             "Entries": {
+                "eventSeen_12_memory_twoweeks": "My parents sent another postcard... I guess they're in the middle of a cruise down the Gem Sea Coast.#$e#They said me and Jester could join them at any point, but let's be honest... who wants to go on vacation with their parents?",
+                "eventSeen_11_memory_oneweek": "The other day, Jester baked something called a 'squirrel loaf'...$u#$e#How'd it taste? Um... well, if my tail was a little bushier I probably would've loved it.$h",
+                "married_Emily": "Jester's like a sister to me, so I guess this basically makes you my 'brother-in-law', huh? That's funny to think about.^Jester's like a sister a sister to me, so I guess we're kind of sisters now too!$h",
+                "divorced_Emily": "Things didn't work out between you and Jester, huh? Well... It happens.#$e#It *is* kind of awkward that you're both still living in this tiny town, though.",
+                "married_Emily_memory_oneweek": "Is Jester settling into the farm life?#$e#You know, I was starting to wonder if Jester would ever get married...",
                 "Resort_Towel_3": "Jester's friend had this swimsuit shipped to me from all the way out in Zuzu City.#$e#City fashion is on a whole different level, isn't it?$h",
                 "Sun": "My roommate is so weird. Sometimes I wonder why I live with her.$u",
                 "Event_room1": "Him? No!#$b#...Well, I guess I used to like Fjord. But not anymore! He's more immature than I first thought.",
@@ -303,11 +325,17 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/Jas",
             "Entries": {
+                "GreenRain": "Gross...$s",
+                "AcceptGift_(TR)FairyBox": "Wow, it's so pretty!$h",
+                "AcceptGift_alcohol_item": null,
+                "AcceptGift_coffee_item": null,
                 "Resort_Entering": "I should have brought my flask.$e#Maybe the resort will have drinks today.",
                 "Resort_Leaving": "I need a drink...$s",
                 "Resort_Shore": "I get nervous standing this close to the water, but I gotta look for buttons.",
                 "Resort": "Fjord says Button Beard's lost ship sunk here many years ago.$b#I think he's full of shit.",
                 "reject_869": "It's a tempting snack, but I'm not hungry.",
+                "married_Shane": "I hope Caleb will still come and visit...$s",
+                "eventSeen_3910975": "...Is Caleb going to be okay?$s",
                 "Introduction": "...$u#$b#What? I'm not a goblin... Who told you I'm a goblin!$u",
                 "Mon": "I love anything that makes an explosion!$h",
                 "Mon4": "Hi, @.$e#If you ever need to get past a goblin, just give it void mayo.$h",
@@ -331,9 +359,19 @@
         },
         {
             "Action": "EditData",
+            "Target": "Characters/Dialogue/Jodi",
+            "Entries": {
+                "eventSeen_3910975": "*whisper* Did you hear about Caleb? That's so terrible... I hope he's doing okay.$s",
+                "eventSeen_101": "Poor Clint... they say he's head-over-heels for Jester, but I've heard she only thinks of him as a friend..."
+            }
+        },
+        {
+            "Action": "EditData",
             "Target": "Characters/Dialogue/Leah",
             "Entries": {
                 "Introduction": "Hello, it's nice to meet you. $h#$e#You picked a good time to move here... The flowers are in bloom.",
+                "married_Elliott": "Caduceus is a real romantic... I'm sure your days will be filled with poetry!$h",
+                "married_Shane": "I'm happy that Caleb's in such a good place. I've never seen him smile so much!#$e#With his love for chickens, I'm sure he'll fit right in on %farm Farm!$h",
                 "Mon": "May I ask you something?#$q 21/22/211132 Mon_old#So why did you become a farmer?#$r 21 -5 Mon_21#I want to make tons of money.#$r 22 5 Mon_22#It's more \"real\" than living in the city.#$r 211132 5 Mon_211132#To follow in grandpa's footsteps.#$r 22 5 Mon_22#I wanted to escape my old life.",
                 "Mon_old": "$p 21#So are you making as much money as you hoped?|How do you like spending so much time in nature?",
                 "Mon_22": "That's pretty much the reason I came here, too$s",
@@ -400,8 +438,9 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/Marnie",
             "Entries": {
-                "Tue": "My tenants, Caleb and Nott have been staying at my place for a while now.#$e#They help me out with the chickens, so I'm not complaining.",
-                "Fri4": "#$1 marnieLike#I think someone in town has taken a liking to me. *teehee*$k$h#$e#I would be so lonely if Caleb and Nott ever moved out."
+                "Tue": "$query PLAYER_NPC_RELATIONSHIP any Shane married roommate#Now that Caleb's gone, I'm going to have to teach Nott how to care for the chickens. I hope she doesn't eat them.|My tenants, Caleb and Nott have been staying at my place for a while now.#$e#They help me out with the chickens, so I'm not complaining.",
+                "dating_Shane_memory_oneweek": "Caleb seems a lot more positive and hopeful, lately.#$b#I'm so happy you moved here, and that you two get along so well!$h",
+                "married_Shane": null
             }
         },
         {
@@ -882,6 +921,7 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/Maru",
             "Entries": {
+                "married_Sebastian": "I'm glad that Mollymauk found a way out of the basement...#$e#I wish you two all the best!",
                 "summer_Tue": "Molly has been renting the basement out for years now.#$e#He came to Pelican Town one night and didn't even know his own name...",
                 "summer_Tue4": "Molly read my fortune the other night.#$e#I don't really believe in fortunes but it was fun anyway."
             }
@@ -890,6 +930,7 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/Penny",
             "Entries": {
+                "eventSeen_34_memory_oneweek": "Nott and I have been teaching Vincent about Dwarvish Archaeology...#$b#But she and Vincent are both mainly interested in dwarvish weapons!$h",
                 "Tue": "I'm tutoring Vincent today... He's a handful, but having Nott around is a big help.",
                 "Wed": "We don't have a school here but I'm doing my best to give Vincent a proper education.#$e#Everyone deserves a chance to be successful.#$e#Nott is very good at teaching science... but sometimes she gets this nostalgic look in her eye when she watches Vincent play. Almost like she's missing someone...",
                 "Wed2": "You know what? Nott and I should take Vincent on a field trip some time. Maybe to the forest.#$e#A guest speaker would be nice... maybe someone familiar with nature?#$e#Sorry, I'm just thinking out loud.",
@@ -900,6 +941,7 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/Pierre",
             "Entries": {
+                "eventSeen_4": "Beauregard's going through a rebellious phase... I get it.#$e#She'll wise up when she has to make her first mortgage payment!$h",
                 "Mon4_inlaw_Abigail": "Hi, @. How's Beauregard doing? I miss having her around to handle the books.",
                 "Thu8": "#$1 pierre2#Does Beauregard look anything like me? Don't tell my wife, but sometimes I wonder if I'm really the father.$k$s#$e#Don't tell my wife, but I hate to cook dinner."
             }
@@ -919,6 +961,8 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/Robin",
             "Entries": {
+                "divorced_Sebastian": "Mollymauk's back in the basement... what happened between you two?$s",
+                "married_Sebastian": "Oh, don't worry... these are tears of joy. I know Molly will be very happy on %farm Farm!$h",
                 "Fri": "You've met Mollymauk, right? He rents our downstairs.#$e#He can be a little... colorful, but I'm sure you'll warm up to him once you get past his theatrics.",
                 "Fri_inlaw_Sebastian": "I miss having Molly around the house. He was wonderful at helping me get ready for date night.",
                 "Fri4": "#$1 RobinSeb#I found an ashtray in Molly's room, and it smelled really weird. Should I be worried about this?#$e#Sometimes I worry about Molly... he came to us with no name and no home...#$e#I can only imagine what that would be like.",
@@ -930,7 +974,9 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/Sam",
             "Entries": {
-                "Resort_Towel_2": "Maybe I should learn to play the ukelele.#$e#Beau on the congas and Molly on the steel drums... 'The Pelicans of Paradise'...$s#$e#What's the matter, you look worried.$h",
+                "Resort_Towel_2": "Maybe I should learn to play the ukulele.#$e#Beau on the congas and Molly on the steel drums... 'The Pelicans of Paradise'...$s#$e#What's the matter, you look worried.$h",
+                "dating_Sebastian": "I heard you and Molly are going out... he better still be coming to band practice every week!",
+                "married_Sebastian": "Wow, I can't believe you and Molly got hitched. Times really are changing...$u#$e#Eh, it's alright, I'm sure he'll still have time to hang out.",
                 "Wed6": "I've been friends with Molly for a while. He's a pretty cool guy.#$e#If you two weren't around I wouldn't really have any friends in town."
             }
         },
@@ -938,6 +984,7 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/Sandy",
             "Entries": {
+                "married_Emily": "How'd the big day go? Jester came up a while ago and told me all about your plans.#$b#I'll have to come visit you two on the farm sometime!",
                 "Wed": "Why hello there! If you see my friend Jester in town, could you tell her I said 'Hi'?#$e#Thanks!$h"
             }
         },
@@ -1036,6 +1083,7 @@
                 "Tue2": "What do you want from me? Money? I don't have any!",
                 "Tue4": "Every time I try something new it goes horribly wrong. You know?",
                 "Tue6": "Life isn't so bad sometimes. I have Nott at least...$u",
+                "Tue10": "I need to keep it together for Nott's sake. She worries about me.",
                 "Wed": "It's %time.",
                 "Wed8": "I guess I've grown attached to Nott. We're a ragtag duo but it kind of feels like a weird family.#$e#I never really had much of a family as a kid... at least not for very long.$s",
                 "Wed4": "$d Joja#*sigh* ...Every day is the same. Stocking shelves, going to the saloon, tossing and turning all night.$s|I hated my job at JojaMart, but now that I'm unemployed I feel even worse. At least the job kept my mind off other things.$s",
