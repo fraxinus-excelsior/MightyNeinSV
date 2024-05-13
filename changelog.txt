@@ -1,3 +1,6 @@
+3.1.4 May 12 2024
+-Various Nott dialogue changes
+
 3.1.3 Dec 27 2023
 -Updated NPC emojis
 -Removed jumproping from Nott's schedule
