@@ -4,7 +4,7 @@
             "Action": "EditData",
             "Target": "Data/Boots",
             "Entries": {
-                "804": "Jester's Magic Boots/Made with love by Jester. 100% compostable!/250/4/4/13",
+                "804": "Jester's Magic Boots/Made with love by Jester. 100% compostable!/250/4/4/13/Jester's Magic Boots"
             }
         },
         {
@@ -54,15 +54,16 @@
             "Action": "EditData",
             "Target": "Data/hats",
             "Entries": {
-                "41": "Jester's Magic Hat/Made with love by Jester. It's 100% organic!/false/true",
+                "41": "Jester's Magic Hat/Made with love by Jester. It's 100% organic!/false/true//Jester's Magic Hat",
+                "AbigailsBow": "Beauregard's Bow/It's just like Beau's./true/false//Beauregard's Bow/94"
             }
         },
         {
             "Action": "EditData",
             "Target": "Data/mail",
             "Entries": {
-                "Emily": "Hi!^How are you doing? I hope you enjoy the gift I've sent you... Well, goodbye! +   ^   -Jester %item object 243 1 430 1 438 1 %%[#]A Gift From Jester",
-                "Shane": "Hey,^I thought it would be fun to send you a letter. I don't really know what to write, though.^ Here, I've enclosed a treat for you. I... hope you like it.^Okay, see you soon. ^   -Caleb %item object 215 1 349 1 %%[#]A Gift From Caleb",
+                "Emily": "Hi!^How are you doing? I hope you enjoy the gift I've sent you... Well, goodbye! +   ^   -Jester %item id (O)243 1 (O)430 1 (O)438 1 %%[#]A Gift From Jester",
+                "Shane": "Hey,^I thought it would be fun to send you a letter. I don't really know what to write, though.^ Here, I've enclosed a treat for you. I... hope you like it.^Okay, see you soon. ^   -Caleb %item id (O)215 1 (O)349 1 %%[#]A Gift From Caleb",
                 "afterArtShow": "Dear @,^Thanks again for supporting me. I never would have taken the plunge without your help. I sold nearly all of my sculptures, and I think I'll be living quite comfortably now! I hope to see you again soon.  ^   -Yasha[#]Yasha's Thank-you Note",
                 "EmilyCooking": "@!^Flip this letter over for instructions on how to make a super-healthy meal!^You'll feel energized. See you soon. ^   -Jester%item cookingRecipe %%[#]Jester's Healthy Recipe",
                 "ShaneCooking": "@,^I found this recipe in a book I was reading and I thought it sounded interesting. Feel free to give me a taste if you make it. ^   -Caleb%item cookingRecipe %%[#]Caleb's Recipe",
@@ -79,10 +80,10 @@
                 "elliottLetter1": "@, my love,^^I've just arrived in Grampleton, to start the tour. I've forgotten how hectic the city is! The streets are packed with people... they either seem in a mad hurry, or lost in a daze, unaware of their surroundings. I miss Pelican Town already!^^I begin the tour this evening, at a local bookstore. I must admit, I'm becoming a bit nervous at the thought of public speaking... my stomach feels as if it's been twisted into a soft pretzel and doused with spicy cheese dip. Wish me luck!^^-Love, Caduceus^^P.S. I hope you had a peaceful night, and weren't too scared all alone in that big house! %item conversationTopic ElliottGone2 0 %%[#]Letter From My Husband",
                 "elliottLetter2": "My dear @,^^The first reading went well, though the audience was a bit smaller than I'd hoped. Still, I sold enough copies of the guide to pay for my (bug-infested) hotel room!^^In a few hours, I leave for Zuzu City. If yesterday's reading was a warm-up, this next one will be a true napalm blast...^^I miss you very much. Remember to eat well! Oh, and don't forget the leftover crab cakes I put in the fridge...^-Love, Caduceus %item conversationTopic ElliottGone3 0 %%[#]Letter From My Husband 2",
                 "elliottLetter3": "My sweet @,^^Last night in Zuzu City was quite the experience! It seems there's a large literary scene here... a few dozen people showed up at my reading!^^I even signed a couple of autographs... it's strange to be seen as someone important. It's all a matter of framing, a grand illusion... for truly I am no one special. Only your devoted Caduceus, as always.^^Currently I'm alone, in my hotel room, 'ingesting' a Joja Value Meal...^^Should this be called 'food'?^Or 'edible matter'?^I needn't long brood^It must be the latter^^I look forward to returning home soon. Hope you enjoyed the crab cakes.^^-Love, Caduceus %item conversationTopic ElliottGone4 0 %%[#]Letter From My Husband 3",
-                "elliottLetter4": "In dreams, when graced with lofty view^I gaze upon the sunlit sea^What distant shores I've travelled to^But time now clouds my memory^^There is but one eternal place^Where I shall someday pass beyond^In Valley dear, where my love waits:^Our little home beside the pond^^-Caduceus %item conversationTopic ElliottGone5 0 %%[#]Letter From My Husband 4",
+                "elliottLetter4": "In dreams, when graced with lofty view^I gaze upon the sunlit sea^What distant shores I've traveled to^But time now clouds my memory^^There is but one eternal place^Where I shall someday pass beyond^In Valley dear, where my love waits:^Our little home beside the pond^^-Caduceus %item conversationTopic ElliottGone5 0 %%[#]Letter From My Husband 4",
                 "elliottLetter5": "My dear @,^^I won't bore you with any more details about my readings. They are mostly the same.^^I'm sure your time has been much more exciting! I can't wait to return and see what progress has been made.^^On these long travels between towns, I amuse myself by closing my eyes and envisioning the farm... I see kegs pulsing with sweet wine, a furnace ablaze with precious ore, and our little kitchen with the smell of cinnamon and nutmeg. There's a lot to enjoy!^^Just don't stay out too late in the mines, my love. It's dangerous in there! If you must go... bring plenty of food.^^-Love, Caduceus %item conversationTopic ElliottGone6 0 %%[#]Letter From My Husband 5",
                 "elliottLetter6": "My dear @,^^This will be my last letter before I return home. I've had a fine trip... though nothing too exciting. It's been nice to meet people who enjoy my work, but I'm eager to return home.^^I look forward to the comfort of our little house, the satisfying farm work, a home-cooked meal, and most of all, cozying into the flannel sheets with you.^^See you soon!^-Love, Caduceus %item conversationTopic ElliottGone7 0 %%[#]Letter From My Husband 6",
-                "emilyStones": "Hi @,^^Thanks again for the wonderful gemstones.^These will be perfect for my energy re-alignment work!^I wanted to thank you with this special gift. I hope you create some wonderful items with it!^^-Jester%item bigobject 247 %%[#]Jester's Gemstones",
+                "emilyStones": "Hi @,^^Thanks again for the wonderful gemstones.^These will be perfect for my energy re-alignment work!^I wanted to thank you with this special gift. I hope you create some wonderful items with it!^^-Jester%item id (BC)247 %%[#]Jester's Gemstones",
             }
         },
         {
@@ -258,14 +259,14 @@
                 "110": {
                     2: "Clint wants you to give Jester a ruby. He wants you to tell her it's from him.",
                     3: "Bring Jester a Ruby.",
-                    4: "Emily 64",
+                    4: "Emily (O)64",
                     9: "Oh, my favorite stone! It reminds me of my mom! You're so sweet!$h#$b#Huh? It's from who?$u#$b#Oh, you got it at Clint's? Well I don't care where you got it from, it's beautiful! Thank you! *smooch*$h"
                 },
                 "115": {
                     1: "Baked Goods",
                     2: "Jester wants baked goods if you have any. She's asking for a pink cake.",
                     3: "Bring Jester a pink cake.",
-                    4: "Emily 221"
+                    4: "Emily (O)221"
                 },
                 "126": {
                     3: "Bring Jester 200 fiber."
@@ -276,13 +277,13 @@
             "Action": "EditData",
             "Target": "Data/SecretNotes",
             "Entries": {
-                "1": "It's a page from Beau's journal^^'I stole some of dad's secret stash. It was stronger than I expected. I might grab some of his wine later too.'%revealtasteAbigail303%revealtasteAbigail346%revealtasteAbigail348",
-                "2": "It's Sam's holiday shopping list^^Everyone's favorites^^Mollymauk: Alcohol, Red Mushroom^Penny: Emerald, Poppy^Vincent: Grape, Cranberry Candy^Mom: Crispy Bass, Pancakes^Dad: Risotto, Roasted Hazelnuts^Me: Cactus, Maple Bar, Pizza%revealtasteSebastian303%revealtasteSebastian420%revealtasteSebastian348%revealtasteSebastian459%revealtasteSebastian113%revealtastePenny60%revealtastePenny376%revealtasteVincent398%revealtasteVincent612%revealtasteJodi214%revealtasteJodi211%revealtasteKent649%revealtasteKent607%revealtasteSam90%revealtasteSam731%revealtasteSam206",
-                "3": "It's written in Yasha's handwriting^^I miss the ales from Xhorhas, but the ales from this land are still quite good.%revealtasteLeah346%revealtasteLeah303",
-                "5": "It's Penny's handwriting:^^I want to get everyone something they love!^^Mom: Parsnip, Glazed Yams, NO BEER!^Nott: Explosives, Alcohol^Vincent: Pink Cake, Grape^Mr. Mullner: Leek, Fried Mushroom^Granny Mullner: Beet, Tulip%revealtastePam24%revealtastePam208%revealtastePam346%revealtasteJas286%revealtasteJas287%revealtasteJas288%revealtasteJas441%revealtasteJas303%revealtasteJas346%revealtasteJas348%revealtasteJas459%revealtasteVincent398%revealtasteVincent221%revealtasteGeorge20%revealtasteGeorge205%revealtasteEvelyn284%revealtasteEvelyn591",
-                "7": "It's a page from someone's diary...^^...There are only a few 'older' bachelors in town, and none of them are perfect! Harvey is really anxious and weak, but I know he would make a loyal and devoted husband. He likes coffee and pickles.^^Caduceus is a bit crunchy, but he does have a nice chin. He really likes mushrooms.^^Caleb is messy and anti-social. But I think his dirty exterior is a defense mechanism, insulating his softness from the world. He likes hot things, Pepper Poppers, fire quartz.%revealtasteHarvey395%revealtasteHarvey342%revealtasteElliott420%revealtasteElliott404%revealtasteElliott257%revealtasteElliott281%revealtasteElliott205%revealtasteElliott422%revealtasteShane565%revealtasteShane82%revealtasteShane215%revealtasteShane260",
-                "8": "^To Jester^^Hope you are doing well! I've sent you your favorite gifts: Rubys and sweets!^^-Love Mom%revealtasteEmily64%revealtasteEmily243%revealtasteEmily340%revealtasteEmily233%revealtasteEmily220",
-                "9": "It's written in Fjord's handwriting:^^*Squid^*Salmon Dinner^^(I've learned to love this food... It was Vandran's favorite.)%revealtasteAlex151%revealtasteAlex212",
+                "1": "It's a page from Beau's journal^^'I stole some of dad's secret stash. It was stronger than I expected. I might grab some of his wine later too.'%revealtaste:Abigail:303%revealtaste:Abigail:346%revealtaste:Abigail:348",
+                "2": "It's Sam's holiday shopping list^^Everyone's favorites^^Mollymauk: Alcohol, Red Mushroom^Penny: Emerald, Poppy^Vincent: Grape, Cranberry Candy^Mom: Crispy Bass, Pancakes^Dad: Risotto, Roasted Hazelnuts^Me: Cactus, Maple Bar, Pizza%revealtaste:Sebastian:303%revealtaste:Sebastian:420%revealtaste:Sebastian:348%revealtaste:Sebastian:459%revealtaste:Sebastian:113%revealtaste:Penny:60%revealtaste:Penny:376%revealtaste:Vincent:398%revealtaste:Vincent:612%revealtaste:Jodi:214%revealtaste:Jodi:211%revealtaste:Kent:649%revealtaste:Kent:607%revealtaste:Sam:90%revealtaste:Sam:731%revealtaste:Sam:206",
+                "3": "It's written in Yasha's handwriting^^I miss the ales from Xhorhas, but the ales from this land are still quite good.%revealtaste:Leah:346%revealtaste:Leah:303",
+                "5": "It's Penny's handwriting:^^I want to get everyone something they love!^^Mom: Parsnip, Glazed Yams, NO BEER!^Nott: Explosives, Alcohol^Vincent: Pink Cake, Grape^Mr. Mullner: Leek, Fried Mushroom^Granny Mullner: Beet, Tulip%revealtaste:Pam:24%revealtaste:Pam:208%revealtaste:Pam:346%revealtaste:Jas:286%revealtaste:Jas:287%revealtaste:Jas:288%revealtaste:Jas:441%revealtaste:Jas:303%revealtaste:Jas:346%revealtaste:Jas:348%revealtaste:Jas:459%revealtaste:Vincent:398%revealtaste:Vincent:221%revealtaste:George:20%revealtaste:George:205%revealtaste:Evelyn:284%revealtaste:Evelyn:591",
+                "7": "It's a page from someone's diary...^^...There are only a few 'older' bachelors in town, and none of them are perfect! Harvey is really anxious and weak, but I know he would make a loyal and devoted husband. He likes coffee and pickles.^^Caduceus is a bit crunchy, but he does have a nice chin. He really likes mushrooms.^^Caleb is messy and anti-social. But I think his dirty exterior is a defense mechanism, insulating his softness from the world. He likes hot things, Pepper Poppers, fire quartz.%revealtaste:Harvey:395%revealtaste:Harvey:342%revealtaste:Elliott:420%revealtaste:Elliott:404%revealtaste:Elliott:257%revealtaste:Elliott:281%revealtaste:Elliott:205%revealtaste:Elliott:422%revealtaste:Shane:565%revealtaste:Shane:82%revealtaste:Shane:215%revealtaste:Shane:260",
+                "8": "^To Jester^^Hope you are doing well! I've sent you your favorite gifts: Rubys and sweets!^^-Love Mom%revealtaste:Emily:64%revealtaste:Emily:243%revealtaste:Emily:340%revealtaste:Emily:233%revealtaste:Emily:220",
+                "9": "It's written in Fjord's handwriting:^^*Squid^*Salmon Dinner^^(I've learned to love this food... It was Vandran's favorite.)%revealtaste:Alex:151%revealtaste:Alex:212"
             }
         },
         {
