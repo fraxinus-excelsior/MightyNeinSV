@@ -288,13 +288,6 @@
         },
         {
             "Action": "EditData",
-            "Target": "Data/Strings/NPCNames",
-            "Entries": {
-                "Kel": "Sky Spear"
-            }
-        },
-        {
-            "Action": "EditData",
             "Target": "Data/Weapons",
             "Fields": {
                 "5": {

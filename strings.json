@@ -19,9 +19,38 @@
       },
       {
          "Action": "EditData",
+         "Target": "Strings/Furniture",
+         "Entries": {
+            "LeahsSculpture": "Yasha's Sculpture",
+            "AbigailPortrait": "Beau Portrait",
+            "EmilyPortrait": "Jester Portrait",
+            "LeahPortrait": "Yasha Portrait",
+            "AlexPortrait": "Fjord Portrait",
+            "ElliottPortrait": "Caduceus Portrait",
+            "SebastianPortrait": "Mollymauk Portrait",
+            "ShanePortrait": "Caleb Portrait"
+         }
+      },
+      {
+         "Action": "EditData",
          "Target": "Strings/Locations",
          "Entries": {
-            "ElliottHouse_ElliottBook_Filled": "'{0}' by Caduceus ... Dedicated to {1}"
+            "ElliottHouse_ElliottBook_Filled": "'{0}' by Caduceus ... Dedicated to {1}",
+            "Backwoods_MonsterGrave": "Beau took a life to save mine...#I'll never forget that."
+         }
+      },
+      {
+         "Action": "EditData",
+         "Target": "Strings/NPCNames",
+         "Entries": {
+            "Abigail": "Beau",
+            "Alex": "Fjord",
+            "Elliott": "Caduceus",
+            "Emily": "Jester",
+            "Jas": "Nott",
+            "Leah": "Yasha",
+            "Sebastian": "Mollymauk",
+            "Shane": "Caleb"
          }
       },
       {
