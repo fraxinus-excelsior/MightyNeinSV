@@ -196,6 +196,26 @@
             "SeedShop.3": "Professor the Guinea Pig",
             "SeedShop.10": "A Spirit Board. Molly must have given this to her."
          }
-      }
+      },
+      {
+         "Action": "EditData",
+         "Target": "Strings/Weapons",
+         "Entries": {
+            "BoneSword_Name": "Holy Weapon",
+            "BoneSword_Description": "A magically summoned lollipop.",
+            "IronEdge_Name": "Magician's Judge",
+            "IronEdge_Description": "A heavy greatsword from the Age of Arcanum.",
+            "TemplarsBlade_Name": "Sword of Fathoms",
+            "TemplarsBlade_Description": "A pact blade with an ancient sea serpent.",
+            "SteelSmallsword_Name": "Summer's Dance",
+            "SteelSmallsword_Description": "A golden scimitar.",
+            "WoodenBlade_Name": "Wooden Bo Staff",
+            "WoodenBlade_Description": "It's a stick.",
+            "WoodMallet_Name": "Cat's Ire",
+            "WoodMallet_Description": "A giant magical cat's paw.",
+            "Kudgel_Name": "Blight Staff",
+            "Kudgel_Description": "A wooden staff with a crystal on top. It's full of beetles."
+         }
+      },
    ]
 }
