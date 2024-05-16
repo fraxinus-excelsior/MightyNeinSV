@@ -11,7 +11,7 @@
             "Action": "EditData",
             "Target": "Data/ClothingInformation",
             "Entries": {
-                "1127": "Jester's Magic Shirt/Jester's Magic Shirt/Made with love by Jester. Colored with all-natural dye!/127/-1/50/255 235 203/false/Shirt",
+                "1127": "Jester's Magic Shirt/Jester's Magic Shirt/Made with love by Jester. Colored with all-natural dye!/127/-1/50/255 235 203/false/Shirt"
             }
         },
         {
@@ -88,49 +88,76 @@
         },
         {
             "Action": "EditData",
-            "Target": "Data/NPCDispositions",
+            "Target": "Data/Characters",
             "Fields": {
                 "Abigail": {
-                    11: "Beau"
+                    "Age": "Adult",
+                    "IsDarkSkinned": true
+                },
+                "Caroline": {
+                    "IsDarkSkinned": true
+                },
+                "Pierre": {
+                    "IsDarkSkinned": true
                 },
                 "Elliott": {
-                    11: "Caduceus"
+                    "Optimism": "Positive"
                 },
                 "Emily": {
-                    9: "Haley 'roommate'",
-                    11: "Jester"
+                    "FriendsAndFamily": {
+                        "Haley": "roommate"
+                    }
                 },
                 "Haley": {
-                    9: "Emily 'roommate'"
+                    "FriendsAndFamily": {
+                        "Emily": "roommate"
+                    }
                 },
                 "Jas": {
-                    11: "Nott"
+                    "Age": "Adult", // see how this works out
+                    "SocialAnxiety": "Neutral",
+                    "Optimism": "Neutral",
+                    "LoveInterest": ""
                 },
                 "Alex": {
-                    9: "George 'pa' Evelyn 'ma'",
-                    11: "Fjord"
+                    "Manner": "Polite",
+                    "FriendsAndFamily": {
+                        "George": "pa",
+                        "Evelyn": "ma"
+                    }
                 },
                 "Leah": {
-                    11: "Yasha"
+                    "SocialAnxiety": "Shy"
                 },
                 "Marnie": {
-                    9: "Lewis '' Shane 'tenant' Jas 'tenant'"
+                    "FriendsAndFamily": {
+                        "Shane": "tenant",
+                        "Jas": "tenant"
+                    }
                 },
                 "Maru": {
-                    9: "Robin 'mom' Demetrius 'dad' Sebastian 'tenant'"
+                    "FriendsAndFamily": {
+                        "Sebastian": "tenant"
+                    }
                 },
                 "Robin": {
-                    9: "Demetrius 'husband' Maru 'daughter' Sebastian 'tenant'"
+                    "FriendsAndFamily": {
+                        "Sebastian": "tenant"
+                    }
                 },
                 "Sebastian": {
-                    1: "Neutral",
-                    9: "Robin 'landlord' Maru 'landlord's_daughter' Sam ''",
-                    11: "Mollymauk"
+                    "FriendsAndFamily": {
+                        "Robin": "landlord",
+                        "Maru": "landlord's daughter"
+                    },
+                    "SocialAnxiety": "Outgoing",
+                    "Optimism": "Positive"
                 },
                 "Shane": {
-                    9: "Marnie 'landlord'",
-                    11: "Caleb"
-                },
+                    "FriendsAndFamily": {
+                        "Marnie": "landlord"
+                    }
+                }
             }
         },
         {
