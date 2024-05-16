@@ -11,6 +11,12 @@
          "Target": "Portraits/Emily_Beach",
          "FromFile": "assets/Portraits/Emily_Beach.png"
       },
+      // TEMPORARY 
+      {
+         "Action": "Load",
+         "Target": "Portraits/Emily_Winter",
+         "FromFile": "assets/Portraits/EmilyPortrait.png"
+      },
       // fjord
       {
          "Action": "Load",
@@ -21,6 +27,12 @@
          "Action": "Load",
          "Target": "Portraits/Alex_Beach",
          "FromFile": "assets/Portraits/Alex_Beach.png"
+      },
+      // TEMPORARY 
+      {
+         "Action": "Load",
+         "Target": "Portraits/Alex_Winter",
+         "FromFile": "assets/Portraits/AlexPortrait.png"
       },
       // yasha
       {
@@ -33,6 +45,12 @@
          "Target": "Portraits/Leah_Beach",
          "FromFile": "assets/Portraits/Leah_Beach.png"
       },
+      // TEMPORARY 
+      {
+         "Action": "Load",
+         "Target": "Portraits/Leah_Winter",
+         "FromFile": "assets/Portraits/LeahPortrait.png"
+      },
       // beau
       {
          "Action": "Load",
@@ -43,6 +61,12 @@
          "Action": "Load",
          "Target": "Portraits/Abigail_Beach",
          "FromFile": "assets/Portraits/Abigail_Beach.png"
+      },
+      // TEMPORARY 
+      {
+         "Action": "Load",
+         "Target": "Portraits/Abigail_Winter",
+         "FromFile": "assets/Portraits/AbigailPortrait.png"
       },
       // caroline
       {
@@ -55,6 +79,12 @@
          "Target": "Portraits/Caroline_Beach",
          "FromFile": "assets/Portraits/Caroline_Beach.png"
       },
+      // TEMPORARY 
+      {
+         "Action": "Load",
+         "Target": "Portraits/Caroline_Winter",
+         "FromFile": "assets/Portraits/CarolinePortrait.png"
+      },
       // pierre
       {
          "Action": "Load",
@@ -65,6 +95,12 @@
          "Action": "Load",
          "Target": "Portraits/Pierre_Beach",
          "FromFile": "assets/Portraits/Pierre_Beach.png"
+      },
+      // TEMPORARY 
+      {
+         "Action": "Load",
+         "Target": "Portraits/Pierre_Winter",
+         "FromFile": "assets/Portraits/PierrePortrait.png"
       },
       // caduceus
       {
@@ -77,10 +113,22 @@
          "Target": "Portraits/Elliott_Beach",
          "FromFile": "assets/Portraits/Elliott_Beach.png"
       },
+      // TEMPORARY 
+      {
+         "Action": "Load",
+         "Target": "Portraits/Elliott_Winter",
+         "FromFile": "assets/Portraits/ElliottPortrait.png"
+      },
       // nott
       {
          "Action": "Load",
          "Target": "Portraits/Jas",
+         "FromFile": "assets/Portraits/JasPortrait.png"
+      },
+      // TEMPORARY 
+      {
+         "Action": "Load",
+         "Target": "Portraits/Jas_Winter",
          "FromFile": "assets/Portraits/JasPortrait.png"
       },
       // mollymauk
@@ -94,6 +142,12 @@
          "Target": "Portraits/Sebastian_Beach",
          "FromFile": "assets/Portraits/Sebastian_Beach.png"
       },
+      // TEMPORARY 
+      {
+         "Action": "Load",
+         "Target": "Portraits/Sebastian_Winter",
+         "FromFile": "assets/Portraits/SebastianPortrait.png"
+      },
       // caleb
       {
          "Action": "Load",
@@ -104,6 +158,12 @@
          "Action": "Load",
          "Target": "Portraits/Shane_Beach",
          "FromFile": "assets/Portraits/Shane_Beach.png"
+      },
+      // TEMPORARY 
+      {
+         "Action": "Load",
+         "Target": "Portraits/Shane_Winter",
+         "FromFile": "assets/Portraits/ShanePortrait.png"
       }
    ]
 }

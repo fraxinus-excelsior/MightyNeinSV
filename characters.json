@@ -31,6 +31,12 @@
          "Target": "Characters/Emily_Beach",
          "FromFile": "assets/Characters/Emily_BeachSprite.png"
       },
+      // TEMPORARY jester winter sprite
+      {
+         "Action": "Load",
+         "Target": "Characters/Emily_Winter",
+         "FromFile": "assets/Characters/EmilySprite.png"
+      },
       // fjord sprite
       {
          "Action": "Load",
@@ -43,6 +49,12 @@
          "Target": "Characters/Alex_Beach",
          "FromFile": "assets/Characters/Alex_BeachSprite.png"
       },
+      // TEMPORARY fjord winter sprite
+      {
+         "Action": "Load",
+         "Target": "Characters/Alex_Winter",
+         "FromFile": "assets/Characters/AlexSprite.png"
+      },
       // yasha sprite
       {
          "Action": "Load",
@@ -54,6 +66,12 @@
          "Action": "Load",
          "Target": "Characters/Leah_Beach",
          "FromFile": "assets/Characters/Leah_BeachSprite.png"
+      },
+      // TEMPORARY yasha winter sprite
+      {
+         "Action": "Load",
+         "Target": "Characters/Leah_Winter",
+         "FromFile": "assets/Characters/LeahSprite.png"
       },
       // sky spear f
       {
@@ -85,10 +103,22 @@
          "Target": "Characters/Shane_JojaMart",
          "FromFile": "assets/Characters/Shane_JojaMartSprite.png"
       },
+      // TEMPORARY caleb winter sprite
+      {
+         "Action": "Load",
+         "Target": "Characters/Shane_Winter",
+         "FromFile": "assets/Characters/ShaneSprite.png"
+      },
       // nott sprite
       {
          "Action": "Load",
          "Target": "Characters/Jas",
+         "FromFile": "assets/Characters/JasSprite.png"
+      },
+      // TEMPORARY nott winter sprite
+      {
+         "Action": "Load",
+         "Target": "Characters/Jas_Winter",
          "FromFile": "assets/Characters/JasSprite.png"
       },
       // caduceus sprite
@@ -103,6 +133,12 @@
          "Target": "Characters/Elliott_Beach",
          "FromFile": "assets/Characters/Elliott_Beach.png"
       },
+      // TEMPORARY caduceus winter sprite
+      {
+         "Action": "Load",
+         "Target": "Characters/Elliott_Winter",
+         "FromFile": "assets/Characters/ElliottSprite.png"
+      },
       // molly sprite
       {
          "Action": "Load",
@@ -114,6 +150,12 @@
          "Action": "Load",
          "Target": "Characters/Sebastian_Beach",
          "FromFile": "assets/Characters/Sebastian_BeachSprite.png"
+      },
+      // TEMPORARY molly winter sprite
+      {
+         "Action": "Load",
+         "Target": "Characters/Sebastian_Winter",
+         "FromFile": "assets/Characters/SebastianSprite.png"
       },
       // beau sprite
       {
@@ -127,6 +169,12 @@
          "Target": "Characters/Abigail_Beach",
          "FromFile": "assets/Characters/Abigail_Beach.png"
       },
+      // TEMPORARY beau winter sprite
+      {
+         "Action": "Load",
+         "Target": "Characters/Abigail_Winter",
+         "FromFile": "assets/Characters/AbigailSprite.png"
+      },
       // caroline sprite
       {
          "Action": "Load",
@@ -139,6 +187,12 @@
          "Target": "Characters/Caroline_Beach",
          "FromFile": "assets/Characters/Caroline_Beach.png"
       },
+      // TEMPORARY caroline winter sprite
+      {
+         "Action": "Load",
+         "Target": "Characters/Caroline_Winter",
+         "FromFile": "assets/Characters/Caroline.png"
+      },
       // pierre sprite
       {
          "Action": "Load",
@@ -150,6 +204,12 @@
          "Action": "Load",
          "Target": "Characters/Pierre_Beach",
          "FromFile": "assets/Characters/Pierre_Beach.png"
+      },
+      // TEMPORARY pierre winter sprite
+      {
+         "Action": "Load",
+         "Target": "Characters/Pierre_Winter",
+         "FromFile": "assets/Characters/Pierre.png"
       },
       // clothes therapy sprites
       // replace first row of sprites with edited Caleb sprites
