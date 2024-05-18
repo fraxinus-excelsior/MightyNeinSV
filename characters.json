@@ -115,11 +115,11 @@
          "Target": "Characters/Jas",
          "FromFile": "assets/Characters/JasSprite.png"
       },
-      // TEMPORARY nott winter sprite
+      // nott winter sprite
       {
          "Action": "Load",
          "Target": "Characters/Jas_Winter",
-         "FromFile": "assets/Characters/JasSprite.png"
+         "FromFile": "assets/Characters/Jas_WinterSprite.png"
       },
       // caduceus sprite
       {
