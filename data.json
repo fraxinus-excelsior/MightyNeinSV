@@ -320,7 +320,7 @@
                     "Texture": null,
                     "SpriteIndex": 666,
                     "Edibility": 55,
-                    "IsDrink": true,
+                    "IsDrink": false,
                     "Buffs": null,
                     "CanBeGivenAsGift": true,
                     "CanBeTrashed": true,
