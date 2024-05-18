@@ -12,9 +12,18 @@
          "Action": "EditData",
          "Target": "Strings/Characters",
          "Entries": {
-            "AbigailInMineFlute": "%Beau is lost in her music...",
+            // "AbigailInMineFlute": "%Beau is lost in her music...",
             "Phone_Pierre_Open_Rare": "Beau! Your guinea pig is loose again! Come here *right now* and take care of this! $3#$b#Oh! Uh... Hello? Thank you for calling. Y... Yes, we're open until 5PM. Goodbye. *click*$4",
             "MovieInvite_Spouse_Alex": "Hey, sounds fun! I've been wantin' to see this one... and I'd rather see it with you!#$b#I'll meet you at the theater."
+         }
+      },
+      {
+         "Action": "EditData",
+         "Target": "Strings/Events",
+         "Entries": {
+            "ElliottBook_mystery": "Death: The Natural Order",
+            "ElliottBook_romance": "One Tea, Two Tea, Red Tea, Oolong Tea",
+            "ElliottBook_default": "Mushrooms: They Grow On You"
          }
       },
       {
@@ -103,6 +112,14 @@
          "Target": "Strings/schedules/Shane",
          "Entries": {
             "winter_15.000": "I'm taking a night off from the saloon for Nott's sake..."
+         }
+      },
+      {
+         "Action": "EditData",
+         "Target": "Strings/Shirts",
+         "Entries": {
+            "EmilysMagicShirt_Name": "Jester's Magic Shirt",
+            "EmilysMagicShirt_Description": "Made with love by Jester. Colored with all-natural dye!"
          }
       },
       {

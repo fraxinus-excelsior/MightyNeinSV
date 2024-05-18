@@ -9,9 +9,76 @@
         },
         {
             "Action": "EditData",
-            "Target": "Data/ClothingInformation",
-            "Entries": {
-                "1127": "Jester's Magic Shirt/Jester's Magic Shirt/Made with love by Jester. Colored with all-natural dye!/127/-1/50/255 235 203/false/Shirt"
+            "Target": "Data/Characters",
+            "Fields": {
+                "Abigail": {
+                    "Age": "Adult",
+                    "IsDarkSkinned": true
+                },
+                "Caroline": {
+                    "IsDarkSkinned": true
+                },
+                "Pierre": {
+                    "IsDarkSkinned": true
+                },
+                "Elliott": {
+                    "Optimism": "Positive"
+                },
+                "Emily": {
+                    "FriendsAndFamily": {
+                        "Haley": "roommate"
+                    }
+                },
+                "Haley": {
+                    "FriendsAndFamily": {
+                        "Emily": "roommate"
+                    }
+                },
+                "Jas": {
+                    "Age": "Adult", // see how this works out
+                    "SocialAnxiety": "Neutral",
+                    "Optimism": "Neutral",
+                    "LoveInterest": ""
+                },
+                "Alex": {
+                    "Manner": "Polite",
+                    "FriendsAndFamily": {
+                        "George": "pa",
+                        "Evelyn": "ma"
+                    }
+                },
+                "Leah": {
+                    "SocialAnxiety": "Shy"
+                },
+                "Marnie": {
+                    "FriendsAndFamily": {
+                        "Shane": "tenant",
+                        "Jas": "tenant"
+                    }
+                },
+                "Maru": {
+                    "FriendsAndFamily": {
+                        "Sebastian": "tenant"
+                    }
+                },
+                "Robin": {
+                    "FriendsAndFamily": {
+                        "Sebastian": "tenant"
+                    }
+                },
+                "Sebastian": {
+                    "FriendsAndFamily": {
+                        "Robin": "landlord",
+                        "Maru": "landlord's daughter"
+                    },
+                    "SocialAnxiety": "Outgoing",
+                    "Optimism": "Positive"
+                },
+                "Shane": {
+                    "FriendsAndFamily": {
+                        "Marnie": "landlord"
+                    }
+                }
             }
         },
         {
@@ -84,80 +151,6 @@
                 "elliottLetter5": "My dear @,^^I won't bore you with any more details about my readings. They are mostly the same.^^I'm sure your time has been much more exciting! I can't wait to return and see what progress has been made.^^On these long travels between towns, I amuse myself by closing my eyes and envisioning the farm... I see kegs pulsing with sweet wine, a furnace ablaze with precious ore, and our little kitchen with the smell of cinnamon and nutmeg. There's a lot to enjoy!^^Just don't stay out too late in the mines, my love. It's dangerous in there! If you must go... bring plenty of food.^^-Love, Caduceus %item conversationTopic ElliottGone6 0 %%[#]Letter From My Husband 5",
                 "elliottLetter6": "My dear @,^^This will be my last letter before I return home. I've had a fine trip... though nothing too exciting. It's been nice to meet people who enjoy my work, but I'm eager to return home.^^I look forward to the comfort of our little house, the satisfying farm work, a home-cooked meal, and most of all, cozying into the flannel sheets with you.^^See you soon!^-Love, Caduceus %item conversationTopic ElliottGone7 0 %%[#]Letter From My Husband 6",
                 "emilyStones": "Hi @,^^Thanks again for the wonderful gemstones.^These will be perfect for my energy re-alignment work!^I wanted to thank you with this special gift. I hope you create some wonderful items with it!^^-Jester%item id (BC)247 %%[#]Jester's Gemstones",
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Data/Characters",
-            "Fields": {
-                "Abigail": {
-                    "Age": "Adult",
-                    "IsDarkSkinned": true
-                },
-                "Caroline": {
-                    "IsDarkSkinned": true
-                },
-                "Pierre": {
-                    "IsDarkSkinned": true
-                },
-                "Elliott": {
-                    "Optimism": "Positive"
-                },
-                "Emily": {
-                    "FriendsAndFamily": {
-                        "Haley": "roommate"
-                    }
-                },
-                "Haley": {
-                    "FriendsAndFamily": {
-                        "Emily": "roommate"
-                    }
-                },
-                "Jas": {
-                    "Age": "Adult", // see how this works out
-                    "SocialAnxiety": "Neutral",
-                    "Optimism": "Neutral",
-                    "LoveInterest": ""
-                },
-                "Alex": {
-                    "Manner": "Polite",
-                    "FriendsAndFamily": {
-                        "George": "pa",
-                        "Evelyn": "ma"
-                    }
-                },
-                "Leah": {
-                    "SocialAnxiety": "Shy"
-                },
-                "Marnie": {
-                    "FriendsAndFamily": {
-                        "Shane": "tenant",
-                        "Jas": "tenant"
-                    }
-                },
-                "Maru": {
-                    "FriendsAndFamily": {
-                        "Sebastian": "tenant"
-                    }
-                },
-                "Robin": {
-                    "FriendsAndFamily": {
-                        "Sebastian": "tenant"
-                    }
-                },
-                "Sebastian": {
-                    "FriendsAndFamily": {
-                        "Robin": "landlord",
-                        "Maru": "landlord's daughter"
-                    },
-                    "SocialAnxiety": "Outgoing",
-                    "Optimism": "Positive"
-                },
-                "Shane": {
-                    "FriendsAndFamily": {
-                        "Marnie": "landlord"
-                    }
-                }
             }
         },
         {
@@ -270,10 +263,82 @@
         },
         {
             "Action": "EditData",
-            "Target": "Data/ObjectInformation",
+            "Target": "Data/Objects",
             "Entries": {
-                "615": "Spice Berry Tea/150/1/Crafting/Spice Berry Tea/It smells delicious. This is sure to give you a boost./drink/0 0 0 0 0 0 0 0 0 1 0/120",
-                "666": "Pocket Bacon/300/55/Cooking -7/Pocket Bacon/You can pick the lint off./food/0 0 0 0 0 0 0 0 0 0 0/0",
+                "615": {
+                    "Name": "Spice Berry Tea",
+                    "DisplayName": "Spice Berry Tea",
+                    "Description": "It smells delicious. This is sure to give you a boost.",
+                    "Type": "Basic",
+                    "Category": -26,
+                    "Price": 150,
+                    "Texture": null,
+                    "SpriteIndex": 615,
+                    "Edibility": 1,
+                    "IsDrink": true,
+                    "Buffs": [
+                        {
+                            "Id": "Drink",
+                            "BuffId": null,
+                            "IconTexture": null,
+                            "IconSpriteIndex": 0,
+                            "Duration": 30,
+                            "IsDebuff": false,
+                            "GlowColor": null,
+                            "CustomAttributes": {
+                                "FarmingLevel": 0.0,
+                                "FishingLevel": 0.0,
+                                "MiningLevel": 0.0,
+                                "LuckLevel": 0.0,
+                                "ForagingLevel": 0.0,
+                                "MaxStamina": 0.0,
+                                "MagneticRadius": 0.0,
+                                "Speed": 1.0,
+                                "Defense": 0.0,
+                                "Attack": 0.0
+                            },
+                            "CustomFields": null
+                        }
+                    ],
+                    "GeodeDropsDefaultItems": null,
+                    "GeodeDrops": null,
+                    "ArtifactSpotChances": null,
+                    "CanBeGivenAsGift": true,
+                    "CanBeTrashed": true,
+                    "ExcludeFromFishingCollection": true,
+                    "ExcludeFromShippingCollection": true,
+                    "ExcludeFromRandomSale": false,
+                    "ContextTags": [
+                        "color_brown"
+                    ],
+                    "CustomFields": null
+                },
+                "666": {
+                    "Name": "Pocket Bacon",
+                    "DisplayName": "Pocket Bacon",
+                    "Description": "You can pick the lint off.",
+                    "Type": "Basic",
+                    "Category": -26,
+                    "Price": 400,
+                    "Texture": null,
+                    "SpriteIndex": 666,
+                    "Edibility": 55,
+                    "IsDrink": true,
+                    "Buffs": null,
+                    "GeodeDropsDefaultItems": null,
+                    "GeodeDrops": null,
+                    "ArtifactSpotChances": null,
+                    "CanBeGivenAsGift": true,
+                    "CanBeTrashed": true,
+                    "ExcludeFromFishingCollection": true,
+                    "ExcludeFromShippingCollection": true,
+                    "ExcludeFromRandomSale": false,
+                    "ContextTags": [
+                        "color_red",
+                        "food_breakfast"
+                    ],
+                    "CustomFields": null
+                }
             }
         },
         {
@@ -311,6 +376,15 @@
                 "7": "It's a page from someone's diary...^^...There are only a few 'older' bachelors in town, and none of them are perfect! Harvey is really anxious and weak, but I know he would make a loyal and devoted husband. He likes coffee and pickles.^^Caduceus is a bit crunchy, but he does have a nice chin. He really likes mushrooms.^^Caleb is messy and anti-social. But I think his dirty exterior is a defense mechanism, insulating his softness from the world. He likes hot things, Pepper Poppers, fire quartz.%revealtaste:Harvey:395%revealtaste:Harvey:342%revealtaste:Elliott:420%revealtaste:Elliott:404%revealtaste:Elliott:257%revealtaste:Elliott:281%revealtaste:Elliott:205%revealtaste:Elliott:422%revealtaste:Shane:565%revealtaste:Shane:82%revealtaste:Shane:215%revealtaste:Shane:260",
                 "8": "^To Jester^^Hope you are doing well! I've sent you your favorite gifts: Rubys and sweets!^^-Love Mom%revealtaste:Emily:64%revealtaste:Emily:243%revealtaste:Emily:340%revealtaste:Emily:233%revealtaste:Emily:220",
                 "9": "It's written in Fjord's handwriting:^^*Squid^*Salmon Dinner^^(I've learned to love this food... It was Vandran's favorite.)%revealtaste:Alex:151%revealtaste:Alex:212"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shirts",
+            "Fields": {
+                "1127": {
+                    "Name": "Jester's Magic Shirt"
+                }
             }
         },
         {
