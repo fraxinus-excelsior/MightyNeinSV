@@ -300,9 +300,6 @@
                             "CustomFields": null
                         }
                     ],
-                    "GeodeDropsDefaultItems": null,
-                    "GeodeDrops": null,
-                    "ArtifactSpotChances": null,
                     "CanBeGivenAsGift": true,
                     "CanBeTrashed": true,
                     "ExcludeFromFishingCollection": true,
@@ -325,9 +322,6 @@
                     "Edibility": 55,
                     "IsDrink": true,
                     "Buffs": null,
-                    "GeodeDropsDefaultItems": null,
-                    "GeodeDrops": null,
-                    "ArtifactSpotChances": null,
                     "CanBeGivenAsGift": true,
                     "CanBeTrashed": true,
                     "ExcludeFromFishingCollection": true,
