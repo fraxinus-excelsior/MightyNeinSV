@@ -187,11 +187,11 @@
          "Target": "Characters/Caroline_Beach",
          "FromFile": "assets/Characters/Caroline_Beach.png"
       },
-      // TEMPORARY caroline winter sprite
+      // caroline winter sprite
       {
          "Action": "Load",
          "Target": "Characters/Caroline_Winter",
-         "FromFile": "assets/Characters/Caroline.png"
+         "FromFile": "assets/Characters/Caroline_Winter.png"
       },
       // pierre sprite
       {
