@@ -125,11 +125,10 @@
          "Target": "Portraits/Jas",
          "FromFile": "assets/Portraits/JasPortrait.png"
       },
-      // TEMPORARY 
       {
          "Action": "Load",
          "Target": "Portraits/Jas_Winter",
-         "FromFile": "assets/Portraits/JasPortrait.png"
+         "FromFile": "assets/Portraits/Jas_Winter.png"
       },
       // mollymauk
       {
