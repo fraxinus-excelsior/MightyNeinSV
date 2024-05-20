@@ -79,11 +79,10 @@
          "Target": "Portraits/Caroline_Beach",
          "FromFile": "assets/Portraits/Caroline_Beach.png"
       },
-      // TEMPORARY 
       {
          "Action": "Load",
          "Target": "Portraits/Caroline_Winter",
-         "FromFile": "assets/Portraits/CarolinePortrait.png"
+         "FromFile": "assets/Portraits/Caroline_Winter.png"
       },
       // pierre
       {
