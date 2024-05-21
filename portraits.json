@@ -95,11 +95,10 @@
          "Target": "Portraits/Pierre_Beach",
          "FromFile": "assets/Portraits/Pierre_Beach.png"
       },
-      // TEMPORARY 
       {
          "Action": "Load",
          "Target": "Portraits/Pierre_Winter",
-         "FromFile": "assets/Portraits/PierrePortrait.png"
+         "FromFile": "assets/Portraits/Pierre_Winter.png"
       },
       // caduceus
       {
