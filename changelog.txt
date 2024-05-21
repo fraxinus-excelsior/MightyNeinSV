@@ -1,3 +1,9 @@
+4.1.0 May 20 2024
+-Added winter sprites for Nott, Caroline, and Pierre
+-Added winter portraits for Nott, Caroline, and Pierre
+-Made small fixes to portraits for Nott, Caroline, and Pierre
+-Made small fixes to sprites for Nott and Caroline
+
 4.0.0 May 18 2024
 -Replaced character names in strings
 -Overrode winter sprites/portraits with regular sprites/portraits
