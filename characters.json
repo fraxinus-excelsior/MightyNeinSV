@@ -205,11 +205,11 @@
          "Target": "Characters/Pierre_Beach",
          "FromFile": "assets/Characters/Pierre_Beach.png"
       },
-      // TEMPORARY pierre winter sprite
+      // pierre winter sprite
       {
          "Action": "Load",
          "Target": "Characters/Pierre_Winter",
-         "FromFile": "assets/Characters/Pierre.png"
+         "FromFile": "assets/Characters/Pierre_Winter.png"
       },
       // clothes therapy sprites
       // replace first row of sprites with edited Caleb sprites
