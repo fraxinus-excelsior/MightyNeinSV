@@ -1,3 +1,6 @@
+4.1.1 Mar 06 2025
+-Updated winter portraits/sprites for Jester
+
 4.1.0 May 20 2024
 -Added winter sprites for Nott, Caroline, and Pierre
 -Added winter portraits for Nott, Caroline, and Pierre
