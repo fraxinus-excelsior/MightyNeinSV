@@ -31,11 +31,11 @@
          "Target": "Characters/Emily_Beach",
          "FromFile": "assets/Characters/Emily_BeachSprite.png"
       },
-      // TEMPORARY jester winter sprite
+      // jester winter sprite
       {
          "Action": "Load",
          "Target": "Characters/Emily_Winter",
-         "FromFile": "assets/Characters/EmilySprite.png"
+         "FromFile": "assets/Characters/Emily_WinterSprite.png"
       },
       // fjord sprite
       {
