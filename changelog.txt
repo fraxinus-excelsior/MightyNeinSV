@@ -1,3 +1,7 @@
+4.1.2 Apr 20 2025
+-Fixed references to base game character names
+-Fixed typos
+
 4.1.1 Mar 06 2025
 -Updated winter portraits/sprites for Jester
 
