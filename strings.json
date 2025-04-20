@@ -12,7 +12,7 @@
          "Action": "EditData",
          "Target": "Strings/Characters",
          "Entries": {
-            // "AbigailInMineFlute": "%Beau is lost in her music...",
+            "AbigailInMineFlute": "%Beau is lost in her music...",
             "Phone_Pierre_Open_Rare": "Beau! Your guinea pig is loose again! Come here *right now* and take care of this! $3#$b#Oh! Uh... Hello? Thank you for calling. Y... Yes, we're open until 5PM. Goodbye. *click*$4",
             "MovieInvite_Spouse_Alex": "Hey, sounds fun! I've been wantin' to see this one... and I'd rather see it with you!#$b#I'll meet you at the theater."
          }
@@ -46,6 +46,22 @@
          "Entries": {
             "ElliottHouse_ElliottBook_Filled": "'{0}' by Caduceus ... Dedicated to {1}",
             "Backwoods_MonsterGrave": "Beau took a life to save mine...#I'll never forget that."
+         }
+      },
+      {
+         "Action": "EditData",
+         "Target": "Strings/MovieReactions",
+         "Entries": {
+            "Penny_spring_movie_0_BeforeMovie": "I'm looking forward to this! Vincent has been talking about it non-stop.",
+            "Abigail_love_DuringMovie_2": "Beau is delighted.",
+            "Caroline_like_AfterMovie": "That wasn't bad! I'll have to ask Beau about it when I'm home, I'm sure she's seen it.$h",
+            "Emily_dislike_DuringMovie_2": "Jester is whispering to herself...",
+            "Sebastian_love_DuringMovie_2": "Mollymauk has a grin on his face.",
+            "Shane_love_DuringMovie_2": "Caleb's trying not to smile.",
+            "Shane_dislike_DuringMovie": "Caleb's slumped over...",
+            "Jas_love_DuringMovie": "Nott is ecstatic!",
+            "Jas_like_DuringMovie": "Nott is nodding and glancing sideways.",
+            "Jas_horror_DuringMovie_2": null
          }
       },
       {
@@ -98,6 +114,13 @@
          "Entries": {
             "winter_18.000": "Nott doesn't mind going to the doctor, but it never hurts to come along and keep an eye on her.",
             "winter_18.002": "Hey, Doctor Harvey? Nott's very inventive. And a little destructive... You might want to keep her away from your medical equipment."
+         }
+      },
+      {
+         "Action": "EditData",
+         "Target": "Strings/schedules/Sandy",
+         "Entries": {
+            "Sandy_Birthday_Greeting": "Oh, Jester! I was hoping you'd show up!$h#$b#I was actually feeling a little lonely this morning.#$e#But I'm glad you're here!$h"
          }
       },
       {
@@ -231,8 +254,15 @@
             "WoodMallet_Name": "Cat's Ire",
             "WoodMallet_Description": "A giant magical cat's paw.",
             "Kudgel_Name": "Blight Staff",
-            "Kudgel_Description": "A wooden staff with a crystal on top. It's full of beetles."
+            "Kudgel_Description": "A wooden staff with a crystal on top. It's full of beetles.",
+            "AlexsBat_Name": "Fjord's Bat",
+            "AlexsBat_Description": "The sweet spot is dented from Fjord's famous Grand Slam.",
+            "ElliottsPencil_Name": "Caduceus' Pencil",
+            "ElliottsPencil_Description": "Caduceus used this to write his book. It's sharp!",
+            "LeahsWhittler_Name": "Yasha's Whittler",
+            "LeahsWhittler_Description": "Yasha's favorite tool for shaping driftwood.",
+            "SebsLostMace_Description": "One of Mollymauk's medieval replicas."
          }
-      },
+      }
    ]
 }

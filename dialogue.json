@@ -9,6 +9,7 @@
                 "eventSeen_733330_memory_oneday": "Sam and Mollymauk asked me to play drums in their band... I've never played drums before, but it's actually pretty fun.#$e#You have to learn how to move your limbs to different rhythms, at the same exact time. I feel like my brain is growing.$h",
                 "eventSeen_2_memory_oneday": "Mollymauk mentioned that he heard strange music while having dinner the other night...#$e#I didn't tell him it was us! It seemed better to keep it a mystery.$h",
                 "dating_Sebastian_memory_oneday": "I heard you and Mollymauk started dating... I didn't realize you guys had a thing...$6",
+                "dating_Abigail": "%Beau is blushing, but she looks happy.",
                 "married_Sebastian": "Congratulations on the marriage. I guess this means Mollymauk won't be moving to the city like he always talked about.$6#$b#That'll be nice. I'd be kind of sad if I never saw him again. We've always been good friends.$6",
                 "Resort_Shore_2": "Hmm, you think I could sneak my guinea pig onto the island?#$e#Nah, Professor's probably not much of a swimmer anyways.$h",
                 "divorced": "What are you doing here? Fuck off!$a",
@@ -80,6 +81,7 @@
             "Entries": {
                 "Introduction": "Oh, hey there. So you're the new guy, huh? Cool.^Hey there, you're the new girl, huh? I think we're going to get along just fine. I'm Fjord.#$e#I'll see you around.",
                 "danceRejection": "Nah, sorry... I'm gonna ask someone else. Good luck.",
+                "dating_Alex": "%Fjord gives your arm a squeeze, grinning.",
                 "Mon": "Did you know I was an all-star quarterback in high school? It's true.$u#$e#I'm the best in the valley.",
                 "Tue": "The beach is a cool place to hang out and soak up some rays.#$e#I love the sound of the waves... It's comforting.#$e#*sigh*... I wish I had a ship of my own.$s^*sigh*... I wish I had a ship of my own.$s",
                 "Wed": "Looks like a good day to play catch, huh?$u#$e#$q 5/6 Wed_01_old#I'd ask you to throw the ball around, but you don't really seem like the sports type.^I'd ask you to throw the ball around, but you don't really seem like the sports type.#$r 6 0 Wed_01_02#I'm not the best.#$r 5 15 Wed_01_01#You should see how far I can throw it!#$r 5 0 Wed_01_03#(angry) What's that supposed to mean?",
@@ -178,6 +180,7 @@
                 "Introduction": "Ah, the new farmer we've all been expecting... and whose arrival has sparked so many conversations!#$b#I'm Caduceus Clay... I live in the little cabin by the beach. It's a pleasure to meet you. Tea? [614]",
                 "divorced": "...$s#$e#Can't you see you've hurt me?$s",
                 "dumped_Guys": "Please go away. I don't want to see you right now.$s",
+                "dating_Elliott_memory_oneday": "%Elliott whispers a sweet secret into your ear.",
                 "Tue": "A great idea can pass through your head when you least expect it... but if your mind is too busy you might miss it.#$e#Unfortunately, I miss a lot.",
                 "Tue6": "The sweet scent of tea in the morning is quite calming.$u#$b#That's why I chose this beach as my home, I love the waves gently lapping at the shore. Everything is just real nice.[614]",
                 "Wed": "The forest is a wonderful place. Have you been there? Lots to forage if you know where to look.",
@@ -220,6 +223,7 @@
             "Entries": {
                 "Introduction": "Hi! I'm Jester!#$b#If you're ever looking for something to do in the evening, stop by the saloon. That's where I work!",
                 "married_Shane": "Well, now that you're married, I assume Caleb won't be coming to the Saloon as much!#$e#That's probably a good thing, but it's always a little sad to lose a regular...$s",
+                "dating_Emily": "%Emily has a big smile on her face.",
                 "Resort_Dance": "%Jester is lost in the music.",
                 "Mon": "Have I told you Haley's my roommate? Beau was going to be my roommate but her dad wouldn't let her move out.",
                 "Mon2": "Fjord's really handsome, huh?#$e#'BUT I MEAN, HE'S NOT THAT COOL OR ANYTHING, I MEAN YOU PROBABLY WOULDN'T BE INTERESTED IN HIM AT ALL.$6",
@@ -277,6 +281,7 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/Evelyn",
             "Entries": {
+                "reject_866": "That's a very pretty rose, dear. Have you shown it to Jester? It makes me think of her.",
                 "GreenRain": "George, dear... Is this the end? It's been a good life, but I'd like to see Fjord find his way before departing...$s%noturn",
                 "summer_Mon_inlaw_Alex": "How's our boy Fjord doing? I imagine he's quite happy living on the farm.#$e#He deserves to be happy... he's a good boy.",
                 "summer_Wed": "I saw this beautiful purple butterfly today.#$e#It reminded me of that Mollymauk.",
@@ -329,6 +334,7 @@
                 "AcceptGift_(TR)FairyBox": "Wow, it's so pretty!$h",
                 "AcceptGift_alcohol_item": null,
                 "AcceptGift_coffee_item": null,
+                "eventSeen_3910974": null,
                 "Resort_Entering": "I should have brought my flask.$e#Maybe the resort will have drinks today.",
                 "Resort_Leaving": "I need a drink...$s",
                 "Resort_Shore": "I get nervous standing this close to the water, but I gotta look for buttons.",
@@ -804,7 +810,8 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/MarriageDialogueSam",
             "Entries": {
-                "spring_12": "Are you excited for tomorrow's festival? It'll be cool to see Molly again."
+                "spring_12": "Are you excited for tomorrow's festival? It'll be cool to see Molly again.",
+                "Rainy_Day_1": "Do you think Beau and Yasha will ever hook up?#$e#Heh... now that I'm married I'm trying to get everyone else married too."
             }
         },
         {
@@ -934,7 +941,9 @@
                 "Tue": "I'm tutoring Vincent today... He's a handful, but having Nott around is a big help.",
                 "Wed": "We don't have a school here but I'm doing my best to give Vincent a proper education.#$e#Everyone deserves a chance to be successful.#$e#Nott is very good at teaching science... but sometimes she gets this nostalgic look in her eye when she watches Vincent play. Almost like she's missing someone...",
                 "Wed2": "You know what? Nott and I should take Vincent on a field trip some time. Maybe to the forest.#$e#A guest speaker would be nice... maybe someone familiar with nature?#$e#Sorry, I'm just thinking out loud.",
-                "event_speaker_yes": "Great!$h#$b#Let me just call Vincent over."
+                "event_speaker_yes": "Great!$h#$b#Let me just call Vincent over.",
+                "eventSeen_34_memory_fourweeks": "We're teaching Vincent about art history this week.#$b#It can be a little dry for him, so I'm having him learn by drawing a picture in the predominant style of each century.#$b#It's really been a hit!$h",
+                "GreenRain_2": "This strange weather is a good opportunity to get Vincent interested in nature!$h"
             }
         },
         {
