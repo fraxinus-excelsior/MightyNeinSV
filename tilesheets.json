@@ -60,6 +60,18 @@
             "Height": 32
          }
       },
+      // furniture - Mollymauk Portrait
+      {
+         "Action": "EditImage",
+         "Target": "TileSheets/junimo_furniture",
+         "FromFile": "assets/TileSheets/FurnitureSebastianPortrait.png",
+         "ToArea": {
+            "X": 96,
+            "Y": 304,
+            "Width": 32,
+            "Height": 32
+         }
+      }, // TODO: CONFIRM COORDINATES
       // weapons - row 1
       {
          "Action": "EditImage",
