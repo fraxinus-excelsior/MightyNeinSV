@@ -1,0 +1,52 @@
+{
+   "Changes": [
+      // replace graffiti
+      {
+         "Action": "EditImage",
+         "Target": "LooseSprites/Cursors",
+         "FromFile": "assets/LooseSprites/Graffiti.png",
+         "ToArea": {
+            "X": 224,
+            "Y": 608,
+            "Width": 224,
+            "Height": 128
+         }
+      },
+      // replace passed out caleb/shane
+      {
+         "Action": "EditImage",
+         "Target": "LooseSprites/Cursors",
+         "FromFile": "assets/LooseSprites/LooseSpritesCaleb.png",
+         "ToArea": {
+            "X": 532,
+            "Y": 1849,
+            "Width": 52,
+            "Height": 42
+         }
+      },
+      // replace motorcycle molly/sebastian
+      {
+         "Action": "EditImage",
+         "Target": "LooseSprites/Cursors",
+         "FromFile": "assets/LooseSprites/LooseSpritesMollymauk.png",
+         "ToArea": {
+            "X": 405,
+            "Y": 1852,
+            "Width": 48,
+            "Height": 36
+         }
+      },
+      // replace emoji character icons
+      {
+         "Action": "EditImage",
+         "Target": "LooseSprites/emojis",
+         "FromFile": "assets/LooseSprites/emojisIcons.png",
+         "ToArea": {
+            "X": 0,
+            "Y": 99,
+            "Width": 117,
+            "Height": 18
+         }
+      }
+   ]
+}

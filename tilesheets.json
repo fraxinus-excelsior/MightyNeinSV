@@ -1,0 +1,52 @@
+{
+   "Changes": [
+      // weapons - row 1
+      {
+         "Action": "EditImage",
+         "Target": "TileSheets/Weapons",
+         "FromFile": "assets/TileSheets/weaponsRow1.png",
+         "ToArea": {
+            "X": 80,
+            "Y": 0,
+            "Width": 48,
+            "Height": 16
+         } // TODO: CONFIRM COORDINATES
+      },
+      // weapons - row 2
+      {
+         "Action": "EditImage",
+         "Target": "TileSheets/Weapons",
+         "FromFile": "assets/TileSheets/weaponsRow2.png",
+         "ToArea": {
+            "X": 48,
+            "Y": 16,
+            "Width": 32,
+            "Height": 16
+         }
+      },
+      // weapons - cat's ire
+      {
+         "Action": "EditImage",
+         "Target": "TileSheets/Weapons",
+         "FromFile": "assets/TileSheets/weaponsRow4.png",
+         "ToArea": {
+            "X": 48,
+            "Y": 48,
+            "Width": 16,
+            "Height": 16
+         } // TODO: CONFIRM COORDINATES
+      },
+      // weapons - blight staff
+      {
+         "Action": "EditImage",
+         "Target": "TileSheets/Weapons",
+         "FromFile": "assets/TileSheets/weaponsRow6.png",
+         "ToArea": {
+            "X": 96,
+            "Y": 80,
+            "Width": 16,
+            "Height": 16
+         } // TODO: CONFIRM COORDINATES
+      }
+   ]
+}
