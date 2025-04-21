@@ -1,5 +1,17 @@
 {
    "Changes": [
+      // furniture - Yasha Portrait
+      {
+         "Action": "EditImage",
+         "Target": "TileSheets/junimo_furniture",
+         "FromFile": "assets/TileSheets/FurnitureLeahPortrait.png",
+         "ToArea": {
+            "X": 48,
+            "Y": 368,
+            "Width": 32,
+            "Height": 32
+         }
+      },
       // weapons - row 1
       {
          "Action": "EditImage",
