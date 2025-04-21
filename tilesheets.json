@@ -11,7 +11,7 @@
             "Width": 32,
             "Height": 32
          }
-      }, // TODO: CONFIRM COORDINATES
+      },
       // furniture - Fjord Portrait
       {
          "Action": "EditImage",
@@ -23,7 +23,7 @@
             "Width": 32,
             "Height": 32
          }
-      }, // TODO: CONFIRM COORDINATES
+      },
       // furniture - Caduceus Portrait
       {
          "Action": "EditImage",
@@ -35,7 +35,7 @@
             "Width": 32,
             "Height": 32
          }
-      }, // TODO: CONFIRM COORDINATES
+      },
       // furniture - Jester Portrait
       {
          "Action": "EditImage",
@@ -47,7 +47,7 @@
             "Width": 32,
             "Height": 32
          }
-      }, // TODO: CONFIRM COORDINATES
+      },
       // furniture - Yasha Portrait
       {
          "Action": "EditImage",
@@ -71,7 +71,19 @@
             "Width": 32,
             "Height": 32
          }
-      }, // TODO: CONFIRM COORDINATES
+      },
+      // furniture - Caleb Portrait
+      {
+         "Action": "EditImage",
+         "Target": "TileSheets/junimo_furniture",
+         "FromFile": "assets/TileSheets/FurnitureShanePortrait.png",
+         "ToArea": {
+            "X": 64,
+            "Y": 304,
+            "Width": 32,
+            "Height": 32
+         }
+      },
       // weapons - row 1
       {
          "Action": "EditImage",
@@ -82,7 +94,7 @@
             "Y": 0,
             "Width": 48,
             "Height": 16
-         } // TODO: CONFIRM COORDINATES
+         }
       },
       // weapons - row 2
       {
@@ -106,7 +118,7 @@
             "Y": 48,
             "Width": 16,
             "Height": 16
-         } // TODO: CONFIRM COORDINATES
+         }
       },
       // weapons - blight staff
       {
@@ -118,7 +130,7 @@
             "Y": 80,
             "Width": 16,
             "Height": 16
-         } // TODO: CONFIRM COORDINATES
+         }
       }
    ]
 }
