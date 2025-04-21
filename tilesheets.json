@@ -1,5 +1,17 @@
 {
    "Changes": [
+      // furniture - Beau Portrait
+      {
+         "Action": "EditImage",
+         "Target": "TileSheets/junimo_furniture",
+         "FromFile": "assets/TileSheets/FurnitureAbigailPortrait.png",
+         "ToArea": {
+            "X": 0,
+            "Y": 272,
+            "Width": 32,
+            "Height": 32
+         }
+      }, // TODO: CONFIRM COORDINATES
       // furniture - Yasha Portrait
       {
          "Action": "EditImage",
