@@ -38,7 +38,10 @@
                     "Age": "Adult", // see how this works out
                     "SocialAnxiety": "Neutral",
                     "Optimism": "Neutral",
-                    "LoveInterest": ""
+                    "LoveInterest": "",
+                    "FriendsAndFamily": {
+                        "Marnie": "landlord"
+                    }
                 },
                 "Alex": {
                     "Manner": "Polite",
@@ -161,12 +164,12 @@
                     0: "This is fabulous! Thank you!",
                     // Loves: Strawberry (400) Pale Ale (303) Beer (346) Void Egg (305) Wine (348) Omelet (195) Piña Colada (873) Mead (459) Red Mushroom (420) Fried Egg (194)
                     1: "400 303 346 305 348 195 459 420 194 873",
-                    // Likes: Flounder (267) Pumpkin (276) Caviar (445) Ring Category (-96) Fairy Stone (577) Fireworks (Red, Purple, Green) (893, 894, 895) Elvish Jewelry (104)
-                    3: "267 276 445 -96 577 893 894 895 104",
+                    // Likes: Flounder (267) Caviar (445) Ring Category (-96) Fairy Stone (577) Fireworks (Red, Purple, Green) (893, 894, 895) Elvish Jewelry (104)
+                    3: "267 445 -96 577 893 894 895 104",
                     // Dislikes: Lumber (30)
                     5: "30",
-                    // Hates: Fish Category (-4) Clay (330) Building Resources (-16)
-                    7: "-4 330 -16"
+                    // Hates: Fish Category (-4) Building Resources (-16)
+                    7: "-4 -16"
                 },
                 "Abigail": { // Beau
                     0: "Awe yeah! This is awesome, @!",
@@ -215,8 +218,9 @@
                     2: "I love shiny things! Thank you!",
                     // Likes: Daffodil (18) Gem Category (-2) Mineral Cateogry (-12) Metal Resources (-15) Junk Category (-20) Sweet Pea (402) Monster Loot Category (-28) Wild Bait (774) Burglar's Ring (526) Pocket Bacon (666) Fireworks (Red, Purple, Green) (893, 894, 895) Chewing Stick (105)
                     3: "18 -2 -12 -15 -20 402 -28 774 526 666 893 894 895 105",
-                    // Dislikes: Egg Category (-5) Greens Category (-81) Vegetable Category (-75) Fruits Category (-79)
+                    // Dislikes: Egg Category (-5) Foraging Category (-81) Vegetable Category (-75) Fruits Category (-79)
                     5: "-5 -81 -75 -79",
+                    6: "I don't want that.",
                     // Hates: Artisan Goods Cateogry (-26) Stone (2) Wild Horseradish (16) Clay (330)
                     7: "-26 2 16 330"
                 },
@@ -225,8 +229,8 @@
                     // Loves: Ancient Sword (109) Beer (346) Pale Ale (303) Wine (348) Sunflower (421) Mead (459) Warrior Ring (521) Tulip (591) Summer Spangle (593) Fairy Rose (595) Bug Steak (874)
                     1: "109 346 303 348 421 459 521 591 593 595 874",
                     2: "This is a nice gift! Thank you!",
-                    // Likes: Egg Category (-5) Milk Cateogry (-6) Fruits Category (-79) Greens Category (-81) Flowers Category (-80) Daffodil (18) Dandelion (22) Prehistoric Skull (581) Blue Jazz (597) Poppy (376) Bug Meat (684) Lobster (715) Crab (717)
-                    3: "-5 -6 -79 -81 -80 18 22 581 597 376 684 715 717",
+                    // Likes: Egg Category (-5) Milk Category (-6) Fruits Category (-79) Foraging Category (-81) Flowers Category (-80) Prehistoric Skull (581) Poppy (376) Bug Meat (684) Lobster (715) Crab (717)
+                    3: "-5 -6 -79 -81 -80 581 376 684 715 717",
                     // Dislikes: Gem Category (-2) Stone (2) Seaweed (152) Clay (330) Pink Cake (221) Rice Pudding (232) Carp Surprise (209)
                     5: "-2 2 152 330 221 232 209",
                     // Hates: Cauliflower (190)
@@ -237,9 +241,9 @@
                     // Loves: Clay (330) Honey (340) Diamond (72) Fire Opal (565) Fire Quartz (82) Pepper Poppers (215) Hot Pepper (260) Beer (346) Bread (216)
                     1: "330 340 72 565 82 215 260 346 216",
                     2: "This is great. Thanks!",
-                    // Likes: Egg Category (-5) Fruits Category (-79) Pale Ale (303) Wine (348) Mead (459) Bat Wing (767) Dwarf Scroll I to IV (96, 97, 98, 99) Lost Book (102)
-                    3: "-5 -79 303 348 459 767 96 97 98 99 102",
-                    // Dislikes: Greens Category (-81) Seaweed (152)
+                    // Likes: Egg Category (-5) Fruits Category (-79) Pale Ale (303) Wine (348) Mead (459) Bat Wing (767) Dwarf Scroll I to IV (96, 97, 98, 99) Lost Book (102) Magma Cap (851)
+                    3: "-5 -79 303 348 459 767 96 97 98 99 102 851",
+                    // Dislikes: Foraging Category (-81) Seaweed (152)
                     5: "-81 152",
                     // Hates: Rare Disc (108)
                     7: "108"
@@ -249,13 +253,13 @@
                     // Loves: Green Tea (614) Spice Berry Tea (615) Clay (330) Red Mushroom (420) Common Mushroom (404) Morel (257) Chanterelle (281) Fried Mushroom (205) Tea Set (341) Purple Mushroom (422) Tea Leaves (815) Fiddlehead Risotto (649) Bone Flute (119)
                     1: "614 615 330 420 404 257 281 205 341 422 815 649 119",
                     2: "This is for me? Thank you!",
-                    // Likes: Cave Carrot (78) Sunflower Seeds (431) Greens Category (-81) Vegetable Category (-75) Gem Category (-2) Mineral Category (-12) Fruits Category (-79) Fiddlehead Fern (259) Tea Sapling (251) Fertilizer Category (-19) Flute Block (464) Taro Root (830) Horse Flute (911) Snow Yam (416) Potato (192)
-                    3: "78 431 -81 -75 -2 -12 -79 259 251 -19 464 830 911 416 192",
+                    // Likes: Cave Carrot (78) Sunflower Seeds (431) Foraging Category (-81) Fruits Category (-79) Fiddlehead Fern (259) Tea Sapling (251) Fertilizer Category (-19) Flute Block (464) Taro Root (830) Horse Flute (911)
+                    3: "78 431 -81 -79 259 251 -19 464 830 911",
                     4: "Hmm... I'm not sure I like his.",
                     // Dislikes: Pizza (206)
                     5: "206",
-                    // Hates: Fried Egg (194) Fish Category (-4) Egg Category (-5) Mayonnaise (306) Duck Mayonnaise (307) Void Mayonnaise (308) Rabbit's Foot (446) Eggplant (272) Lobster Bisque (730) Fish Stew (728) Escargot (729)
-                    7: "194 -4 -5 306 307 308 446 272 730 728 729",
+                    // Hates: Fried Egg (194) Fish Category (-4) Egg Category (-5) Mayonnaise (306) Duck Mayonnaise (307) Void Mayonnaise (308) Rabbit's Foot (446) Lobster Bisque (730) Fish Stew (728) Escargot (729) Sap (92) Milk Category (-6)
+                    7: "194 -4 -5 306 307 308 446 730 728 729 92 -6",
                     // Neutral: Metal Resources (-15)
                     9: "-15"
                 }
