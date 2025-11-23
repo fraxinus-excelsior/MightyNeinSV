@@ -47,6 +47,18 @@
             "Width": 117,
             "Height": 18
          }
+      },
+      // replace dye bundle jester/emily
+      {
+         "Action": "EditImage",
+         "Target": "LooseSprites/JunimoNote",
+         "FromFile": "assets/LooseSprites/JunimoNoteJester.png",
+         "ToArea": {
+            "X": 448,
+            "Y": 212,
+            "Width": 32,
+            "Height": 32
+         }
       }
    ]
 }
