@@ -1,5 +1,17 @@
 {
    "Changes": [
+      // replace children's bundle nott/jas
+      {
+         "Action": "EditImage",
+         "Target": "LooseSprites/BundleSprites",
+         "FromFile": "assets/LooseSprites/BundleSpritesNott.png",
+         "ToArea": {
+            "X": 0,
+            "Y": 0,
+            "Width": 32,
+            "Height": 32
+         }
+      },
       // replace graffiti
       {
          "Action": "EditImage",
